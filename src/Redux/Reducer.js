@@ -1,4 +1,5 @@
-import * as type from './ActionType';
+import * as types from './ActionType';
+
 const initState = {
   isLoading: false,
   isError: false,
@@ -6,14 +7,16 @@ const initState = {
 };
 
 const reducer = (state = initState, { type, payload }) => {
+  console.log('payload:', payload);
+
   switch (type) {
-    case type.GET_FRUITS_VEG_DATA_REQUEST:
+    case types.GET_FRUITS_VEG_DATA_REQUEST:
       return {
         ...state,
         isLoading: true,
         isError: false,
       };
-    case type.GET_FRUITS_VEG_DATA_SUCCESS:
+    case types.GET_FRUITS_VEG_DATA_SUCCESS:
       return {
         ...state,
         isLoading: false,
@@ -21,7 +24,7 @@ const reducer = (state = initState, { type, payload }) => {
         data: payload,
       };
 
-    case type.GET_FRUITS_VEG_DATA_FAILURE:
+    case types.GET_FRUITS_VEG_DATA_FAILURE:
       return {
         ...state,
         isLoading: false,
