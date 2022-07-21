@@ -15,15 +15,15 @@
     {cat:"Pets",link:"#"},
   ]
   const fruits1=[
-    {cat:"Avocado, Peach, Plum",link:"#"},
-    {cat:"Cherries, Berries & Exotic",link:"#"},
+    {cat:"Avocado, Peach, Plum",link:"/groceries/avocado-peach-plum"},
+    {cat:"Cherries, Berries & Exotic",link:"/groceries/cherries-berries-exotic-fruits"},
     {cat:"Fruits",link:"#"},
-    {cat:"Pomegranate, Papaya &",link:"#"},
-    {cat:"Pineapple",link:"#"},
-    {cat:"Citrus, Mango & Grapes",link:"#"},
+    {cat:"Dates",link:"/groceries/dates"},
+    {cat:"Banana, Melons & Coconut",link:"/groceries/banana-melons-coconu"},
+    {cat:"Citrus, Mango & Grapes",link:"/groceries/citrus-mango-grapes"},
   ]
    const fruits2=[
-    {cat:"Apples & Pears",link:"#"},
+    {cat:"Apples & Pears",link:"/groceries/apples-pears"},
     {cat:"Banana, Melons & Coconut",link:"#"},
     {cat:"Seasonal & Minor Fruits",link:"#"},
     {cat:"Dates",link:"#"},
@@ -50,7 +50,6 @@
     {cat:"Garden & Outdoor",link:"#"},
     {cat:"Carpentry & Work accessories",link:"#"},
     {cat:"Pooja Needs",link:"#"},
-    {cat:"Bathroom & Laundry",link:"#"},
     {cat:"Bathroom & Laundry",link:"#"},
     {cat:"Industrial & Scientific Supplies",link:"#"},
     {cat:"Power & Hand Tools",link:"#"},
