@@ -6,6 +6,9 @@ import thunk from "redux-thunk";
 
 const composeEnhancers =  window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 
-const rootReducer=combineReducers({login:Loginreducer, data:fruitReducer})
+
+
+const rootReducer=combineReducers({log:Loginreducer, data:fruitReducer})
+
 
 export const store=legacy_createStore(rootReducer,composeEnhancers(applyMiddleware(thunk)))

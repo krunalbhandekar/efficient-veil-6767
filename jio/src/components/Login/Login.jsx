@@ -1,9 +1,39 @@
 import React from 'react'
 import { Box ,Text,Flex,Image,Heading,Button} from '@chakra-ui/react'
-import { Link as RouterLink } from 'react-router-dom'
+import { Link as RouterLink,useNavigate } from 'react-router-dom'
 import loginimage from "../../images/sign/login.jpg"
+import { useSelector,useDispatch } from 'react-redux';
+import { useState } from 'react';
+import {LOGIN_SUCCESS} from "../../Redux/login/action.types"
+import {login} from "../../Redux/login/action"
+import { getuser } from '../../Redux/login/action';
+
 
 const Login = () => {
+
+     const [username, setusername] = useState('')
+  const [password, setpassword] = useState('')
+  const isLoading=useSelector(state=>state.log.isLoading)
+  const navigate=useNavigate()
+  const dispatch=useDispatch()
+
+  const loginhandler=()=>{
+    if(username && password){
+      const params={
+        username,password
+      }
+      dispatch(login(params)).then(res=>{
+        if(res===LOGIN_SUCCESS){
+            localStorage.setItem("user",username)
+            navigate("/")
+            window.location.reload()
+        }else{
+            alert("wrong password")
+        }
+      })
+    }
+  }
+
   return (
     <Box>
         <Flex  w="97%" py="3rem" margin="auto" gap="13rem">
@@ -17,14 +47,14 @@ const Login = () => {
                 </Box>
 
                 <Flex alignItems="center" gap="5px" my="12">
-                <input placeholder='Username' style={{border:'none', outline:"none",fontWeight:"500"}}/>
+                <input placeholder='Username' style={{border:'none', outline:"none",fontWeight:"500"}} value={username} onChange={e=>setusername(e.target.value)}/>
                 </Flex>
                 <form>
                     <Box my="12">
-                         <input placeholder='Password' style={{border:'none', outline:"none",fontWeight:"500"}}/>
+                         <input type="password" placeholder='Password' style={{border:'none', outline:"none",fontWeight:"500"}} value={password} onChange={(e)=>setpassword(e.target.value)}/>
                     </Box>
                     <Box>
-                         <Button type='submit' backgroundColor="#008ecc" color="white" w="30rem">Verify</Button>
+                         <Button type='submit' backgroundColor="#008ecc" color="white" w="30rem" onClick={loginhandler} isLoading={isLoading}>Verify</Button>
                     </Box>
                 </form>
 

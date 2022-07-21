@@ -14,13 +14,16 @@ import {
   useColorModeValue,
   Image,
   Editable,
-  EditableInput,
   EditableTextarea,
   EditablePreview,
 } from '@chakra-ui/react';
 import sign from "../../images/sign/signup.jpg"
+import { useState,useReducer } from 'react';
 import { Link as RouterLink} from 'react-router-dom';
-
+import {useNavigate} from "react-router-dom"
+import { useDispatch } from 'react-redux';
+import {register} from "../../Redux/login/action"
+import {REGISTER_SUCCESS} from "../../Redux/login/action.types"
 import { ViewIcon, ViewOffIcon } from '@chakra-ui/icons';
 
 function reducer(state,action){
@@ -69,8 +72,18 @@ const initialstate={
 }
 
 export default function Signup() {
-  
+   const [showPassword, setShowPassword] = useState(false);
+  const [state,setter]=useReducer(reducer,initialstate)
+const navigate=useNavigate()
+const dispatch=useDispatch()
 
+const signuphandler=()=>{
+  dispatch(register(state)).then((r)=>{
+    if(r===REGISTER_SUCCESS){ 
+      navigate("/login",{replace:true})
+    }
+  })
+}
 
   return (
     <Flex justifyContent="space-between">
@@ -101,29 +114,31 @@ export default function Signup() {
               <Box>
                 <FormControl id="Name" isRequired>
                   <FormLabel>Name</FormLabel>
-                  <Input type="text" />
+                  <Input type="text" value={state.name} onChange={(e)=>setter({type:'name',payload:e.target.value})} />
                 </FormControl>
               </Box>
               <Box>
                 <FormControl id="userName" isRequired>
                   <FormLabel>userName</FormLabel>
-                  <Input type="text"/>
+                  <Input type="text" value={state.username} onChange={(e)=>setter({type:'username',payload:e.target.value})}/>
                 </FormControl>
               </Box>
             </HStack>
             <FormControl id="email" isRequired>
               <FormLabel>Email address</FormLabel>
-              <Input type="email" />
+              <Input type="email" value={state.email} onChange={(e)=>setter({type:'email',payload:e.target.value})} />
             </FormControl>
             <FormControl id="password" isRequired>
               <FormLabel>Password</FormLabel>
               <InputGroup>
-                <Input />
+                <Input type={showPassword ? 'text' : 'password'} value={state.password} onChange={(e)=>setter({type:'password',payload:e.target.value})}/>
                 <InputRightElement h={'full'}>
                   <Button
-                    variant={'ghost'}
+                    variant={'ghost'}  onClick={() =>
+                      setShowPassword((showPassword) => !showPassword)
+                    }
                    >
-                    <ViewIcon />  <ViewOffIcon />
+                    {showPassword ? <ViewIcon /> : <ViewOffIcon />}
                   </Button>
                 </InputRightElement>
               </InputGroup>
@@ -131,13 +146,13 @@ export default function Signup() {
              <Box>
                 <FormControl id="mobile" isRequired>
                   <FormLabel>Mobile</FormLabel>
-                  <Input type="number" />
+                  <Input type="number"  value={state.mobile} onChange={(e)=>setter({type:'mobile',payload:e.target.value})}/>
                 </FormControl>
               </Box>
               <Box>
                 <Editable defaultValue='Description'>
                 <EditablePreview />
-                  <EditableTextarea  />
+                  <EditableTextarea  value={state.description} onChange={(e)=>setter({type:'description',payload:e.target.value})}/>
                 </Editable>
               </Box>
             <Stack spacing={10} pt={2}>
@@ -148,7 +163,7 @@ export default function Signup() {
                 color={'white'}
                 _hover={{
                   bg: 'blue.500',
-                }} >
+                }} onClick={signuphandler}>
                 Sign up
               </Button>
             </Stack>
