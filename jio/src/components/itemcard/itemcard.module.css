@@ -1,0 +1,49 @@
+.BannerCard {
+    width: 282px;
+    height: auto;
+    margin: 15px auto;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.BannerCard:hover {
+    box-shadow: 5px 5px 5px grey;
+}
+
+.BannerOffer {
+    width: 282px;
+    height: 38px;
+    background-image: url(https://www.jiomart.com/assets/version16233512693/smartweb/images/offer_bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 15px;
+    margin: 0;
+}
+
+.BannerItem {
+    width: 282px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.BannerItemInner {
+    width: 200px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: transform .2s;
+}
+
+.BannerItemInner:hover {
+    transform: scale(1.1);
+}
+
+.BannerImg {
+    width: 150px;
+    height: 150px;
+}
