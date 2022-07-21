@@ -1,7 +1,6 @@
-
 import React,{useState} from 'react';
 import './App.css';
-import { Routes, Route} from "react-router-dom";
+import { Routes, Route, Link } from "react-router-dom";
 import Footer from './components/Footer/Footer';
 import Navbar from './components/Navbar/Navbar';
 import Login from './components/Login/Login';
@@ -12,18 +11,13 @@ import Landingpage from './components/Landingpage/Landingpage';
 import SideNavbar from './components/sideNavbar/SideNavbar';
 
 
-
-
-
 function App() {
   const [sidebarVisible, setsidebarVisible] = useState(false)
   return (
-
     <>
     <div style={{position:"-webkit-sticky" ,top:"0"}}>
     <Navbar setsidebarVisible={setsidebarVisible} />
     <SideNavbar sidebarVisible={sidebarVisible} setsidebarVisible={setsidebarVisible}/>
-
     </div>
     <Routes>
        <Route path="/" element={<Landingpage />} />
