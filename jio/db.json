@@ -1,83 +1,2875 @@
 {
-    "prod":[
-        {"id":"1","category":"citrus-mango-grapes","image":"https://www.jiomart.com/images/product/150x150/591238247/mango-langda-premium-indian-4-pc-approx-0-90-kg-1-20-kg-0-20220506.jpg","discount":"26","name":"Mango Langda Premium Indian 3 Pc (Approx 0.90 kg - 1.20 kg)","price1":"199","price2":"270"},
-        {"id":"2","category":"citrus-mango-grapes","image":"https://www.jiomart.com/images/product/150x150/590860311/pomelo-pink-premium-indian-1-pc-approx-1-2-kg-1-75-kg-0-20211116.jpg","discount":"5","name":"Pomelo Pink Premium Indian 1 Pc (Approx 1.2 kg - 1.75 kg)","price1":"549","price2":"580"},
-        {"id":"3","category":"citrus-mango-grapes","image":"https://www.jiomart.com/images/product/150x150/591043459/mango-chausa-premium-indian-1-pc-approx-300-g-400-g-0-20220216.jpg","discount":"","name":"Mango Chausa Premium Indian 1 pc (Approx 300 g - 400 g)","price1":"79","price2":""},
-        {"id":"4","category":"citrus-mango-grapes","image":"https://www.jiomart.com/images/product/150x150/591043457/grapes-red-globe-premium-imported-pack-400-g-0-20220216.jpg","discount":"12","name":"Grapes Red Globe Premium Imported Pack 400 g","price1":"349","price2":"400"},
-        {"id":"5","category":"citrus-mango-grapes","image":"https://www.jiomart.com/images/product/150x150/590860293/lemon-premium-imported-1-pc-approx-130-g-150-g-0-20211112.jpg","discount":"18","name":"Lemon Premium Imported 1 Pc (Approx 130 g - 150 g)","price1":"49","price2":"60"},
-        {"id":"6","category":"citrus-mango-grapes","image":"https://www.jiomart.com/images/product/150x150/591193904/mandarin-nova-premium-imported-6-pc-approx-780-g-960-g-0-20220309.jpg","discount":"24","name":"Mini Orange Mandarin Nova Premium Imported 6 Pc (Approx 630 g - 810 g)","price1":"249","price2":"330"},
-        {"id":"7","category":"citrus-mango-grapes","image":"https://www.jiomart.com/images/product/150x150/591980094/mini-orange-mandarin-nova-premium-imported-4-pc-approx-520-g-640-g-0-20220607.jpg","discount":"22","name":"Mini Orange Mandarin Nova Premium Imported 4 Pc (Approx 420 g- 540 g)","price1":"170","price2":"220"},
-        {"id":"8","category":"citrus-mango-grapes","image":"https://www.jiomart.com/images/product/150x150/590860288/kumquat-premium-imported-pack-250-g-0-20211112.jpg","discount":"20","name":"Kumquat Premium Imported Pack 250 g","price1":"199","price2":"250"},
-        {"id":"9","category":"citrus-mango-grapes","image":"https://www.jiomart.com/images/product/150x150/590860280/grapefruit-pink-premium-imported-1-pc-approx-300-g-450-g-0-20211112.jpg","discount":"28","name":"Grapefruit Pink Premium Imported 1 Pc (Approx 300 g - 450 g)","price1":"79","price2":"110"},
-        {"id":"10","category":"citrus-mango-grapes","image":"https://www.jiomart.com/images/product/150x150/591001127/orange-valencia-premium-imported-4-pc-approx-800-g-960-g-0-20220113.jpg","discount":"10","name":"Orange Valencia Premium Imported 4 Pc (Approx 720 g - 880 g)","price1":"89","price2":"99"},
-        {"id":"11","category":"citrus-mango-grapes","image":"https://www.jiomart.com/images/product/150x150/591057890/orange-valencia-premium-imported-6-pc-approx-1-25-kg-1-35-kg-0-20220223.jpg","discount":"20","name":"Orange Valencia Premium Imported 6 Pc (Approx 1.10 kg - 132 kg)","price1":"134","price2":"169"},
-        {"id":"12","category":"citrus-mango-grapes","image":"https://www.jiomart.com/images/product/150x150/591226031/sweet-lime-premium-indian-6-pc-approx-1-35-kg-1-80-kg-0-20220505.jpg","discount":"8","name":"Sweet Lime Premium Indian 6 Pc (Approx 1.20 kg - 1.65 kg)","price1":"219","price2":"240"},
-        {"id":"13","category":"citrus-mango-grapes","image":"https://www.jiomart.com/images/product/150x150/591778593/grapefruit-pink-premium-imported-2-pc-approx-500-g-700-g-0-20220531.jpg","discount":"32","name":"Grapefruit Pink Premium Imported 2 Pc (Approx 500 g - 700 g)","price1":"149","price2":"220"},
-        {"id":"14","category":"citrus-mango-grapes","image":"https://www.jiomart.com/images/product/150x150/591778586/mango-chausa-premium-indian-3-pc-approx-0-90-kg-1-20-kg-0-20220531.jpg","discount":"17","name":"Mango Chausa Premium Indian 3 Pc (Approx 0.90 kg - 1.20 kg)","price1":"199","price2":"240"},
-        {"id":"15","category":"citrus-mango-grapes","image":"https://www.jiomart.com/images/product/150x150/591980102/mango-chausa-premium-indian-6-pc-approx-1-80-kg-2-40-kg-0-20220607.jpg","discount":"27","name":"Mango Chausa Premium Indian 6 Pc (Approx 1.80 kg - 2.40 kg)","price1":"349","price2":"480"},
-        {"id":"16","category":"citrus-mango-grapes","image":"https://www.jiomart.com/images/product/150x150/591980103/mango-chausa-premium-indian-12-pc-approx-3-60-kg-4-80-kg-0-20220607.jpg","discount":"32","name":"Mango Chausa Premium Indian 12 Pc (Approx 3.60 kg - 4.80 kg)","price1":"649","price2":"960"},
-        {"id":"17","category":"citrus-mango-grapes","image":"https://www.jiomart.com/assets/global/jiomart-default-image-240x285.png","discount":"26","name":"Mango Langda Premium Indian 6 Pc (Approx 1.80 kg - 2.40 kg)","price1":"399","price2":"540"},
-        {"id":"18","category":"citrus-mango-grapes","image":"https://www.jiomart.com/assets/global/jiomart-default-image-240x285.png","discount":"2","name":"Mango Langda Premium Indian 12 Pc (Approx 3.60 kg - 4.80 kg)","price1":"799","price2":"820"},
-        {"id":"19","category":"cherries-berries-exotic-fruits","image":"https://www.jiomart.com/images/product/150x150/590860310/dragonfruit-red-flesh-premium-indian-1-pc-approx-300-g-450-g-0-20211112.jpg","discount":"9","name":"Dragonfruit Red Flesh Premium Indian 1 Pc (Approx 300 g - 450 g)","price1":"199","price2":"220"},
-        {"id":"20","category":"cherries-berries-exotic-fruits","image":"https://www.jiomart.com/images/product/150x150/590860359/dragonfruit-white-flesh-premium-indian-1-pc-approx-300-g-450-g-0-20211210.jpg","discount":"8","name":"Dragonfruit White Flesh Premium Indian 1 Pc (Approx 300 g - 400 g)","price1":"119","price2":"130"},
-        {"id":"21","category":"cherries-berries-exotic-fruits","image":"https://www.jiomart.com/images/product/150x150/591238248/mangosteen-premium-indian-6-pc-approx-490-g-570-g-0-20220506.jpg","discount":"11","name":"Mangosteen Premium Indian 6 Pc (Approx 490 g - 570 g)","price1":"399","price2":"450"},
-        {"id":"22","category":"cherries-berries-exotic-fruits","image":"https://www.jiomart.com/images/product/150x150/591189431/rambutan-premium-indian-6-pc-approx-190-g-230-g-0-20220303.jpg","discount":"32","name":"Rambutan Premium Indian 6 Pc (Approx 150 g - 200 g)","price1":"149","price2":"220"},
-        {"id":"23","category":"cherries-berries-exotic-fruits","image":"https://www.jiomart.com/images/product/150x150/590968389/sweet-tamarind-premium-imported-pack-250-g-0-20211230.jpg","discount":"9","name":"Sweet Tamarind Premium Imported Pack 250 g","price1":"199","price2":"220"},
-        {"id":"24","category":"cherries-berries-exotic-fruits","image":"https://www.jiomart.com/images/product/150x150/590860270/blueberry-premium-imported-pack-125-g-0-20211112.jpg","discount":"20","name":"Blueberry Premium Imported Pack 125 g","price1":"199","price2":"250"},
-        {"id":"25","category":"cherries-berries-exotic-fruits","image":"https://www.jiomart.com/images/product/150x150/590860345/blueberry-premium-imported-pack-250-g-0-20211112.jpg","discount":"20","name":"Blueberry Premium Imported Pack 250 g","price1":"398","price2":"500"},
-        {"id":"26","category":"cherries-berries-exotic-fruits","image":"https://www.jiomart.com/images/product/150x150/590860406/blueberry-premium-imported-pack-500-g-0-20211112.jpg","discount":"20","name":"Blueberry Premium Imported Pack 500 g","price1":"796","price2":"1000"},
-        {"id":"27","category":"cherries-berries-exotic-fruits","image":"https://www.jiomart.com/images/product/150x150/591272727/kiwi-gold-jumbo-zespri-premium-imported-1-pc-120-g-140-g-0-20220511.jpg","discount":"12","name":"Kiwi Gold Jumbo Zespri Premium Imported 1 Pc (120 g - 140 g)","price1":"79","price2":"90"},
-        {"id":"28","category":"cherries-berries-exotic-fruits","image":"https://www.jiomart.com/images/product/150x150/591778597/cherry-red-premium-imported-pack-125-g-0-20220531.jpg","discount":"17","name":"Cherry Red Premium Imported Pack 125 g","price1":"249","price2":"300"},
-        {"id":"29","category":"cherries-berries-exotic-fruits","image":"https://www.jiomart.com/images/product/150x150/591778596/cherry-red-premium-imported-pack-250-g-0-20220531.jpg","discount":"33","name":"Cherry Red Premium Imported Pack 250 g","price1":"399","price2":"600"},
-        {"id":"30","category":"cherries-berries-exotic-fruits","image":"https://www.jiomart.com/images/product/150x150/591778595/cherry-red-premium-imported-pack-500-g-0-20220531.jpg","discount":"41","name":"Cherry Red Premium Imported Pack 500 g","price1":"699","price2":"1200"},
-        {"id":"31","category":"cherries-berries-exotic-fruits","image":"https://www.jiomart.com/images/product/150x150/591778592/kiwi-gold-jumbo-premium-imported-2-pc-approx-240-g-280-g-0-20220531.jpg","discount":"22","name":"Kiwi Gold Jumbo Premium Imported 2 Pc (Approx 240 g - 280 g)","price1":"139","price2":"180"},
-        {"id":"32","category":"cherries-berries-exotic-fruits","image":"https://www.jiomart.com/images/product/150x150/591778591/kiwi-gold-jumbo-premium-imported-3-pc-approx-360-g-420-g-0-20220531.jpg","discount":"26","name":"Kiwi Gold Jumbo Premium Imported 3 Pc (Approx 360 g - 420 g)","price1":"199","price2":"270"},
-        {"id":"33","category":"cherries-berries-exotic-fruits","image":"https://www.jiomart.com/images/product/150x150/591778590/kiwi-green-jumbo-premium-imported-2-pc-approx-240-g-280-g-0-20220531.jpg","discount":"8","name":"Kiwi Green Jumbo Premium Imported 2 Pc (Approx 240 g - 280 g)","price1":"119","price2":"130"},
-        {"id":"34","category":"cherries-berries-exotic-fruits","image":"https://www.jiomart.com/images/product/150x150/591778589/kiwi-green-jumbo-premium-imported-3-pc-approx-360-g-420-g-0-20220531.jpg","discount":"28","name":"Kiwi Green Jumbo Premium Imported 3 Pc (Approx 360 g - 420 g)","price1":"129","price2":"180"},
-        {"id":"35","category":"avocado-peach-plum","image":"https://www.jiomart.com/images/product/150x150/591429026/peach-sun-gold-premium-indian-500-g-0-20220518.jpg","discount":"25","name":"Peach Sun Gold Premium Indian Pack 500 g","price1":"149","price2":"200"},
-        {"id":"36","category":"avocado-peach-plum","image":"https://www.jiomart.com/images/product/150x150/591238255/plum-premium-indian-pack-500-g-0-20220506.jpg","discount":"19","name":"Plum Premium Indian Pack 500 g","price1":"149","price2":"185"},
-        {"id":"37","category":"avocado-peach-plum","image":"https://www.jiomart.com/images/product/150x150/590860298/avocado-premium-indian-1-pc-approx-350-g-425-g-0-20211112.jpg","discount":"17","name":"Avocado Premium Indian 1 Pc (Approx 300 g - 400 g)","price1":"249","price2":"300"},
-        {"id":"38","category":"avocado-peach-plum","image":"https://www.jiomart.com/images/product/150x150/591238256/plum-prune-premium-indian-pack-500-g-0-20220506.jpg","discount":"32","name":"Plum Prune Premium Indian Pack 500 g","price1":"149","price2":"220"},
-        {"id":"39","category":"avocado-peach-plum","image":"https://www.jiomart.com/images/product/150x150/591778582/nectarine-white-flesh-premium-imported-1-pc-approx-170-g-220-g-0-20220531.jpg","discount":"4","name":"Nectarine White Flesh Premium Imported 1 Pc (Approx 170 g - 220 g)","price1":"239","price2":"250"},
-        {"id":"40","category":"avocado-peach-plum","image":"https://www.jiomart.com/images/product/150x150/591429030/avocado-hass-premium-imported-1-pc-approx-260-g-320-g-0-20220526.jpg","discount":"16","name":"Avocado Hass Premium Imported 1 Pc (Approx 260 g - 320 g)","price1":"129","price2":"155"},
-        {"id":"41","category":"avocado-peach-plum","image":"https://www.jiomart.com/images/product/150x150/591778572/avocado-hass-premium-imported-3-pc-approx-780-g-960-g-0-20220531.jpg","discount":"16","name":"Avocado Hass Premium Imported 3 Pc (Approx 780 g - 960 g)","price1":"387","price2":"465"},
-        {"id":"42","category":"avocado-peach-plum","image":"https://www.jiomart.com/images/product/150x150/591778573/avocado-hass-premium-imported-6-pc-approx-1-55-kg-1-95-kg-0-20220531.jpg","discount":"16","name":"Avocado Hass Premium Imported 6 Pc (Approx 1.55 kg - 1.95 kg)","price1":"774","price2":"930"},
-        {"id":"43","category":"apples-pears","image":"https://www.jiomart.com/images/product/150x150/591193903/apple-dazzle-premium-imported-1-pc-approx-175-g-200-g-0-20220309.jpg","discount":"11","name":"Apple Dazzle Premium Imported 1 pc (Approx 175 g - 200 g)","price1":"80","price2":"90"},
-        {"id":"44","category":"apples-pears","image":"https://www.jiomart.com/images/product/150x150/590860315/apple-diva-premium-imported-1-pc-approx-175-g-200-g-0-20211112.jpg","discount":"10","name":"Apple Diva Premium Imported 1 Pc (Approx 175 g - 200 g)","price1":"89","price2":"99"},
-        {"id":"45","category":"apples-pears","image":"https://www.jiomart.com/images/product/150x150/590860308/apple-queen-premium-imported-1-pc-approx-185-g-215-g-0-20211112.jpg","discount":"5","name":"Apple Queen Premium Imported 1 Pc (Approx 185 g - 215 g)","price1":"95","price2":"100"},
-        {"id":"46","category":"apples-pears","image":"https://www.jiomart.com/images/product/150x150/590860312/apple-rose-premium-imported-1-pc-185-g-215-g-0-20211112.jpg","discount":"","name":"Apple Rose Premium Imported 1 Pc (185 g - 215 g)","price1":"95","price2":""},
-        {"id":"47","category":"apples-pears","image":"https://www.jiomart.com/images/product/150x150/591189421/pear-abate-fetel-premium-imported-1-pc-approx-170-g-210-g-0-20220303.jpg","discount":"8","name":"Pear Abate Fetel Premium Imported 1 pc (Approx 170 g - 210 g)","price1":"55","price2":"60"},
-        {"id":"48","category":"apples-pears","image":"https://www.jiomart.com/images/product/150x150/590860404/apple-rockit-premium-imported-2-pc-approx-120-g-140-g-0-20211116.jpg","discount":"17","name":"Apple Rockit Premium Imported 2 Pc (Approx 120 g - 140 g)","price1":"199","price2":"240"},
-        {"id":"49","category":"apples-pears","image":"https://www.jiomart.com/images/product/150x150/590959469/apple-fuji-premium-imported-6-pc-approx-1-25-kg-1-45-kg-0-20211224.jpg","discount":"27","name":"Apple Fuji Premium Imported 6 Pc (Approx 1.00 Kg - 1.17 Kg)","price1":"349","price2":"480"},
-        {"id":"50","category":"apples-pears","image":"https://www.jiomart.com/images/product/150x150/590959470/apple-pink-lady-premium-imported-6-pc-approx-1-1-kg-1-3-kg-0-20211224.jpg","discount":"18","name":"Apple Pink Lady Premium Imported 6 Pc (Approx 1.1 kg- 1.3 kg)","price1":"369","price2":"450"},
-        {"id":"51","category":"apples-pears","image":"https://www.jiomart.com/images/product/150x150/590959476/pear-forelle-premium-imported-6-pc-approx-1-1-kg-1-3-kg-0-20211224.jpg","discount":"8","name":"Pear Forelle Premium Imported 6 Pc (Approx 1.1 Kg- 1.3 Kg)","price1":"329","price2":"360"},
-        {"id":"52","category":"apples-pears","image":"https://www.jiomart.com/images/product/150x150/591001138/apple-diva-premium-imported-4-pc-approx-800-g-920-g-0-20220113.jpg","discount":"12","name":"Apple Diva Premium Imported 4 Pc (Approx 700 g - 800 g)","price1":"349","price2":"400"},
-        {"id":"53","category":"apples-pears","image":"https://www.jiomart.com/images/product/150x150/591001135/apple-fuji-premium-imported-4-pc-approx-840-g-960-g-0-20220113.jpg","discount":"25","name":"Apple Fuji Premium Imported 4 Pc (Approx 660 g - 780 g)","price1":"239","price2":"320"},
-        {"id":"54","category":"apples-pears","image":"https://www.jiomart.com/images/product/150x150/591001137/apple-pink-lady-premium-imported-4-pc-approx-740-g-860-g-0-20220113.jpg","discount":"17","name":"Apple Pink Lady Premium Imported 4 Pc (Approx 740 g - 860 g)","price1":"249","price2":"300"},
-        {"id":"55","category":"apples-pears","image":"https://www.jiomart.com/images/product/150x150/591001139/apple-red-delicious-premium-imported-4-pc-approx-720-g-880-g-0-20220113.jpg","discount":"8","name":"Apple Red Delicious USA Premium Imported 4 Pc (Approx 840 g - 960 g)","price1":"329","price2":"360"},
-        {"id":"56","category":"apples-pears","image":"https://www.jiomart.com/images/product/150x150/591021528/apple-red-pop-premium-imported-1-pcs-approx-165-g-195-g-0-20220131.jpg","discount":"12","name":"Apple Red POP Premium Imported 1 Pc (Approx 150 g - 200 g)","price1":"70","price2":"80"},
-        {"id":"57","category":"apples-pears","image":"https://www.jiomart.com/images/product/150x150/591057876/apple-red-pop-premium-imported-4-pc-approx-670-g-770-g-0-20220223.jpg","discount":"17","name":"Apple Red POP Premium Imported 4 Pc (Approx 600 g - 800 g)","price1":"249","price2":"300"},
-        {"id":"58","category":"apples-pears","image":"https://www.jiomart.com/images/product/150x150/591057875/apple-red-delicious-premium-imported-6-pc-approx-1-10-kg-1-30-kg-0-20220223.jpg","discount":"16","name":"Apple Red Delicious USA Premium Imported 6 pc (Approx 1.26 kg - 1.44 kg)","price1":"449","price2":"540"},
-        {"id":"59","category":"apples-pears","image":"https://www.jiomart.com/images/product/150x150/591057878/apple-red-pop-premium-imported-6-pc-approx-1-00-kg-1-16-kg-0-20220223.jpg","discount":"18","name":"Apple Red POP Premium Imported 6 Pc (Approx 0.90 kg - 1.20 kg)","price1":"369","price2":"450"},
-        {"id":"60","category":"apples-pears","image":"https://www.jiomart.com/images/product/150x150/591057892/pear-packham-premium-imported-4-pc-approx-740-g-860-g-0-20220223.jpg","discount":"9","name":"Pear Packham Premium Imported 4 pc (Approx 740 g - 860 g)","price1":"99","price2":"109"},
-        {"id":"61","category":"apples-pears","image":"https://www.jiomart.com/images/product/150x150/591211900/apple-royal-gala-premium-imported-4-pc-approx-840-g-960-g-0-20220323.jpg","discount":"47","name":"Apple Royal Gala New Zealand Premium Imported 4 Pc (Approx 750 g - 860 g)","price1":"159","price2":"300"},
-        {"id":"62","category":"apples-pears","image":"https://www.jiomart.com/images/product/150x150/591226016/apple-royal-gala-premium-imported-6-pc-approx-1-25-kg-1-45-kg-0-20220505.jpg","discount":"46","name":"Apple Royal Gala New Zealand Premium Imported 6 Pc (Approx 1.10 kg - 1.30 kg)","price1":"239","price2":"450"},
-        {"id":"63","category":"banana-melons-coconu","image":"https://www.jiomart.com/images/product/150x150/590860301/coconut-tender-pollachi-premium-indian-1-pc-approx-1-kg-1-5-kg-0-20211118.jpg","discount":"14","name":"Coconut Tender Pollachi Premium Indian 1 Pc (Approx 1 Kg - 1.5 Kg)","price1":"59","price2":"69"},
-        {"id":"64","category":"banana-melons-coconu","image":"https://www.jiomart.com/images/product/150x150/590860295/coconut-madras-jumbo-premium-indian-1-pc-approx-700-g-900-g-0-20211116.jpg","discount":"","name":"Coconut Madras Jumbo Premium Indian 1 Pc (Approx 700 g - 900 g)","price1":"69","price2":""},
-        {"id":"65","category":"banana-melons-coconu","image":"https://www.jiomart.com/images/product/150x150/590860325/banana-yellaki-premium-indian-6-pc-approx-350-g-430-g-0-20211118.jpg","discount":"5","name":"Banana Yellaki Premium Indian 6 Pc (Approx 340 g - 380 g)","price1":"179","price2":"190"},
-        {"id":"66","category":"banana-melons-coconu","image":"https://www.jiomart.com/images/product/150x150/590860290/banana-red-premium-indian-3-pc-approx-405-g-495-g-0-20211116.jpg","discount":"5","name":"Banana Red Premium Indian 3 Pc (Approx 405 g - 495 g)","price1":"99","price2":"105"},
-        {"id":"67","category":"banana-melons-coconu","image":"https://www.jiomart.com/images/product/150x150/590860289/banana-nendran-premium-indian-2-pc-approx-350-g-400-g-0-20211117.jpg","discount":"19","name":"Banana Nendran Premium Indian 2 Pc (Approx 350 g - 400 g)","price1":"89","price2":"110"},
-        {"id":"68","category":"banana-melons-coconu","image":"https://www.jiomart.com/images/product/150x150/591226023/muskmelon-bobby-large-premium-indian-1-pc-approx-0-90-kg-1-20-kg-0-20220505.jpg","discount":"4","name":"Muskmelon Bobby Large Premium Indian 1 Pc (Approx 0.90 Kg - 1.20 Kg)","price1":"129","price2":"135"},
-        {"id":"69","category":"banana-melons-coconu","image":"https://www.jiomart.com/images/product/150x150/591272728/sun-melon-premium-indian-1-pc-approx-1-00-kg-1-40-kg-0-20220511.jpg","discount":"12","name":"Sun Melon Premium Indian 1 Pc (Approx 1.00 Kg - 1.40 Kg)","price1":"79","price2":"90"},
-        {"id":"70","category":"banana-melons-coconu","image":"https://www.jiomart.com/images/product/150x150/591226032/watermelon-kiran-premium-indian-1-pc-approx-2-50-kg-3-50-kg-0-20220505.jpg","discount":"","name":"Watermelon Kiran Premium Indian 1 Pc (Approx 2.50 kg - 3.50 kg)","price1":"79","price2":""},
-        {"id":"71","category":"banana-melons-coconu","image":"https://www.jiomart.com/images/product/150x150/591189405/coconut-tender-premium-indian-3-pc-approx-3-kg-4-5-kg-0-20220415.jpg","discount":"15","name":"Coconut Tender Premium Indian 3 pc (Approx 3 kg - 4.5 kg)","price1":"169","price2":"199"},
-        {"id":"72","category":"dates","image":"https://www.jiomart.com/images/product/150x150/591043451/fresh-dates-yellow-premium-indian-pack-500-g-0-20220216.jpg","discount":"53","name":"Fresh Dates Yellow Premium Indian Pack 500 g","price1":"139","price2":"300"},
-        {"id":"73","category":"dates","image":"https://www.jiomart.com/images/product/150x150/590860329/dates-ajwa-premium-imported-pack-250-g-0-20211112.jpg","discount":"9","name":"Dates Ajwa Premium Imported Pack 250 g","price1":"499","price2":"549"},
-        {"id":"74","category":"dates","image":"https://www.jiomart.com/images/product/150x150/590860304/dates-medjoul-premium-imported-pack-500-g-0-20211112.jpg","discount":"9","name":"Dates Medjoul Premium Imported Pack 500 g","price1":"899","price2":"990"},
-        {"id":"75","category":"dates","image":"https://www.jiomart.com/images/product/150x150/591021537/dates-oriental-premium-imported-pack-5-kg-0-20220127.jpg","discount":"34","name":"Dates Oriental King Solomon Premium Imported Pack 5 Kg","price1":"2290","price2":"3500"},
-        {"id":"76","category":"dates","image":"https://www.jiomart.com/images/product/150x150/591021568/dates-oriental-premium-imported-pack-500-g-0-20220127.jpg","discount":"41","name":"Dates Oriental King Solomon Premium Imported Pack 500 g","price1":"279","price2":"475"},
-        {"id":"77","category":"dates","image":"https://www.jiomart.com/images/product/150x150/591021566/dates-safavi-premium-imported-pack-500-g-0-20220127.jpg","discount":"38","name":"Dates Safavi Premium Imported Pack 500 g","price1":"399","price2":"650"},
-        {"id":"78","category":"dates","image":"https://www.jiomart.com/images/product/150x150/591021536/dates-assorted-premium-imported-pack-500-g-0-20220127.jpg","discount":"30","name":"Dates Assorted Premium Imported Pack 500 g","price1":"499","price2":"720"},
-        {"id":"79","category":"dates","image":"https://www.jiomart.com/images/product/150x150/591021567/dates-ajwa-premium-imported-pack-500-g-0-20220127.jpg","discount":"33","name":"Dates Ajwa Premium Imported Pack 500 g","price1":"599","price2":"900"}
-        ]
-}
+    "prod": [
+      {
+        "id": "1",
+        "category": "citrus-mango-grapes",
+        "image": "https://www.jiomart.com/images/product/150x150/591238247/mango-langda-premium-indian-4-pc-approx-0-90-kg-1-20-kg-0-20220506.jpg",
+        "discount": "26",
+        "name": "Mango Langda Premium Indian 3 Pc (Approx 0.90 kg - 1.20 kg)",
+        "price1": "199",
+        "price2": "270"
+      },
+      {
+        "id": "2",
+        "category": "citrus-mango-grapes",
+        "image": "https://www.jiomart.com/images/product/150x150/590860311/pomelo-pink-premium-indian-1-pc-approx-1-2-kg-1-75-kg-0-20211116.jpg",
+        "discount": "5",
+        "name": "Pomelo Pink Premium Indian 1 Pc (Approx 1.2 kg - 1.75 kg)",
+        "price1": "549",
+        "price2": "580"
+      },
+      {
+        "id": "3",
+        "category": "citrus-mango-grapes",
+        "image": "https://www.jiomart.com/images/product/150x150/591043459/mango-chausa-premium-indian-1-pc-approx-300-g-400-g-0-20220216.jpg",
+        "discount": "",
+        "name": "Mango Chausa Premium Indian 1 pc (Approx 300 g - 400 g)",
+        "price1": "79",
+        "price2": ""
+      },
+      {
+        "id": "4",
+        "category": "citrus-mango-grapes",
+        "image": "https://www.jiomart.com/images/product/150x150/591043457/grapes-red-globe-premium-imported-pack-400-g-0-20220216.jpg",
+        "discount": "12",
+        "name": "Grapes Red Globe Premium Imported Pack 400 g",
+        "price1": "349",
+        "price2": "400"
+      },
+      {
+        "id": "5",
+        "category": "citrus-mango-grapes",
+        "image": "https://www.jiomart.com/images/product/150x150/590860293/lemon-premium-imported-1-pc-approx-130-g-150-g-0-20211112.jpg",
+        "discount": "18",
+        "name": "Lemon Premium Imported 1 Pc (Approx 130 g - 150 g)",
+        "price1": "49",
+        "price2": "60"
+      },
+      {
+        "id": "6",
+        "category": "citrus-mango-grapes",
+        "image": "https://www.jiomart.com/images/product/150x150/591193904/mandarin-nova-premium-imported-6-pc-approx-780-g-960-g-0-20220309.jpg",
+        "discount": "24",
+        "name": "Mini Orange Mandarin Nova Premium Imported 6 Pc (Approx 630 g - 810 g)",
+        "price1": "249",
+        "price2": "330"
+      },
+      {
+        "id": "7",
+        "category": "citrus-mango-grapes",
+        "image": "https://www.jiomart.com/images/product/150x150/591980094/mini-orange-mandarin-nova-premium-imported-4-pc-approx-520-g-640-g-0-20220607.jpg",
+        "discount": "22",
+        "name": "Mini Orange Mandarin Nova Premium Imported 4 Pc (Approx 420 g- 540 g)",
+        "price1": "170",
+        "price2": "220"
+      },
+      {
+        "id": "8",
+        "category": "citrus-mango-grapes",
+        "image": "https://www.jiomart.com/images/product/150x150/590860288/kumquat-premium-imported-pack-250-g-0-20211112.jpg",
+        "discount": "20",
+        "name": "Kumquat Premium Imported Pack 250 g",
+        "price1": "199",
+        "price2": "250"
+      },
+      {
+        "id": "9",
+        "category": "citrus-mango-grapes",
+        "image": "https://www.jiomart.com/images/product/150x150/590860280/grapefruit-pink-premium-imported-1-pc-approx-300-g-450-g-0-20211112.jpg",
+        "discount": "28",
+        "name": "Grapefruit Pink Premium Imported 1 Pc (Approx 300 g - 450 g)",
+        "price1": "79",
+        "price2": "110"
+      },
+      {
+        "id": "10",
+        "category": "citrus-mango-grapes",
+        "image": "https://www.jiomart.com/images/product/150x150/591001127/orange-valencia-premium-imported-4-pc-approx-800-g-960-g-0-20220113.jpg",
+        "discount": "10",
+        "name": "Orange Valencia Premium Imported 4 Pc (Approx 720 g - 880 g)",
+        "price1": "89",
+        "price2": "99"
+      },
+      {
+        "id": "11",
+        "category": "citrus-mango-grapes",
+        "image": "https://www.jiomart.com/images/product/150x150/591057890/orange-valencia-premium-imported-6-pc-approx-1-25-kg-1-35-kg-0-20220223.jpg",
+        "discount": "20",
+        "name": "Orange Valencia Premium Imported 6 Pc (Approx 1.10 kg - 132 kg)",
+        "price1": "134",
+        "price2": "169"
+      },
+      {
+        "id": "12",
+        "category": "citrus-mango-grapes",
+        "image": "https://www.jiomart.com/images/product/150x150/591226031/sweet-lime-premium-indian-6-pc-approx-1-35-kg-1-80-kg-0-20220505.jpg",
+        "discount": "8",
+        "name": "Sweet Lime Premium Indian 6 Pc (Approx 1.20 kg - 1.65 kg)",
+        "price1": "219",
+        "price2": "240"
+      },
+      {
+        "id": "13",
+        "category": "citrus-mango-grapes",
+        "image": "https://www.jiomart.com/images/product/150x150/591778593/grapefruit-pink-premium-imported-2-pc-approx-500-g-700-g-0-20220531.jpg",
+        "discount": "32",
+        "name": "Grapefruit Pink Premium Imported 2 Pc (Approx 500 g - 700 g)",
+        "price1": "149",
+        "price2": "220"
+      },
+      {
+        "id": "14",
+        "category": "citrus-mango-grapes",
+        "image": "https://www.jiomart.com/images/product/150x150/591778586/mango-chausa-premium-indian-3-pc-approx-0-90-kg-1-20-kg-0-20220531.jpg",
+        "discount": "17",
+        "name": "Mango Chausa Premium Indian 3 Pc (Approx 0.90 kg - 1.20 kg)",
+        "price1": "199",
+        "price2": "240"
+      },
+      {
+        "id": "15",
+        "category": "citrus-mango-grapes",
+        "image": "https://www.jiomart.com/images/product/150x150/591980102/mango-chausa-premium-indian-6-pc-approx-1-80-kg-2-40-kg-0-20220607.jpg",
+        "discount": "27",
+        "name": "Mango Chausa Premium Indian 6 Pc (Approx 1.80 kg - 2.40 kg)",
+        "price1": "349",
+        "price2": "480"
+      },
+      {
+        "id": "16",
+        "category": "citrus-mango-grapes",
+        "image": "https://www.jiomart.com/images/product/150x150/591980103/mango-chausa-premium-indian-12-pc-approx-3-60-kg-4-80-kg-0-20220607.jpg",
+        "discount": "32",
+        "name": "Mango Chausa Premium Indian 12 Pc (Approx 3.60 kg - 4.80 kg)",
+        "price1": "649",
+        "price2": "960"
+      },
+      {
+        "id": "17",
+        "category": "citrus-mango-grapes",
+        "image": "https://www.jiomart.com/assets/global/jiomart-default-image-240x285.png",
+        "discount": "26",
+        "name": "Mango Langda Premium Indian 6 Pc (Approx 1.80 kg - 2.40 kg)",
+        "price1": "399",
+        "price2": "540"
+      },
+      {
+        "id": "18",
+        "category": "citrus-mango-grapes",
+        "image": "https://www.jiomart.com/assets/global/jiomart-default-image-240x285.png",
+        "discount": "2",
+        "name": "Mango Langda Premium Indian 12 Pc (Approx 3.60 kg - 4.80 kg)",
+        "price1": "799",
+        "price2": "820"
+      },
+      {
+        "id": "19",
+        "category": "cherries-berries-exotic-fruits",
+        "image": "https://www.jiomart.com/images/product/150x150/590860310/dragonfruit-red-flesh-premium-indian-1-pc-approx-300-g-450-g-0-20211112.jpg",
+        "discount": "9",
+        "name": "Dragonfruit Red Flesh Premium Indian 1 Pc (Approx 300 g - 450 g)",
+        "price1": "199",
+        "price2": "220"
+      },
+      {
+        "id": "20",
+        "category": "cherries-berries-exotic-fruits",
+        "image": "https://www.jiomart.com/images/product/150x150/590860359/dragonfruit-white-flesh-premium-indian-1-pc-approx-300-g-450-g-0-20211210.jpg",
+        "discount": "8",
+        "name": "Dragonfruit White Flesh Premium Indian 1 Pc (Approx 300 g - 400 g)",
+        "price1": "119",
+        "price2": "130"
+      },
+      {
+        "id": "21",
+        "category": "cherries-berries-exotic-fruits",
+        "image": "https://www.jiomart.com/images/product/150x150/591238248/mangosteen-premium-indian-6-pc-approx-490-g-570-g-0-20220506.jpg",
+        "discount": "11",
+        "name": "Mangosteen Premium Indian 6 Pc (Approx 490 g - 570 g)",
+        "price1": "399",
+        "price2": "450"
+      },
+      {
+        "id": "22",
+        "category": "cherries-berries-exotic-fruits",
+        "image": "https://www.jiomart.com/images/product/150x150/591189431/rambutan-premium-indian-6-pc-approx-190-g-230-g-0-20220303.jpg",
+        "discount": "32",
+        "name": "Rambutan Premium Indian 6 Pc (Approx 150 g - 200 g)",
+        "price1": "149",
+        "price2": "220"
+      },
+      {
+        "id": "23",
+        "category": "cherries-berries-exotic-fruits",
+        "image": "https://www.jiomart.com/images/product/150x150/590968389/sweet-tamarind-premium-imported-pack-250-g-0-20211230.jpg",
+        "discount": "9",
+        "name": "Sweet Tamarind Premium Imported Pack 250 g",
+        "price1": "199",
+        "price2": "220"
+      },
+      {
+        "id": "24",
+        "category": "cherries-berries-exotic-fruits",
+        "image": "https://www.jiomart.com/images/product/150x150/590860270/blueberry-premium-imported-pack-125-g-0-20211112.jpg",
+        "discount": "20",
+        "name": "Blueberry Premium Imported Pack 125 g",
+        "price1": "199",
+        "price2": "250"
+      },
+      {
+        "id": "25",
+        "category": "cherries-berries-exotic-fruits",
+        "image": "https://www.jiomart.com/images/product/150x150/590860345/blueberry-premium-imported-pack-250-g-0-20211112.jpg",
+        "discount": "20",
+        "name": "Blueberry Premium Imported Pack 250 g",
+        "price1": "398",
+        "price2": "500"
+      },
+      {
+        "id": "26",
+        "category": "cherries-berries-exotic-fruits",
+        "image": "https://www.jiomart.com/images/product/150x150/590860406/blueberry-premium-imported-pack-500-g-0-20211112.jpg",
+        "discount": "20",
+        "name": "Blueberry Premium Imported Pack 500 g",
+        "price1": "796",
+        "price2": "1,000.00"
+      },
+      {
+        "id": "27",
+        "category": "cherries-berries-exotic-fruits",
+        "image": "https://www.jiomart.com/images/product/150x150/591272727/kiwi-gold-jumbo-zespri-premium-imported-1-pc-120-g-140-g-0-20220511.jpg",
+        "discount": "12",
+        "name": "Kiwi Gold Jumbo Zespri Premium Imported 1 Pc (120 g - 140 g)",
+        "price1": "79",
+        "price2": "90"
+      },
+      {
+        "id": "28",
+        "category": "cherries-berries-exotic-fruits",
+        "image": "https://www.jiomart.com/images/product/150x150/591778597/cherry-red-premium-imported-pack-125-g-0-20220531.jpg",
+        "discount": "17",
+        "name": "Cherry Red Premium Imported Pack 125 g",
+        "price1": "249",
+        "price2": "300"
+      },
+      {
+        "id": "29",
+        "category": "cherries-berries-exotic-fruits",
+        "image": "https://www.jiomart.com/images/product/150x150/591778596/cherry-red-premium-imported-pack-250-g-0-20220531.jpg",
+        "discount": "33",
+        "name": "Cherry Red Premium Imported Pack 250 g",
+        "price1": "399",
+        "price2": "600"
+      },
+      {
+        "id": "30",
+        "category": "cherries-berries-exotic-fruits",
+        "image": "https://www.jiomart.com/images/product/150x150/591778595/cherry-red-premium-imported-pack-500-g-0-20220531.jpg",
+        "discount": "41",
+        "name": "Cherry Red Premium Imported Pack 500 g",
+        "price1": "699",
+        "price2": "1,200.00"
+      },
+      {
+        "id": "31",
+        "category": "cherries-berries-exotic-fruits",
+        "image": "https://www.jiomart.com/images/product/150x150/591778592/kiwi-gold-jumbo-premium-imported-2-pc-approx-240-g-280-g-0-20220531.jpg",
+        "discount": "22",
+        "name": "Kiwi Gold Jumbo Premium Imported 2 Pc (Approx 240 g - 280 g)",
+        "price1": "139",
+        "price2": "180"
+      },
+      {
+        "id": "32",
+        "category": "cherries-berries-exotic-fruits",
+        "image": "https://www.jiomart.com/images/product/150x150/591778591/kiwi-gold-jumbo-premium-imported-3-pc-approx-360-g-420-g-0-20220531.jpg",
+        "discount": "26",
+        "name": "Kiwi Gold Jumbo Premium Imported 3 Pc (Approx 360 g - 420 g)",
+        "price1": "199",
+        "price2": "270"
+      },
+      {
+        "id": "33",
+        "category": "cherries-berries-exotic-fruits",
+        "image": "https://www.jiomart.com/images/product/150x150/591778590/kiwi-green-jumbo-premium-imported-2-pc-approx-240-g-280-g-0-20220531.jpg",
+        "discount": "8",
+        "name": "Kiwi Green Jumbo Premium Imported 2 Pc (Approx 240 g - 280 g)",
+        "price1": "119",
+        "price2": "130"
+      },
+      {
+        "id": "34",
+        "category": "cherries-berries-exotic-fruits",
+        "image": "https://www.jiomart.com/images/product/150x150/591778589/kiwi-green-jumbo-premium-imported-3-pc-approx-360-g-420-g-0-20220531.jpg",
+        "discount": "28",
+        "name": "Kiwi Green Jumbo Premium Imported 3 Pc (Approx 360 g - 420 g)",
+        "price1": "129",
+        "price2": "180"
+      },
+      {
+        "id": "35",
+        "category": "avocado-peach-plum",
+        "image": "https://www.jiomart.com/images/product/150x150/591429026/peach-sun-gold-premium-indian-500-g-0-20220518.jpg",
+        "discount": "25",
+        "name": "Peach Sun Gold Premium Indian Pack 500 g",
+        "price1": "149",
+        "price2": "200"
+      },
+      {
+        "id": "36",
+        "category": "avocado-peach-plum",
+        "image": "https://www.jiomart.com/images/product/150x150/591238255/plum-premium-indian-pack-500-g-0-20220506.jpg",
+        "discount": "19",
+        "name": "Plum Premium Indian Pack 500 g",
+        "price1": "149",
+        "price2": "185"
+      },
+      {
+        "id": "37",
+        "category": "avocado-peach-plum",
+        "image": "https://www.jiomart.com/images/product/150x150/590860298/avocado-premium-indian-1-pc-approx-350-g-425-g-0-20211112.jpg",
+        "discount": "17",
+        "name": "Avocado Premium Indian 1 Pc (Approx 300 g - 400 g)",
+        "price1": "249",
+        "price2": "300"
+      },
+      {
+        "id": "38",
+        "category": "avocado-peach-plum",
+        "image": "https://www.jiomart.com/images/product/150x150/591238256/plum-prune-premium-indian-pack-500-g-0-20220506.jpg",
+        "discount": "32",
+        "name": "Plum Prune Premium Indian Pack 500 g",
+        "price1": "149",
+        "price2": "220"
+      },
+      {
+        "id": "39",
+        "category": "avocado-peach-plum",
+        "image": "https://www.jiomart.com/images/product/150x150/591778582/nectarine-white-flesh-premium-imported-1-pc-approx-170-g-220-g-0-20220531.jpg",
+        "discount": "4",
+        "name": "Nectarine White Flesh Premium Imported 1 Pc (Approx 170 g - 220 g)",
+        "price1": "239",
+        "price2": "250"
+      },
+      {
+        "id": "40",
+        "category": "avocado-peach-plum",
+        "image": "https://www.jiomart.com/images/product/150x150/591429030/avocado-hass-premium-imported-1-pc-approx-260-g-320-g-0-20220526.jpg",
+        "discount": "16",
+        "name": "Avocado Hass Premium Imported 1 Pc (Approx 260 g - 320 g)",
+        "price1": "129",
+        "price2": "155"
+      },
+      {
+        "id": "41",
+        "category": "avocado-peach-plum",
+        "image": "https://www.jiomart.com/images/product/150x150/591778572/avocado-hass-premium-imported-3-pc-approx-780-g-960-g-0-20220531.jpg",
+        "discount": "16",
+        "name": "Avocado Hass Premium Imported 3 Pc (Approx 780 g - 960 g)",
+        "price1": "387",
+        "price2": "465"
+      },
+      {
+        "id": "42",
+        "category": "avocado-peach-plum",
+        "image": "https://www.jiomart.com/images/product/150x150/591778573/avocado-hass-premium-imported-6-pc-approx-1-55-kg-1-95-kg-0-20220531.jpg",
+        "discount": "16",
+        "name": "Avocado Hass Premium Imported 6 Pc (Approx 1.55 kg - 1.95 kg)",
+        "price1": "774",
+        "price2": "930"
+      },
+      {
+        "id": "43",
+        "category": "apples-pears",
+        "image": "https://www.jiomart.com/images/product/150x150/591193903/apple-dazzle-premium-imported-1-pc-approx-175-g-200-g-0-20220309.jpg",
+        "discount": "11",
+        "name": "Apple Dazzle Premium Imported 1 pc (Approx 175 g - 200 g)",
+        "price1": "80",
+        "price2": "90"
+      },
+      {
+        "id": "44",
+        "category": "apples-pears",
+        "image": "https://www.jiomart.com/images/product/150x150/590860315/apple-diva-premium-imported-1-pc-approx-175-g-200-g-0-20211112.jpg",
+        "discount": "10",
+        "name": "Apple Diva Premium Imported 1 Pc (Approx 175 g - 200 g)",
+        "price1": "89",
+        "price2": "99"
+      },
+      {
+        "id": "45",
+        "category": "apples-pears",
+        "image": "https://www.jiomart.com/images/product/150x150/590860308/apple-queen-premium-imported-1-pc-approx-185-g-215-g-0-20211112.jpg",
+        "discount": "5",
+        "name": "Apple Queen Premium Imported 1 Pc (Approx 185 g - 215 g)",
+        "price1": "95",
+        "price2": "100"
+      },
+      {
+        "id": "46",
+        "category": "apples-pears",
+        "image": "https://www.jiomart.com/images/product/150x150/590860312/apple-rose-premium-imported-1-pc-185-g-215-g-0-20211112.jpg",
+        "discount": "",
+        "name": "Apple Rose Premium Imported 1 Pc (185 g - 215 g)",
+        "price1": "95",
+        "price2": ""
+      },
+      {
+        "id": "47",
+        "category": "apples-pears",
+        "image": "https://www.jiomart.com/images/product/150x150/591189421/pear-abate-fetel-premium-imported-1-pc-approx-170-g-210-g-0-20220303.jpg",
+        "discount": "8",
+        "name": "Pear Abate Fetel Premium Imported 1 pc (Approx 170 g - 210 g)",
+        "price1": "55",
+        "price2": "60"
+      },
+      {
+        "id": "48",
+        "category": "apples-pears",
+        "image": "https://www.jiomart.com/images/product/150x150/590860404/apple-rockit-premium-imported-2-pc-approx-120-g-140-g-0-20211116.jpg",
+        "discount": "17",
+        "name": "Apple Rockit Premium Imported 2 Pc (Approx 120 g - 140 g)",
+        "price1": "199",
+        "price2": "240"
+      },
+      {
+        "id": "49",
+        "category": "apples-pears",
+        "image": "https://www.jiomart.com/images/product/150x150/590959469/apple-fuji-premium-imported-6-pc-approx-1-25-kg-1-45-kg-0-20211224.jpg",
+        "discount": "27",
+        "name": "Apple Fuji Premium Imported 6 Pc (Approx 1.00 Kg - 1.17 Kg)",
+        "price1": "349",
+        "price2": "480"
+      },
+      {
+        "id": "50",
+        "category": "apples-pears",
+        "image": "https://www.jiomart.com/images/product/150x150/590959470/apple-pink-lady-premium-imported-6-pc-approx-1-1-kg-1-3-kg-0-20211224.jpg",
+        "discount": "18",
+        "name": "Apple Pink Lady Premium Imported 6 Pc (Approx 1.1 kg- 1.3 kg)",
+        "price1": "369",
+        "price2": "450"
+      },
+      {
+        "id": "51",
+        "category": "apples-pears",
+        "image": "https://www.jiomart.com/images/product/150x150/590959476/pear-forelle-premium-imported-6-pc-approx-1-1-kg-1-3-kg-0-20211224.jpg",
+        "discount": "8",
+        "name": "Pear Forelle Premium Imported 6 Pc (Approx 1.1 Kg- 1.3 Kg)",
+        "price1": "329",
+        "price2": "360"
+      },
+      {
+        "id": "52",
+        "category": "apples-pears",
+        "image": "https://www.jiomart.com/images/product/150x150/591001138/apple-diva-premium-imported-4-pc-approx-800-g-920-g-0-20220113.jpg",
+        "discount": "12",
+        "name": "Apple Diva Premium Imported 4 Pc (Approx 700 g - 800 g)",
+        "price1": "349",
+        "price2": "400"
+      },
+      {
+        "id": "53",
+        "category": "apples-pears",
+        "image": "https://www.jiomart.com/images/product/150x150/591001135/apple-fuji-premium-imported-4-pc-approx-840-g-960-g-0-20220113.jpg",
+        "discount": "25",
+        "name": "Apple Fuji Premium Imported 4 Pc (Approx 660 g - 780 g)",
+        "price1": "239",
+        "price2": "320"
+      },
+      {
+        "id": "54",
+        "category": "apples-pears",
+        "image": "https://www.jiomart.com/images/product/150x150/591001137/apple-pink-lady-premium-imported-4-pc-approx-740-g-860-g-0-20220113.jpg",
+        "discount": "17",
+        "name": "Apple Pink Lady Premium Imported 4 Pc (Approx 740 g - 860 g)",
+        "price1": "249",
+        "price2": "300"
+      },
+      {
+        "id": "55",
+        "category": "apples-pears",
+        "image": "https://www.jiomart.com/images/product/150x150/591001139/apple-red-delicious-premium-imported-4-pc-approx-720-g-880-g-0-20220113.jpg",
+        "discount": "8",
+        "name": "Apple Red Delicious USA Premium Imported 4 Pc (Approx 840 g - 960 g)",
+        "price1": "329",
+        "price2": "360"
+      },
+      {
+        "id": "56",
+        "category": "apples-pears",
+        "image": "https://www.jiomart.com/images/product/150x150/591021528/apple-red-pop-premium-imported-1-pcs-approx-165-g-195-g-0-20220131.jpg",
+        "discount": "12",
+        "name": "Apple Red POP Premium Imported 1 Pc (Approx 150 g - 200 g)",
+        "price1": "70",
+        "price2": "80"
+      },
+      {
+        "id": "57",
+        "category": "apples-pears",
+        "image": "https://www.jiomart.com/images/product/150x150/591057876/apple-red-pop-premium-imported-4-pc-approx-670-g-770-g-0-20220223.jpg",
+        "discount": "17",
+        "name": "Apple Red POP Premium Imported 4 Pc (Approx 600 g - 800 g)",
+        "price1": "249",
+        "price2": "300"
+      },
+      {
+        "id": "58",
+        "category": "apples-pears",
+        "image": "https://www.jiomart.com/images/product/150x150/591057875/apple-red-delicious-premium-imported-6-pc-approx-1-10-kg-1-30-kg-0-20220223.jpg",
+        "discount": "16",
+        "name": "Apple Red Delicious USA Premium Imported 6 pc (Approx 1.26 kg - 1.44 kg)",
+        "price1": "449",
+        "price2": "540"
+      },
+      {
+        "id": "59",
+        "category": "apples-pears",
+        "image": "https://www.jiomart.com/images/product/150x150/591057878/apple-red-pop-premium-imported-6-pc-approx-1-00-kg-1-16-kg-0-20220223.jpg",
+        "discount": "18",
+        "name": "Apple Red POP Premium Imported 6 Pc (Approx 0.90 kg - 1.20 kg)",
+        "price1": "369",
+        "price2": "450"
+      },
+      {
+        "id": "60",
+        "category": "apples-pears",
+        "image": "https://www.jiomart.com/images/product/150x150/591057892/pear-packham-premium-imported-4-pc-approx-740-g-860-g-0-20220223.jpg",
+        "discount": "9",
+        "name": "Pear Packham Premium Imported 4 pc (Approx 740 g - 860 g)",
+        "price1": "99",
+        "price2": "109"
+      },
+      {
+        "id": "61",
+        "category": "apples-pears",
+        "image": "https://www.jiomart.com/images/product/150x150/591211900/apple-royal-gala-premium-imported-4-pc-approx-840-g-960-g-0-20220323.jpg",
+        "discount": "47",
+        "name": "Apple Royal Gala New Zealand Premium Imported 4 Pc (Approx 750 g - 860 g)",
+        "price1": "159",
+        "price2": "300"
+      },
+      {
+        "id": "62",
+        "category": "apples-pears",
+        "image": "https://www.jiomart.com/images/product/150x150/591226016/apple-royal-gala-premium-imported-6-pc-approx-1-25-kg-1-45-kg-0-20220505.jpg",
+        "discount": "46",
+        "name": "Apple Royal Gala New Zealand Premium Imported 6 Pc (Approx 1.10 kg - 1.30 kg)",
+        "price1": "239",
+        "price2": "450"
+      },
+      {
+        "id": "63",
+        "category": "banana-melons-coconu",
+        "image": "https://www.jiomart.com/images/product/150x150/590860301/coconut-tender-pollachi-premium-indian-1-pc-approx-1-kg-1-5-kg-0-20211118.jpg",
+        "discount": "14",
+        "name": "Coconut Tender Pollachi Premium Indian 1 Pc (Approx 1 Kg - 1.5 Kg)",
+        "price1": "59",
+        "price2": "69"
+      },
+      {
+        "id": "64",
+        "category": "banana-melons-coconu",
+        "image": "https://www.jiomart.com/images/product/150x150/590860295/coconut-madras-jumbo-premium-indian-1-pc-approx-700-g-900-g-0-20211116.jpg",
+        "discount": "",
+        "name": "Coconut Madras Jumbo Premium Indian 1 Pc (Approx 700 g - 900 g)",
+        "price1": "69",
+        "price2": ""
+      },
+      {
+        "id": "65",
+        "category": "banana-melons-coconu",
+        "image": "https://www.jiomart.com/images/product/150x150/590860325/banana-yellaki-premium-indian-6-pc-approx-350-g-430-g-0-20211118.jpg",
+        "discount": "5",
+        "name": "Banana Yellaki Premium Indian 6 Pc (Approx 340 g - 380 g)",
+        "price1": "179",
+        "price2": "190"
+      },
+      {
+        "id": "66",
+        "category": "banana-melons-coconu",
+        "image": "https://www.jiomart.com/images/product/150x150/590860290/banana-red-premium-indian-3-pc-approx-405-g-495-g-0-20211116.jpg",
+        "discount": "5",
+        "name": "Banana Red Premium Indian 3 Pc (Approx 405 g - 495 g)",
+        "price1": "99",
+        "price2": "105"
+      },
+      {
+        "id": "67",
+        "category": "banana-melons-coconu",
+        "image": "https://www.jiomart.com/images/product/150x150/590860289/banana-nendran-premium-indian-2-pc-approx-350-g-400-g-0-20211117.jpg",
+        "discount": "19",
+        "name": "Banana Nendran Premium Indian 2 Pc (Approx 350 g - 400 g)",
+        "price1": "89",
+        "price2": "110"
+      },
+      {
+        "id": "68",
+        "category": "banana-melons-coconu",
+        "image": "https://www.jiomart.com/images/product/150x150/591226023/muskmelon-bobby-large-premium-indian-1-pc-approx-0-90-kg-1-20-kg-0-20220505.jpg",
+        "discount": "4",
+        "name": "Muskmelon Bobby Large Premium Indian 1 Pc (Approx 0.90 Kg - 1.20 Kg)",
+        "price1": "129",
+        "price2": "135"
+      },
+      {
+        "id": "69",
+        "category": "banana-melons-coconu",
+        "image": "https://www.jiomart.com/images/product/150x150/591272728/sun-melon-premium-indian-1-pc-approx-1-00-kg-1-40-kg-0-20220511.jpg",
+        "discount": "12",
+        "name": "Sun Melon Premium Indian 1 Pc (Approx 1.00 Kg - 1.40 Kg)",
+        "price1": "79",
+        "price2": "90"
+      },
+      {
+        "id": "70",
+        "category": "banana-melons-coconu",
+        "image": "https://www.jiomart.com/images/product/150x150/591226032/watermelon-kiran-premium-indian-1-pc-approx-2-50-kg-3-50-kg-0-20220505.jpg",
+        "discount": "",
+        "name": "Watermelon Kiran Premium Indian 1 Pc (Approx 2.50 kg - 3.50 kg)",
+        "price1": "79",
+        "price2": ""
+      },
+      {
+        "id": "71",
+        "category": "banana-melons-coconu",
+        "image": "https://www.jiomart.com/images/product/150x150/591189405/coconut-tender-premium-indian-3-pc-approx-3-kg-4-5-kg-0-20220415.jpg",
+        "discount": "15",
+        "name": "Coconut Tender Premium Indian 3 pc (Approx 3 kg - 4.5 kg)",
+        "price1": "169",
+        "price2": "199"
+      },
+      {
+        "id": "72",
+        "category": "dates",
+        "image": "https://www.jiomart.com/images/product/150x150/591043451/fresh-dates-yellow-premium-indian-pack-500-g-0-20220216.jpg",
+        "discount": "53",
+        "name": "Fresh Dates Yellow Premium Indian Pack 500 g",
+        "price1": "139",
+        "price2": "300"
+      },
+      {
+        "id": "73",
+        "category": "dates",
+        "image": "https://www.jiomart.com/images/product/150x150/590860329/dates-ajwa-premium-imported-pack-250-g-0-20211112.jpg",
+        "discount": "9",
+        "name": "Dates Ajwa Premium Imported Pack 250 g",
+        "price1": "499",
+        "price2": "549"
+      },
+      {
+        "id": "74",
+        "category": "dates",
+        "image": "https://www.jiomart.com/images/product/150x150/590860304/dates-medjoul-premium-imported-pack-500-g-0-20211112.jpg",
+        "discount": "9",
+        "name": "Dates Medjoul Premium Imported Pack 500 g",
+        "price1": "899",
+        "price2": "990"
+      },
+      {
+        "id": "75",
+        "category": "dates",
+        "image": "https://www.jiomart.com/images/product/150x150/591021537/dates-oriental-premium-imported-pack-5-kg-0-20220127.jpg",
+        "discount": "34",
+        "name": "Dates Oriental King Solomon Premium Imported Pack 5 Kg",
+        "price1": "2,290.00",
+        "price2": "3,500.00"
+      },
+      {
+        "id": "76",
+        "category": "dates",
+        "image": "https://www.jiomart.com/images/product/150x150/591021568/dates-oriental-premium-imported-pack-500-g-0-20220127.jpg",
+        "discount": "41",
+        "name": "Dates Oriental King Solomon Premium Imported Pack 500 g",
+        "price1": "279",
+        "price2": "475"
+      },
+      {
+        "id": "77",
+        "category": "dates",
+        "image": "https://www.jiomart.com/images/product/150x150/591021566/dates-safavi-premium-imported-pack-500-g-0-20220127.jpg",
+        "discount": "38",
+        "name": "Dates Safavi Premium Imported Pack 500 g",
+        "price1": "399",
+        "price2": "650"
+      },
+      {
+        "id": "78",
+        "category": "dates",
+        "image": "https://www.jiomart.com/images/product/150x150/591021536/dates-assorted-premium-imported-pack-500-g-0-20220127.jpg",
+        "discount": "30",
+        "name": "Dates Assorted Premium Imported Pack 500 g",
+        "price1": "499",
+        "price2": "720"
+      },
+      {
+        "id": "79",
+        "category": "dates",
+        "image": "https://www.jiomart.com/images/product/150x150/591021567/dates-ajwa-premium-imported-pack-500-g-0-20220127.jpg",
+        "discount": "33",
+        "name": "Dates Ajwa Premium Imported Pack 500 g",
+        "price1": "599",
+        "price2": "900"
+      },
+      {
+        "id": "80",
+        "category": "fruit&vegetable",
+        "image": "https://www.jiomart.com/images/product/150x150/590001265/watermelon-kiran-1-pc-approx-2300-g-3000-g-product-images-o590001265-p590041413-0-202203142036.jpg",
+        "discount": "26",
+        "name": "Watermelon Kiran Big 1 pc (Approx. 2800 g - 4000 g)",
+        "price1": "55",
+        "price2": "200"
+      },
+      {
+        "id": "81",
+        "category": "fruit&vegetable",
+        "image": "https://www.jiomart.com/images/product/150x150/590002136/onion-5-kg-pack-product-images-o590002136-p590002136-0-202203141906.jpg",
+        "discount": "5",
+        "name": "Onion 5 kg (Pack)",
+        "price1": "145",
+        "price2": "185"
+      },
+      {
+        "id": "82",
+        "category": "fruit&vegetable",
+        "image": "https://www.jiomart.com/images/product/150x150/590003515/onion-1-kg-product-images-o590003515-p590003515-0-202203170724.jpg",
+        "discount": "",
+        "name": "Onion 1 kg",
+        "price1": "26",
+        "price2": "300"
+      },
+      {
+        "id": "83",
+        "category": "fruit&vegetable",
+        "image": "https://www.jiomart.com/images/product/150x150/590003516/potato-per-kg-product-images-o590003516-p590003516-0-202203170642.jpg",
+        "discount": "12",
+        "name": "Potato per kg",
+        "price1": "35",
+        "price2": "200"
+      },
+      {
+        "id": "84",
+        "category": "fruit&vegetable",
+        "image": "https://www.jiomart.com/images/product/150x150/590001266/sweet-corn-1-pc-approx-250-g-450-g-product-images-o590001266-p590001266-0-202203170359.jpg",
+        "discount": "18",
+        "name": "Sweet Corn 1 pc (Approx 250 g - 450 g)",
+        "price1": "16",
+        "price2": "170"
+      },
+      {
+        "id": "85",
+        "category": "fruit&vegetable",
+        "image": "https://www.jiomart.com/images/product/150x150/590003517/tomato-1-kg-product-images-o590003517-p590003517-0-202203170629.jpg",
+        "discount": "24",
+        "name": "Tomato 500 g",
+        "price1": "19.5",
+        "price2": "55"
+      },
+      {
+        "id": "86",
+        "category": "fruit&vegetable",
+        "image": "https://www.jiomart.com/images/product/150x150/590003531/ginger-indian-200-g-product-images-o590003531-p590003531-0-202203171030.jpg",
+        "discount": "22",
+        "name": "Ginger Indian 200 g",
+        "price1": "18",
+        "price2": "220"
+      },
+      {
+        "id": "87",
+        "category": "fruit&vegetable",
+        "image": "https://www.jiomart.com/images/product/150x150/590000086/coconut-1-pc-approx-350-g-600-g-product-images-o590000086-p590000086-0-202203170206.jpg",
+        "discount": "20",
+        "name": "Coconut 1 pc (Approx 350 g - 600 g)",
+        "price1": "30",
+        "price2": "69"
+      },
+      {
+        "id": "88",
+        "category": "fruit&vegetable",
+        "image": "https://www.jiomart.com/images/product/150x150/590000174/lauki-bottle-gourd-1-kg-product-images-o590000174-p590000174-0-202203170512.jpg",
+        "discount": "28",
+        "name": "Lauki (Bottle Gourd) 1 kg",
+        "price1": "79",
+        "price2": "130"
+      },
+      {
+        "id": "89",
+        "category": "fruit&vegetable",
+        "image": "https://www.jiomart.com/images/product/150x150/590003550/bhendi-okra-500-g-product-images-o590003550-p590003550-0-202203170339.jpg",
+        "discount": "10",
+        "name": "Bhendi (Okra) 250 g",
+        "price1": "27.5",
+        "price2": "270"
+      },
+      {
+        "id": "90",
+        "category": "fruit&vegetable",
+        "image": "https://www.jiomart.com/images/product/150x150/590003533/green-chilli-200-g-product-images-o590003533-p590003533-0-202203150435.jpg",
+        "discount": "20",
+        "name": "Green Chilli 200 g",
+        "price1": "40",
+        "price2": "300"
+      },
+      {
+        "id": "91",
+        "category": "fruit&vegetable",
+        "image": "https://www.jiomart.com/images/product/150x150/590000245/button-mushroom-200-g-product-images-o590000245-p590000245-0-202203151749.jpg",
+        "discount": "8",
+        "name": "Button Mushroom 200 g",
+        "price1": "32",
+        "price2": "230"
+      },
+      {
+        "id": "92",
+        "category": "fruit&vegetable",
+        "image": "https://www.jiomart.com/assets/global/jiomart-default-image-240x285.png",
+        "discount": "32",
+        "name": "Indian Garlic 200 g",
+        "price1": "20",
+        "price2": "190"
+      },
+      {
+        "id": "93",
+        "category": "fruit&vegetable",
+        "image": "https://www.jiomart.com/assets/global/jiomart-default-image-240x285.png",
+        "discount": "17",
+        "name": "Lemon 100 g",
+        "price1": "11",
+        "price2": "105"
+      },
+      {
+        "id": "94",
+        "category": "fruit&vegetable",
+        "image": "https://www.jiomart.com/assets/global/jiomart-default-image-240x285.png",
+        "discount": "27",
+        "name": "Orange Imported 1 kg",
+        "price1": "199",
+        "price2": "300"
+      },
+      {
+        "id": "95",
+        "category": "fruit&vegetable",
+        "image": "https://www.jiomart.com/assets/global/jiomart-default-image-240x285.png",
+        "discount": "32",
+        "name": "Musk Melon 1 pc (Approx. 600 g - 900 g)",
+        "price1": "39",
+        "price2": "110"
+      },
+      {
+        "id": "96",
+        "category": "fruit&vegetable",
+        "image": "https://www.jiomart.com/assets/global/jiomart-default-image-240x285.png",
+        "discount": "26",
+        "name": "Green Capsicum 500 g",
+        "price1": "44.5",
+        "price2": "120"
+      },
+      {
+        "id": "97",
+        "category": "fruit&vegetable",
+        "image": "https://www.jiomart.com/assets/global/jiomart-default-image-240x285.png",
+        "discount": "2",
+        "name": "Beetroot 500 g",
+        "price1": "27",
+        "price2": "450"
+      },
+      {
+        "id": "98",
+        "category": "fruit&vegetable",
+        "image": "https://www.jiomart.com/assets/global/jiomart-default-image-240x285.png",
+        "discount": "9",
+        "name": "Tender Coconut 3 pcs",
+        "price1": "144",
+        "price2": "580"
+      },
+      {
+        "id": "99",
+        "category": "fruit&vegetable",
+        "image": "https://www.jiomart.com/assets/global/jiomart-default-image-240x285.png",
+        "discount": "8",
+        "name": "Cucumber Madras 1 kg",
+        "price1": "39",
+        "price2": "230"
+      },
+      {
+        "id": "100",
+        "category": "premium",
+        "image": "https://www.jiomart.com/images/product/150x150/591429026/peach-sun-gold-premium-indian-500-g-0-20220518.jpg",
+        "discount": "11",
+        "name": "Peach Sun Gold Premium Indian Pack 500 g",
+        "price1": "149",
+        "price2": "255"
+      },
+      {
+        "id": "101",
+        "category": "premium",
+        "image": "https://www.jiomart.com/images/product/150x150/591238255/plum-premium-indian-pack-500-g-0-20220506.jpg",
+        "discount": "32",
+        "name": "Plum Premium Indian Pack 500 g",
+        "price1": "149",
+        "price2": "68"
+      },
+      {
+        "id": "102",
+        "category": "premium",
+        "image": "https://www.jiomart.com/images/product/150x150/591043451/fresh-dates-yellow-premium-indian-pack-500-g-0-20220216.jpg",
+        "discount": "9",
+        "name": "Fresh Dates Yellow Premium Indian Pack 500 g",
+        "price1": "139",
+        "price2": "35"
+      },
+      {
+        "id": "103",
+        "category": "premium",
+        "image": "https://www.jiomart.com/images/product/150x150/591980101/custard-apple-premium-indian-2-pc-approx-750-g-950-g-0-20220607.jpg",
+        "discount": "20",
+        "name": "Custard Apple Premium Indian 2 Pc (Approx 400 g - 600 g)",
+        "price1": "179",
+        "price2": "525"
+      },
+      {
+        "id": "104",
+        "category": "premium",
+        "image": "https://www.jiomart.com/images/product/150x150/590860309/pineapple-queen-jumbo-premium-indian-1-pc-approx-1-4-kg-1-8-kg-0-20211116.jpg",
+        "discount": "20",
+        "name": "Pineapple Queen Jumbo Premium Indian 1 Pc (Approx 1.2 kg - 1.5 kg)",
+        "price1": "149",
+        "price2": "52"
+      },
+      {
+        "id": "105",
+        "category": "premium",
+        "image": "https://www.jiomart.com/images/product/150x150/590860305/papaya-mini-premium-indian-1-pc-approx-400-g-600-g-0-20211112.jpg",
+        "discount": "20",
+        "name": "Papaya Mini Premium Indian 1 Pc (Approx 400 g - 600 g)",
+        "price1": "49",
+        "price2": "55"
+      },
+      {
+        "id": "106",
+        "category": "premium",
+        "image": "https://www.jiomart.com/images/product/150x150/590860310/dragonfruit-red-flesh-premium-indian-1-pc-approx-300-g-450-g-0-20211112.jpg",
+        "discount": "12",
+        "name": "Dragonfruit Red Flesh Premium Indian 1 Pc (Approx 300 g - 450 g)",
+        "price1": "199",
+        "price2": "220"
+      },
+      {
+        "id": "107",
+        "category": "premium",
+        "image": "https://www.jiomart.com/images/product/150x150/590860301/coconut-tender-pollachi-premium-indian-1-pc-approx-1-kg-1-5-kg-0-20211118.jpg",
+        "discount": "17",
+        "name": "Coconut Tender Pollachi Premium Indian 1 Pc (Approx 1 Kg - 1.5 Kg)",
+        "price1": "59",
+        "price2": "69"
+      },
+      {
+        "id": "108",
+        "category": "premium",
+        "image": "https://www.jiomart.com/images/product/150x150/590860359/dragonfruit-white-flesh-premium-indian-1-pc-approx-300-g-450-g-0-20211210.jpg",
+        "discount": "33",
+        "name": "Dragonfruit White Flesh Premium Indian 1 Pc (Approx 300 g - 400 g)",
+        "price1": "119",
+        "price2": "130"
+      },
+      {
+        "id": "109",
+        "category": "premium",
+        "image": "https://www.jiomart.com/images/product/150x150/591238247/mango-langda-premium-indian-4-pc-approx-0-90-kg-1-20-kg-0-20220506.jpg",
+        "discount": "41",
+        "name": "Mango Langda Premium Indian 3 Pc (Approx 0.90 kg - 1.20 kg)",
+        "price1": "199",
+        "price2": "270"
+      },
+      {
+        "id": "110",
+        "category": "premium",
+        "image": "https://www.jiomart.com/images/product/150x150/590860295/coconut-madras-jumbo-premium-indian-1-pc-approx-700-g-900-g-0-20211116.jpg",
+        "discount": "22",
+        "name": "Coconut Madras Jumbo Premium Indian 1 Pc (Approx 700 g - 900 g)",
+        "price1": "69",
+        "price2": "300"
+      },
+      {
+        "id": "111",
+        "category": "premium",
+        "image": "https://www.jiomart.com/images/product/150x150/590920972/custard-apple-premium-indian-1-pc-approx-375-g-475-g-0-20211130.jpg",
+        "discount": "26",
+        "name": "Custard Apple Premium Indian 1 Pc (Approx 200 g - 300 g)",
+        "price1": "99",
+        "price2": "230"
+      },
+      {
+        "id": "112",
+        "category": "premium",
+        "image": "https://www.jiomart.com/images/product/150x150/590860325/banana-yellaki-premium-indian-6-pc-approx-350-g-430-g-0-20211118.jpg",
+        "discount": "8",
+        "name": "Banana Yellaki Premium Indian 6 Pc (Approx 340 g - 380 g)",
+        "price1": "179",
+        "price2": "190"
+      },
+      {
+        "id": "113",
+        "category": "premium",
+        "image": "https://www.jiomart.com/images/product/150x150/590860290/banana-red-premium-indian-3-pc-approx-405-g-495-g-0-20211116.jpg",
+        "discount": "28",
+        "name": "Banana Red Premium Indian 3 Pc (Approx 405 g - 495 g)",
+        "price1": "99",
+        "price2": "105"
+      },
+      {
+        "id": "114",
+        "category": "premium",
+        "image": "https://www.jiomart.com/images/product/150x150/590860298/avocado-premium-indian-1-pc-approx-350-g-425-g-0-20211112.jpg",
+        "discount": "25",
+        "name": "Avocado Premium Indian 1 Pc (Approx 300 g - 400 g)",
+        "price1": "249",
+        "price2": "300"
+      },
+      {
+        "id": "115",
+        "category": "premium",
+        "image": "https://www.jiomart.com/images/product/150x150/590860289/banana-nendran-premium-indian-2-pc-approx-350-g-400-g-0-20211117.jpg",
+        "discount": "19",
+        "name": "Banana Nendran Premium Indian 2 Pc (Approx 350 g - 400 g)",
+        "price1": "89",
+        "price2": "110"
+      },
+      {
+        "id": "116",
+        "category": "premium",
+        "image": "https://www.jiomart.com/assets/global/jiomart-default-image-240x285.png",
+        "discount": "17",
+        "name": "Papaya Red Lady Premium Indian 1 Pc (Approx 1.00 Kg - 1.50 Kg)",
+        "price1": "89",
+        "price2": "120"
+      },
+      {
+        "id": "117",
+        "category": "premium",
+        "image": "https://www.jiomart.com/assets/global/jiomart-default-image-240x285.png",
+        "discount": "32",
+        "name": "Mangosteen Premium Indian 6 Pc (Approx 490 g - 570 g)",
+        "price1": "399",
+        "price2": "450"
+      },
+      {
+        "id": "118",
+        "category": "premium",
+        "image": "https://www.jiomart.com/assets/global/jiomart-default-image-240x285.png",
+        "discount": "4",
+        "name": "Pomelo Pink Premium Indian 1 Pc (Approx 1.2 kg - 1.75 kg)",
+        "price1": "549",
+        "price2": "580"
+      },
+      {
+        "id": "119",
+        "category": "premium",
+        "image": "https://www.jiomart.com/assets/global/jiomart-default-image-240x285.png",
+        "discount": "16",
+        "name": "Pear Babugosha Premium Indian 4 Pc (Approx 0.90 kg - 1.10 kg)",
+        "price1": "189",
+        "price2": "230"
+      },
+      {
+        "id": "120",
+        "category": "dairy",
+        "image": "https://www.jiomart.com/images/product/150x150/490001392/amul-butter-500-g-carton-product-images-o490001392-p490001392-0-202203152128.jpg",
+        "discount": "16",
+        "name": "Amul Butter 500 g (Carton)",
+        "price1": "245",
+        "price2": "255"
+      },
+      {
+        "id": "121",
+        "category": "dairy",
+        "image": "https://www.jiomart.com/images/product/150x150/490010311/amul-taaza-homogenised-toned-milk-1-l-tetra-pak-product-images-o490010311-p490010311-0-202203152257.jpg",
+        "discount": "16",
+        "name": "Amul Taaza Homogenised Toned Milk 1 L (Tetra Pak)",
+        "price1": "65",
+        "price2": "68"
+      },
+      {
+        "id": "122",
+        "category": "dairy",
+        "image": "https://www.jiomart.com/images/product/150x150/490007738/britannia-toastea-premium-bake-rusk-182-g-product-images-o490007738-p490007738-0-202203170920.jpg",
+        "discount": "11",
+        "name": "Britannia Toastea Premium Bake Rusk 182 g",
+        "price1": "29",
+        "price2": "35"
+      },
+      {
+        "id": "123",
+        "category": "dairy",
+        "image": "https://www.jiomart.com/images/product/150x150/490010164/amul-pure-ghee-1-l-pouch-product-images-o490010164-p490010164-0-202203151915.jpg",
+        "discount": "10",
+        "name": "Amul Pure Ghee 1 L (Pouch)",
+        "price1": "509",
+        "price2": "525"
+      },
+      {
+        "id": "124",
+        "category": "dairy",
+        "image": "https://www.jiomart.com/images/product/150x150/490001387/amul-butter-100-g-carton-product-images-o490001387-p490001387-0-202203170403.jpg",
+        "discount": "5",
+        "name": "Amul Butter 100 g (Carton)",
+        "price1": "50",
+        "price2": "52"
+      },
+      {
+        "id": "125",
+        "category": "dairy",
+        "image": "https://www.jiomart.com/images/product/150x150/491419181/parle-elaichi-rusk-400-g-product-images-o491419181-p491419181-0-202203150801.jpg",
+        "discount": "",
+        "name": "Parle Elaichi Rusk 400 g",
+        "price1": "51",
+        "price2": "68"
+      },
+      {
+        "id": "126",
+        "category": "dairy",
+        "image": "https://www.jiomart.com/images/product/150x150/490107526/heritage-cow-ghee-1-l-pouch-product-images-o490107526-p590731645-0-202203170205.jpg",
+        "discount": "8",
+        "name": "Heritage Cow Ghee 1 L (Pouch)",
+        "price1": "479",
+        "price2": "630"
+      },
+      {
+        "id": "127",
+        "category": "dairy",
+        "image": "https://www.jiomart.com/images/product/150x150/490800934/go-plain-cheese-slices-476-g-pouch-product-images-o490800934-p490800934-0-202203142126.jpg",
+        "discount": "17",
+        "name": "Go Plain Cheese Slices 476 g (Pouch)",
+        "price1": "205",
+        "price2": "410"
+      },
+      {
+        "id": "128",
+        "category": "dairy",
+        "image": "https://www.jiomart.com/images/product/150x150/490001401/amul-cheese-block-200-g-carton-product-images-o490001401-p490001401-0-202204261856.jpg",
+        "discount": "27",
+        "name": "Amul Cheese Block 200 g (Carton)",
+        "price1": "108",
+        "price2": "114"
+      },
+      {
+        "id": "129",
+        "category": "dairy",
+        "image": "https://www.jiomart.com/images/product/150x150/490174895/amul-fresh-paneer-200-g-pack-product-images-o490174895-p490174895-0-202203170432.jpg",
+        "discount": "18",
+        "name": "Amul Fresh Paneer 200 g (Pack)",
+        "price1": "75",
+        "price2": "80"
+      },
+      {
+        "id": "130",
+        "category": "dairy",
+        "image": "https://www.jiomart.com/images/product/150x150/490007739/britannia-toastea-premium-bake-rusk-273-g-product-images-o490007739-p490007739-0-202203171008.jpg",
+        "discount": "8",
+        "name": "Britannia Toastea Premium Bake Rusk 273 g",
+        "price1": "42",
+        "price2": "50"
+      },
+      {
+        "id": "131",
+        "category": "dairy",
+        "image": "https://www.jiomart.com/images/product/150x150/491160212/britannia-toastea-premium-bake-rusk-400-g-product-images-o491160212-p491160212-0-202203170342.jpg",
+        "discount": "12",
+        "name": "Britannia Toastea Premium Bake Rusk 400 g",
+        "price1": "51",
+        "price2": "68"
+      },
+      {
+        "id": "132",
+        "category": "dairy",
+        "image": "https://www.jiomart.com/assets/global/jiomart-default-image-240x285.png",
+        "discount": "25",
+        "name": "Amul Pasteurised Butter 200 g (Tub)",
+        "price1": "100",
+        "price2": "106"
+      },
+      {
+        "id": "133",
+        "category": "dairy",
+        "image": "https://www.jiomart.com/assets/global/jiomart-default-image-240x285.png",
+        "discount": "17",
+        "name": "Parle Premium Elaichi Rusk 1 Kg",
+        "price1": "107",
+        "price2": "160"
+      },
+      {
+        "id": "134",
+        "category": "dairy",
+        "image": "https://www.jiomart.com/assets/global/jiomart-default-image-240x285.png",
+        "discount": "8",
+        "name": "Gowardhan Pure Cow Ghee 1 L (Pouch)",
+        "price1": "566",
+        "price2": "609"
+      },
+      {
+        "id": "135",
+        "category": "dairy",
+        "image": "https://www.jiomart.com/assets/global/jiomart-default-image-240x285.png",
+        "discount": "12",
+        "name": "Nandini GoodLife Toned Milk 1 L (Tetra Pak)",
+        "price1": "60",
+        "price2": "65"
+      },
+      {
+        "id": "136",
+        "category": "dairy",
+        "image": "https://www.jiomart.com/assets/global/jiomart-default-image-240x285.png",
+        "discount": "17",
+        "name": "Amul Cow Ghee 1 L (Tin)",
+        "price1": "538",
+        "price2": "555"
+      },
+      {
+        "id": "137",
+        "category": "dairy",
+        "image": "https://www.jiomart.com/assets/global/jiomart-default-image-240x285.png",
+        "discount": "16",
+        "name": "Amul Pure Ghee 500 ml (Pouch)",
+        "price1": "255",
+        "price2": "265"
+      },
+      {
+        "id": "138",
+        "category": "dairy",
+        "image": "https://www.jiomart.com/assets/global/jiomart-default-image-240x285.png",
+        "discount": "18",
+        "name": "Amul Cheese Chiplets 200 g (Carton)",
+        "price1": "115",
+        "price2": "122"
+      },
+      {
+        "id": "139",
+        "category": "dairy",
+        "image": "https://www.jiomart.com/assets/global/jiomart-default-image-240x285.png",
+        "discount": "9",
+        "name": "Amul Masti Dahi 1 kg (Pouch)",
+        "price1": "72",
+        "price2": "74"
+      },
+      {
+        "id": "140",
+        "category": "staples",
+        "image": "https://www.jiomart.com/images/product/150x150/491551493/good-life-sugar-m-1-kg-product-images-o491551493-p491551493-0-202204281542.jpg",
+        "discount": "47",
+        "name": "Good Life Sugar (M) 1 kg",
+        "price1": "46",
+        "price2": "55"
+      },
+      {
+        "id": "141",
+        "category": "staples",
+        "image": "https://www.jiomart.com/images/product/150x150/592200116/saffola-gold-refined-rice-bran-and-sunflower-based-blended-oil-3-l-daawat-devaaya-basmati-rice-5-kg-combo-pack-0-20220624.jpg",
+        "discount": "46",
+        "name": "Saffola Gold Refined Rice Bran And Sunflower Based Blended Oil 3 L + Daawat Devaaya Basmati Rice 5 kg (Combo Pack)",
+        "price1": "915",
+        "price2": "130"
+      },
+      {
+        "id": "142",
+        "category": "staples",
+        "image": "https://www.jiomart.com/images/product/150x150/490005639/daawat-devaaya-basmati-rice-1-kg-product-images-o490005639-p490005639-0-202205172326.jpg",
+        "discount": "14",
+        "name": "Daawat Devaaya Basmati Rice 1 kg",
+        "price1": "92",
+        "price2": "125"
+      },
+      {
+        "id": "143",
+        "category": "staples",
+        "image": "https://www.jiomart.com/images/product/150x150/490863714/daawat-rozana-super-basmati-rice-1-kg-product-images-o490863714-p490863714-0-202203171018.jpg",
+        "discount": "",
+        "name": "Daawat Rozana Super Basmati Rice 1 kg",
+        "price1": "70",
+        "price2": "98"
+      },
+      {
+        "id": "144",
+        "category": "staples",
+        "image": "https://www.jiomart.com/images/product/150x150/491173885/elina-long-grain-rice-1-kg-product-images-o491173885-p491173885-0-202203151443.jpg",
+        "discount": "5",
+        "name": "Elina Long Grain Rice 1 kg",
+        "price1": "50",
+        "price2": "160"
+      },
+      {
+        "id": "145",
+        "category": "staples",
+        "image": "https://www.jiomart.com/images/product/150x150/490863678/daawat-pulav-basmati-rice-1-kg-product-images-o490863678-p490863678-0-202205172225.jpg",
+        "discount": "5",
+        "name": "Daawat Pulav Basmati Rice 1 kg",
+        "price1": "111",
+        "price2": "135"
+      },
+      {
+        "id": "146",
+        "category": "staples",
+        "image": "https://www.jiomart.com/images/product/150x150/490000003/daawat-super-basmati-rice-1-kg-product-images-o490000003-p490000003-0-202203151745.jpg",
+        "discount": "19",
+        "name": "Daawat Super Basmati Rice 1 kg",
+        "price1": "120",
+        "price2": "190"
+      },
+      {
+        "id": "147",
+        "category": "staples",
+        "image": "https://www.jiomart.com/images/product/150x150/490863667/daawat-biryani-basmati-rice-1-kg-product-images-o490863667-p490863667-0-202205191716.jpg",
+        "discount": "4",
+        "name": "Daawat Biryani Basmati Rice 1 kg",
+        "price1": "179",
+        "price2": "220"
+      },
+      {
+        "id": "148",
+        "category": "staples",
+        "image": "https://www.jiomart.com/images/product/150x150/490419418/daawat-brown-basmati-rice-1-kg-product-images-o490419418-p490419418-0-202203150830.jpg",
+        "discount": "12",
+        "name": "Daawat Brown Basmati Rice 1 kg",
+        "price1": "145",
+        "price2": "175"
+      },
+      {
+        "id": "149",
+        "category": "staples",
+        "image": "https://www.jiomart.com/images/product/150x150/492059077/daawat-devaaya-biryani-basmati-rice-1-kg-product-images-o492059077-p590319450-0-202203170319.jpg",
+        "discount": "",
+        "name": "Daawat Devaaya Biryani Basmati Rice 1 kg",
+        "price1": "105",
+        "price2": "215"
+      },
+      {
+        "id": "150",
+        "category": "staples",
+        "image": "https://www.jiomart.com/images/product/150x150/490005638/daawat-rozana-gold-basmati-rice-5-kg-product-images-o490005638-p490005638-0-202203171005.jpg",
+        "discount": "15",
+        "name": "Daawat Rozana Gold Basmati Rice 5 kg",
+        "price1": "399",
+        "price2": "560"
+      },
+      {
+        "id": "151",
+        "category": "staples",
+        "image": "https://www.jiomart.com/images/product/150x150/491091893/daawat-dubar-basmati-rice-1-kg-product-images-o491091893-p491091893-0-202205191716.jpg",
+        "discount": "53",
+        "name": "Daawat Dubar Basmati Rice 1 kg",
+        "price1": "99",
+        "price2": "135"
+      },
+      {
+        "id": "152",
+        "category": "staples",
+        "image": "https://www.jiomart.com/assets/global/jiomart-default-image-240x285.png",
+        "discount": "9",
+        "name": "Daawat Traditional Basmati Rice 1 kg",
+        "price1": "185",
+        "price2": "210"
+      },
+      {
+        "id": "153",
+        "category": "staples",
+        "image": "https://www.jiomart.com/assets/global/jiomart-default-image-240x285.png",
+        "discount": "9",
+        "name": "Daawat Rozana Super Basmati Rice 5 kg",
+        "price1": "349",
+        "price2": "486"
+      },
+      {
+        "id": "154",
+        "category": "staples",
+        "image": "https://www.jiomart.com/assets/global/jiomart-default-image-240x285.png",
+        "discount": "34",
+        "name": "Daawat Sehat Mogra 70 Basmati Rice 10 kg",
+        "price1": "649",
+        "price2": "790"
+      },
+      {
+        "id": "155",
+        "category": "staples",
+        "image": "https://www.jiomart.com/assets/global/jiomart-default-image-240x285.png",
+        "discount": "41",
+        "name": "Daawat Sehat Mini Mogra 60 Basmati Rice 10 kg",
+        "price1": "529",
+        "price2": "615"
+      },
+      {
+        "id": "156",
+        "category": "staples",
+        "image": "https://www.jiomart.com/assets/global/jiomart-default-image-240x285.png",
+        "discount": "38",
+        "name": "Daawat Sehat Mini Mogra II Basmati Rice 10 kg",
+        "price1": "339",
+        "price2": "430"
+      },
+      {
+        "id": "157",
+        "category": "staples",
+        "image": "https://www.jiomart.com/assets/global/jiomart-default-image-240x285.png",
+        "discount": "30",
+        "name": "Daawat Lucknowi Biryani Kit 334 g",
+        "price1": "99",
+        "price2": "149"
+      },
+      {
+        "id": "158",
+        "category": "staples",
+        "image": "https://www.jiomart.com/assets/global/jiomart-default-image-240x285.png",
+        "discount": "33",
+        "name": "Daawat Kolkata Biryani Kit 334 g",
+        "price1": "99",
+        "price2": "149"
+      },
+      {
+        "id": "159",
+        "category": "staples",
+        "image": "https://www.jiomart.com/assets/global/jiomart-default-image-240x285.png",
+        "discount": "26",
+        "name": "Daawat Hyderabadi Biryani Kit 334 g",
+        "price1": "99",
+        "price2": "149"
+      },
+      {
+        "id": "160",
+        "category": "snacks",
+        "image": "https://www.jiomart.com/images/product/150x150/490762566/sunfeast-dark-fantasy-choco-fills-cookies-75-g-product-images-o490762566-p490762566-0-202206071739.jpg",
+        "discount": "5",
+        "name": "Sunfeast Dark Fantasy Choco Fills Cookies 75 g",
+        "price1": "30",
+        "price2": "40"
+      },
+      {
+        "id": "161",
+        "category": "snacks",
+        "image": "https://www.jiomart.com/images/product/150x150/490544386/ching-s-secret-schezwan-instant-noodles-240-g-product-images-o490544386-p490544386-0-202203150440.jpg",
+        "discount": "",
+        "name": "Ching's Secret Schezwan Instant Noodles 240 g",
+        "price1": "37",
+        "price2": "60"
+      },
+      {
+        "id": "162",
+        "category": "snacks",
+        "image": "https://www.jiomart.com/images/product/150x150/490544387/ching-s-secret-manchurian-instant-noodles-240-g-product-images-o490544387-p490544387-0-202203151136.jpg",
+        "discount": "12",
+        "name": "Ching's Secret Manchurian Instant Noodles 240 g",
+        "price1": "37",
+        "price2": "60"
+      },
+      {
+        "id": "163",
+        "category": "snacks",
+        "image": "https://www.jiomart.com/images/product/150x150/490003834/maggi-2-minute-masala-instant-noodles-560-g-product-images-o490003834-p490003834-0-202203150702.jpg",
+        "discount": "18",
+        "name": "Maggi 2-Minute Masala Instant Noodles 560 g",
+        "price1": "90",
+        "price2": "105"
+      },
+      {
+        "id": "164",
+        "category": "snacks",
+        "image": "https://www.jiomart.com/images/product/150x150/491373488/britannia-nutrichoice-hi-fibre-digestive-biscuits-1-kg-product-images-o491373488-p491373488-0-202203151522.jpg",
+        "discount": "24",
+        "name": "Britannia NutriChoice Hi-Fibre Digestive Biscuits 1 kg",
+        "price1": "162",
+        "price2": "220"
+      },
+      {
+        "id": "165",
+        "category": "snacks",
+        "image": "https://www.jiomart.com/images/product/150x150/492391349/kissan-fresh-tomato-ketchup-1-2-kg-product-images-o492391349-p590809928-0-202203150627.jpg",
+        "discount": "22",
+        "name": "Kissan Fresh Tomato Ketchup 1.2 kg",
+        "price1": "106",
+        "price2": "160"
+      },
+      {
+        "id": "166",
+        "category": "snacks",
+        "image": "https://www.jiomart.com/images/product/150x150/491335633/parle-g-gold-biscuits-1-kg-product-images-o491335633-p491335633-0-202203150704.jpg",
+        "discount": "20",
+        "name": "Parle-G Gold Biscuits 1 kg",
+        "price1": "112",
+        "price2": "140"
+      },
+      {
+        "id": "167",
+        "category": "snacks",
+        "image": "https://www.jiomart.com/images/product/150x150/491319789/sunfeast-dark-fantasy-original-choco-filled-biscuits-300-g-product-images-o491319789-p491319789-0-202205301919.jpg",
+        "discount": "28",
+        "name": "Sunfeast Dark Fantasy Original Choco Filled Biscuits 300 g",
+        "price1": "99",
+        "price2": "170"
+      },
+      {
+        "id": "168",
+        "category": "snacks",
+        "image": "https://www.jiomart.com/images/product/150x150/491890614/parle-20-20-gold-cashew-almond-cookies-600-g-product-images-o491890614-p590032849-0-202203151534.jpg",
+        "discount": "10",
+        "name": "Parle 20-20 Gold Cashew Almond Cookies 600 g",
+        "price1": "70",
+        "price2": "140"
+      },
+      {
+        "id": "169",
+        "category": "snacks",
+        "image": "https://www.jiomart.com/images/product/150x150/490876695/britannia-treat-jim-jam-cream-biscuits-150-g-product-images-o490876695-p490876695-0-202203151434.jpg",
+        "discount": "20",
+        "name": "Britannia Treat Jim Jam Cream Biscuits 150 g",
+        "price1": "23",
+        "price2": "35"
+      },
+      {
+        "id": "170",
+        "category": "snacks",
+        "image": "https://www.jiomart.com/images/product/150x150/491390714/britannia-good-day-choco-chip-cookies-400-g-product-images-o491390714-p590032794-0-202205172329.jpg",
+        "discount": "8",
+        "name": "Britannia Good Day Chocochip Cookies 400 g",
+        "price1": "80",
+        "price2": "140"
+      },
+      {
+        "id": "171",
+        "category": "snacks",
+        "image": "https://www.jiomart.com/images/product/150x150/490008739/parle-g-original-glucose-biscuits-800-g-product-images-o490008739-p490008739-0-202203170454.jpg",
+        "discount": "32",
+        "name": "Parle-G Original Glucose Biscuits 800 g",
+        "price1": "76",
+        "price2": "85"
+      },
+      {
+        "id": "172",
+        "category": "snacks",
+        "image": "https://www.jiomart.com/images/product/150x150/490005349/britannia-bourbon-the-original-cream-biscuits-150-g-product-images-o490005349-p490005349-0-202203150315.jpg",
+        "discount": "17",
+        "name": "Britannia Bourbon The Original Cream Biscuits 150 g",
+        "price1": "29",
+        "price2": "40"
+      },
+      {
+        "id": "173",
+        "category": "snacks",
+        "image": "https://www.jiomart.com/images/product/150x150/491984416/parle-happy-happy-choco-chip-cookies-400-g-product-images-o491984416-p590309510-0-202203141950.jpg",
+        "discount": "27",
+        "name": "Parle Happy Happy Choco-Chip Cookies 400 g",
+        "price1": "75",
+        "price2": "150"
+      },
+      {
+        "id": "174",
+        "category": "snacks",
+        "image": "https://www.jiomart.com/images/product/150x150/490000363/maggi-2-minute-masala-instant-noodles-70-g-product-images-o490000363-p490000363-0-202203150701.jpg",
+        "discount": "32",
+        "name": "Maggi 2-Minute Masala Instant Noodles 70 g",
+        "price1": "13",
+        "price2": "14"
+      },
+      {
+        "id": "175",
+        "category": "snacks",
+        "image": "https://www.jiomart.com/images/product/150x150/491337398/sunfeast-yippee-magic-masala-instant-noodles-405-g-product-images-o491337398-p491337398-0-202207141631.jpg",
+        "discount": "26",
+        "name": "Sunfeast Yippee Magic Masala Instant Noodles 405 g",
+        "price1": "58",
+        "price2": "78"
+      },
+      {
+        "id": "176",
+        "category": "snacks",
+        "image": "https://www.jiomart.com/assets/global/jiomart-default-image-240x285.png",
+        "discount": "2",
+        "name": "Parle Hide & Seek Chocolate Chip Cookies 100 g",
+        "price1": "27",
+        "price2": "30"
+      },
+      {
+        "id": "177",
+        "category": "snacks",
+        "image": "https://www.jiomart.com/assets/global/jiomart-default-image-240x285.png",
+        "discount": "9",
+        "name": "Britannia Tiger Krunch Chocochips Biscuits Combo Pack 400 g",
+        "price1": "70",
+        "price2": "140"
+      },
+      {
+        "id": "178",
+        "category": "snacks",
+        "image": "https://www.jiomart.com/assets/global/jiomart-default-image-240x285.png",
+        "discount": "8",
+        "name": "Cadbury Oreo Original Vanilla Cream Biscuits 46.3 g",
+        "price1": "10",
+        "price2": "180"
+      },
+      {
+        "id": "179",
+        "category": "snacks",
+        "image": "https://www.jiomart.com/assets/global/jiomart-default-image-240x285.png",
+        "discount": "11",
+        "name": "Parle Platina Nutricrunch Digestive Cookies 1 kg",
+        "price1": "125",
+        "price2": "250"
+      },
+      {
+        "id": "180",
+        "category": "bevarages",
+        "image": "https://www.jiomart.com/images/product/150x150/490001795/maaza-mango-drink-1-2-l-bottle-product-images-o490001795-p490001795-0-202203171010.jpg",
+        "discount": "32",
+        "name": "Maaza Mango Drink 1.2 L",
+        "price1": "52",
+        "price2": "70"
+      },
+      {
+        "id": "181",
+        "category": "bevarages",
+        "image": "https://www.jiomart.com/images/product/150x150/490001797/maaza-mango-drink-600-ml-product-images-o490001797-p490001797-0-202203151523.jpg",
+        "discount": "9",
+        "name": "Maaza Mango Drink 600 ml",
+        "price1": "30",
+        "price2": "38"
+      },
+      {
+        "id": "182",
+        "category": "bevarages",
+        "image": "https://www.jiomart.com/images/product/150x150/491086175/tropicano-slice-mango-drink-1-75-l-product-images-o491086175-p491086175-0-202205232022.jpg",
+        "discount": "20",
+        "name": "Tropicano Slice Mango Drink 1.75 L",
+        "price1": "63",
+        "price2": "95"
+      },
+      {
+        "id": "183",
+        "category": "bevarages",
+        "image": "https://www.jiomart.com/images/product/150x150/490001992/red-label-leaf-tea-1-kg-product-images-o490001992-p490001992-0-202203152304.jpg",
+        "discount": "20",
+        "name": "Red Label Leaf Tea 1 kg",
+        "price1": "419",
+        "price2": "570"
+      },
+      {
+        "id": "184",
+        "category": "bevarages",
+        "image": "https://www.jiomart.com/images/product/150x150/490249971/b-natural-mixed-fruit-juice-1-l-product-images-o490249971-p490249971-0-202203150027.jpg",
+        "discount": "20",
+        "name": "B Natural Mixed Fruit Juice 1 L",
+        "price1": "60",
+        "price2": "120"
+      },
+      {
+        "id": "185",
+        "category": "bevarages",
+        "image": "https://www.jiomart.com/images/product/150x150/490005200/7up-2-5-l-product-images-o490005200-p490005200-0-202206101526.jpg",
+        "discount": "12",
+        "name": "7Up 2.5 L",
+        "price1": "70",
+        "price2": "95"
+      },
+      {
+        "id": "186",
+        "category": "bevarages",
+        "image": "https://www.jiomart.com/images/product/150x150/490004177/mirinda-orange-2-25-l-product-images-o490004177-p490004177-0-202203151914.jpg",
+        "discount": "17",
+        "name": "Mirinda Orange 2.25 L",
+        "price1": "66",
+        "price2": "95"
+      },
+      {
+        "id": "187",
+        "category": "bevarages",
+        "image": "https://www.jiomart.com/images/product/150x150/490057054/hamdard-roohafza-sharbat-syrup-750-ml-product-images-o490057054-p490057054-0-202203151750.jpg",
+        "discount": "33",
+        "name": "Hamdard Roohafza Sharbat Syrup 750 ml",
+        "price1": "120",
+        "price2": "160"
+      },
+      {
+        "id": "188",
+        "category": "bevarages",
+        "image": "https://www.jiomart.com/images/product/150x150/490001800/sprite-600-ml-product-images-o490001800-p490001800-0-202203170616.jpg",
+        "discount": "41",
+        "name": "Sprite 600 ml",
+        "price1": "32",
+        "price2": "38"
+      },
+      {
+        "id": "189",
+        "category": "bevarages",
+        "image": "https://www.jiomart.com/images/product/150x150/490004176/pepsi-2-l-product-images-o490004176-p490004176-0-202203170742.jpg",
+        "discount": "22",
+        "name": "Pepsi 2 L",
+        "price1": "64",
+        "price2": "95"
+      },
+      {
+        "id": "190",
+        "category": "bevarages",
+        "image": "https://www.jiomart.com/images/product/150x150/490001978/b-natural-litchi-juice-1-l-product-images-o490001978-p490001978-0-202203170223.jpg",
+        "discount": "26",
+        "name": "B Natural Litchi Juice 1 L",
+        "price1": "72",
+        "price2": "120"
+      },
+      {
+        "id": "191",
+        "category": "bevarages",
+        "image": "https://www.jiomart.com/images/product/150x150/490004178/tata-agni-tea-1-kg-product-images-o490004178-p490004178-0-202203170913.jpg",
+        "discount": "8",
+        "name": "Tata Agni Tea 1 kg",
+        "price1": "205",
+        "price2": "240"
+      },
+      {
+        "id": "192",
+        "category": "bevarages",
+        "image": "https://www.jiomart.com/images/product/150x150/490521803/yeah-mango-drink-1-l-product-images-o490521803-p490521803-0-202203170328.jpg",
+        "discount": "28",
+        "name": "Yeah Mango Drink 1 L",
+        "price1": "40",
+        "price2": "80"
+      },
+      {
+        "id": "193",
+        "category": "bevarages",
+        "image": "https://www.jiomart.com/images/product/150x150/490249967/b-natural-guava-gush-juice-1-l-product-images-o490249967-p490249967-0-202203151704.jpg",
+        "discount": "25",
+        "name": "B Natural Guava Gush Juice 1 L",
+        "price1": "60",
+        "price2": "120"
+      },
+      {
+        "id": "194",
+        "category": "bevarages",
+        "image": "https://www.jiomart.com/images/product/150x150/490249972/b-natural-apple-juice-1-l-product-images-o490249972-p490249972-0-202204262008.jpg",
+        "discount": "19",
+        "name": "B Natural Apple Juice 1 L",
+        "price1": "72",
+        "price2": "120"
+      },
+      {
+        "id": "195",
+        "category": "bevarages",
+        "image": "https://www.jiomart.com/images/product/150x150/491187481/bournvita-750-g-product-images-o491187481-p491187481-0-202203150515.jpg",
+        "discount": "17",
+        "name": "Bournvita 750 g",
+        "price1": "260",
+        "price2": "310"
+      },
+      {
+        "id": "196",
+        "category": "bevarages",
+        "image": "https://www.jiomart.com/images/product/150x150/490001325/taj-mahal-tea-500-g-carton-product-images-o490001325-p490001325-0-202203170559.jpg",
+        "discount": "32",
+        "name": "Taj Mahal Tea 500 g (Carton)",
+        "price1": "330",
+        "price2": "410"
+      },
+      {
+        "id": "197",
+        "category": "bevarages",
+        "image": "https://www.jiomart.com/images/product/150x150/490967439/red-label-natural-care-tea-500-g-product-images-o490967439-p490967439-0-202206022215.jpg",
+        "discount": "4",
+        "name": "Red Label Natural Care Tea 500 g",
+        "price1": "253",
+        "price2": "330"
+      },
+      {
+        "id": "198",
+        "category": "bevarages",
+        "image": "https://www.jiomart.com/images/product/150x150/490001816/taj-mahal-tea-1-kg-product-images-o490001816-p490001816-0-202206061632.jpg",
+        "discount": "16",
+        "name": "Taj Mahal Tea 1 kg",
+        "price1": "720",
+        "price2": "800"
+      },
+      {
+        "id": "199",
+        "category": "bevarages",
+        "image": "https://www.jiomart.com/images/product/150x150/491208776/mirinda-orange-750-ml-product-images-o491208776-p491208776-0-202203150750.jpg",
+        "discount": "16",
+        "name": "Mirinda Orange 750 ml",
+        "price1": "34",
+        "price2": "40"
+      },
+      {
+        "id": "200",
+        "category": "personal",
+        "image": "https://www.jiomart.com/images/product/150x150/491935080/colgate-pro-clinical-150-battery-powered-white-toothbrush-product-images-o491935080-p590110812-0-202203170224.jpg",
+        "discount": "16",
+        "name": "Colgate Pro-Clinical 150 Battery Powered White Toothbrush",
+        "price1": "1115",
+        "price2": "1199"
+      },
+      {
+        "id": "201",
+        "category": "personal",
+        "image": "https://www.jiomart.com/images/product/150x150/491935081/colgate-pro-clinical-150-charcoal-battery-powered-toothbrush-product-images-o491935081-p590110814-0-202203150516.jpg",
+        "discount": "11",
+        "name": "Colgate Pro-Clinical 150 Charcoal Battery Powered Toothbrush",
+        "price1": "749",
+        "price2": "999"
+      },
+      {
+        "id": "202",
+        "category": "personal",
+        "image": "https://www.jiomart.com/images/product/150x150/492848198/colgate-proclinical-250r-deep-clean-rechargeable-toothbrush-product-images-o492848198-p591432221-0-202205232017.jpg",
+        "discount": "10",
+        "name": "Colgate ProClinical 250R Deep Clean Rechargeable Toothbrush",
+        "price1": "1899",
+        "price2": "2499"
+      },
+      {
+        "id": "203",
+        "category": "personal",
+        "image": "https://www.jiomart.com/images/product/150x150/492848199/colgate-proclinical-250r-charcoal-rechargeable-toothbrush-product-images-o492848199-p591432222-0-202205232017.jpg",
+        "discount": "5",
+        "name": "Colgate ProClinical 250R Charcoal Rechargeable Toothbrush",
+        "price1": "1899",
+        "price2": "2499"
+      },
+      {
+        "id": "204",
+        "category": "personal",
+        "image": "https://www.jiomart.com/images/product/150x150/492848200/colgate-proclinical-250r-whitening-rechargeable-toothbrush-product-images-o492848200-p591432223-0-202205232017.jpg",
+        "discount": "",
+        "name": "Colgate ProClinical 250R Whitening Rechargeable Toothbrush",
+        "price1": "1899",
+        "price2": "2499"
+      },
+      {
+        "id": "205",
+        "category": "personal",
+        "image": "https://www.jiomart.com/images/product/150x150/491935078/colgate-assorted-barbie-extra-soft-electric-toothbrush-product-images-o491935078-p590126661-0-202203150522.jpg",
+        "discount": "8",
+        "name": "Colgate Assorted Barbie (Extra Soft) Electric Toothbrush",
+        "price1": "557",
+        "price2": "599"
+      },
+      {
+        "id": "206",
+        "category": "personal",
+        "image": "https://www.jiomart.com/images/product/150x150/491935079/colgate-batman-extra-soft-electric-toothbrush-product-images-o491935079-p590126662-0-202203171132.jpg",
+        "discount": "17",
+        "name": "Colgate Batman (Extra Soft) Electric Toothbrush",
+        "price1": "557",
+        "price2": "599"
+      },
+      {
+        "id": "207",
+        "category": "personal",
+        "image": "https://www.jiomart.com/images/product/150x150/491935083/colgate-pro-clinical-150-charcoal-battery-powered-toothbrush-refills-2-pcs-product-images-o491935083-p590110815-0-202203150351.jpg",
+        "discount": "27",
+        "name": "Colgate Pro-Clinical 150 Charcoal Battery Powered Toothbrush Refills 2 pcs",
+        "price1": "261",
+        "price2": "349"
+      },
+      {
+        "id": "208",
+        "category": "personal",
+        "image": "https://www.jiomart.com/images/product/150x150/491935082/colgate-pro-clinical-150-battery-powered-toothbrush-refills-2-pcs-product-images-o491935082-p590110813-0-202203150524.jpg",
+        "discount": "18",
+        "name": "Colgate Pro-Clinical 150 Battery Powered Toothbrush Refills 2 pcs",
+        "price1": "324",
+        "price2": "349"
+      },
+      {
+        "id": "209",
+        "category": "personal",
+        "image": "https://www.jiomart.com/images/product/150x150/490008332/closeup-everfresh-red-hot-gel-toothpaste-150-g-pack-of-2-product-images-o490008332-p490008332-0-202206222347.jpg",
+        "discount": "8",
+        "name": "Closeup Everfresh+ Red Hot Gel Toothpaste 150 g (Pack of 2)",
+        "price1": "117",
+        "price2": "176"
+      },
+      {
+        "id": "210",
+        "category": "personal",
+        "image": "https://www.jiomart.com/images/product/150x150/491055460/colgate-strong-teeth-dental-cream-toothpaste-500-g-saver-pack-product-images-o491055460-p491055460-0-202203151056.jpg",
+        "discount": "12",
+        "name": "Colgate Strong Teeth Dental Cream Toothpaste 500 g Saver Pack",
+        "price1": "188",
+        "price2": "253"
+      },
+      {
+        "id": "211",
+        "category": "personal",
+        "image": "https://www.jiomart.com/images/product/150x150/490672482/dabur-red-toothpaste-200-100-g-with-free-toothbrush-product-images-o490672482-p490672482-0-202203152234.jpg",
+        "discount": "25",
+        "name": "Dabur Red Toothpaste (200 + 100) g (With Free Toothbrush)",
+        "price1": "125",
+        "price2": "170"
+      },
+      {
+        "id": "212",
+        "category": "personal",
+        "image": "https://www.jiomart.com/assets/global/jiomart-default-image-240x285.png",
+        "discount": "17",
+        "name": "Get Real Coconut Oil 500 ml",
+        "price1": "130",
+        "price2": "290"
+      },
+      {
+        "id": "213",
+        "category": "personal",
+        "image": "https://www.jiomart.com/assets/global/jiomart-default-image-240x285.png",
+        "discount": "8",
+        "name": "Colgate Max Fresh Spicy Fresh Red Gel Toothpaste 150 g (Pack of 2)",
+        "price1": "130",
+        "price2": "200"
+      },
+      {
+        "id": "214",
+        "category": "personal",
+        "image": "https://www.jiomart.com/assets/global/jiomart-default-image-240x285.png",
+        "discount": "12",
+        "name": "Whisper Ultra Clean Sanitary Napkin with Wings (XL+) 44 pads",
+        "price1": "376",
+        "price2": "499"
+      },
+      {
+        "id": "215",
+        "category": "personal",
+        "image": "https://www.jiomart.com/assets/global/jiomart-default-image-240x285.png",
+        "discount": "17",
+        "name": "Pears Pure & Gentle Soap with Natural Oils 125 g (Buy 4 Get 1 Free)",
+        "price1": "327",
+        "price2": "365"
+      },
+      {
+        "id": "216",
+        "category": "personal",
+        "image": "https://www.jiomart.com/assets/global/jiomart-default-image-240x285.png",
+        "discount": "16",
+        "name": "Dabur Red Gel Toothpaste 150 g (Pack of 2)",
+        "price1": "85",
+        "price2": "170"
+      },
+      {
+        "id": "217",
+        "category": "personal",
+        "image": "https://www.jiomart.com/assets/global/jiomart-default-image-240x285.png",
+        "discount": "18",
+        "name": "Pears Pure & Gentle Soap with Glycerin & Natural Oils 125 g (Pack of 3)",
+        "price1": "192",
+        "price2": "252"
+      },
+      {
+        "id": "218",
+        "category": "personal",
+        "image": "https://www.jiomart.com/assets/global/jiomart-default-image-240x285.png",
+        "discount": "9",
+        "name": "Get Real Coconut Hair Oil 250 ml",
+        "price1": "62",
+        "price2": "125"
+      },
+      {
+        "id": "219",
+        "category": "personal",
+        "image": "https://www.jiomart.com/assets/global/jiomart-default-image-240x285.png",
+        "discount": "47",
+        "name": "Stayfree Secure Cottony Soft Cover Sanitary Napkin with Wings (XL) 40 pads",
+        "price1": "200",
+        "price2": "245"
+      },
+      {
+        "id": "220",
+        "category": "homecare",
+        "image": "https://www.jiomart.com/images/product/150x150/492848018/my-home-scrubz-lemon-fighters-concentrate-dishwash-liquid-750-ml-buy-1-get-1-free-product-images-o492848018-p591225982-0-202205180116.jpg",
+        "discount": "46",
+        "name": "My Home Scrubz Lemon Fighters Concentrate Dishwash Liquid 750 ml (Buy 1 Get 1 Free)",
+        "price1": "133",
+        "price2": "199"
+      },
+      {
+        "id": "221",
+        "category": "homecare",
+        "image": "https://www.jiomart.com/images/product/150x150/492367966/surf-excel-easy-wash-detergent-powder-5-kg-product-images-o492367966-p590837659-0-202203151445.jpg",
+        "discount": "14",
+        "name": "Surf Excel Easy Wash Detergent Powder 5 kg",
+        "price1": "552",
+        "price2": "690"
+      },
+      {
+        "id": "222",
+        "category": "homecare",
+        "image": "https://www.jiomart.com/images/product/150x150/491436153/surf-excel-matic-top-load-liquid-detergent-2-l-product-images-o491436153-p491436153-0-202203170632.jpg",
+        "discount": "",
+        "name": "Surf Excel Matic Top Load Liquid Detergent 2 L",
+        "price1": "330",
+        "price2": "430"
+      },
+      {
+        "id": "223",
+        "category": "homecare",
+        "image": "https://www.jiomart.com/images/product/150x150/490003794/rin-detergent-bar-140-g-product-images-o490003794-p490003794-0-202205172236.jpg",
+        "discount": "5",
+        "name": "Rin Detergent Bar 140 g",
+        "price1": "9",
+        "price2": "10"
+      },
+      {
+        "id": "224",
+        "category": "homecare",
+        "image": "https://www.jiomart.com/images/product/150x150/491436154/surf-excel-matic-front-load-liquid-detergent-2-l-product-images-o491436154-p491436154-0-202203170630.jpg",
+        "discount": "5",
+        "name": "Surf Excel Matic Front Load Liquid Detergent 2 L",
+        "price1": "355",
+        "price2": "455"
+      },
+      {
+        "id": "225",
+        "category": "homecare",
+        "image": "https://www.jiomart.com/images/product/150x150/490002364/vim-lemon-dishwash-bar-130-g-product-images-o490002364-p490002364-0-202207141731.jpg",
+        "discount": "19",
+        "name": "Vim Lemon Dishwash Bar 130 g",
+        "price1": "9",
+        "price2": "10"
+      },
+      {
+        "id": "226",
+        "category": "homecare",
+        "image": "https://www.jiomart.com/images/product/150x150/491252835/tide-jasmine-rose-detergent-powder-5-kg-get-extra-1-kg-free-product-images-o491252835-p590838653-0-202203151949.jpg",
+        "discount": "4",
+        "name": "Tide Jasmine & Rose Detergent Powder 5 kg (Get Extra 1 kg Free)",
+        "price1": "532",
+        "price2": "665"
+      },
+      {
+        "id": "227",
+        "category": "homecare",
+        "image": "https://www.jiomart.com/images/product/150x150/492848164/surf-excel-matic-front-load-detergent-powder-6-kg-product-images-o492848164-p591223797-0-202204291101.jpg",
+        "discount": "12",
+        "name": "Surf Excel Matic Front Load Detergent Powder 6 kg",
+        "price1": "1140",
+        "price2": "1425"
+      },
+      {
+        "id": "228",
+        "category": "homecare",
+        "image": "https://www.jiomart.com/images/product/150x150/490346029/vim-lemon-dishwash-bar-200-g-pack-of-3-product-images-o490346029-p490346029-0-202203152252.jpg",
+        "discount": "",
+        "name": "Vim Lemon Dishwash Bar 200 g (Pack of 3)",
+        "price1": "48",
+        "price2": "55"
+      },
+      {
+        "id": "229",
+        "category": "homecare",
+        "image": "https://www.jiomart.com/images/product/150x150/490003796/surf-excel-easy-wash-detergent-powder-1-5-kg-product-images-o490003796-p490003796-0-202203151739.jpg",
+        "discount": "15",
+        "name": "Surf Excel Easy Wash Detergent Powder 1.5 kg",
+        "price1": "179",
+        "price2": "225"
+      },
+      {
+        "id": "230",
+        "category": "homecare",
+        "image": "https://www.jiomart.com/images/product/150x150/492848165/surf-excel-matic-top-load-detergent-powder-6-kg-product-images-o492848165-p591223798-0-202204291101.jpg",
+        "discount": "53",
+        "name": "Surf Excel Matic Top Load Detergent Powder 6 kg",
+        "price1": "1020",
+        "price2": "1275"
+      },
+      {
+        "id": "231",
+        "category": "homecare",
+        "image": "https://www.jiomart.com/images/product/150x150/490415502/comfort-after-wash-morning-fresh-fabric-conditioner-860-ml-product-images-o490415502-p490415502-0-202203150550.jpg",
+        "discount": "9",
+        "name": "Comfort After Wash Morning Fresh Fabric Conditioner 860 ml",
+        "price1": "190",
+        "price2": "235"
+      },
+      {
+        "id": "232",
+        "category": "homecare",
+        "image": "https://www.jiomart.com/assets/global/jiomart-default-image-240x285.png",
+        "discount": "9",
+        "name": "Tide Lemon & Mint Detergent Powder 5 kg (Get 1 kg Free)",
+        "price1": "532",
+        "price2": "665"
+      },
+      {
+        "id": "233",
+        "category": "homecare",
+        "image": "https://www.jiomart.com/assets/global/jiomart-default-image-240x285.png",
+        "discount": "34",
+        "name": "Rin Detergent Powder 5 kg",
+        "price1": "410",
+        "price2": "485"
+      },
+      {
+        "id": "234",
+        "category": "homecare",
+        "image": "https://www.jiomart.com/assets/global/jiomart-default-image-240x285.png",
+        "discount": "41",
+        "name": "Vim Lemon Dishwash Liquid 750 ml",
+        "price1": "164",
+        "price2": "199"
+      },
+      {
+        "id": "235",
+        "category": "homecare",
+        "image": "https://www.jiomart.com/assets/global/jiomart-default-image-240x285.png",
+        "discount": "38",
+        "name": "Rin Detergent Bar 250 g (Pack of 6)",
+        "price1": "113",
+        "price2": "130"
+      },
+      {
+        "id": "236",
+        "category": "homecare",
+        "image": "https://www.jiomart.com/assets/global/jiomart-default-image-240x285.png",
+        "discount": "30",
+        "name": "Domex Original Disinfectant Expert Toilet Cleaner 1 L",
+        "price1": "155",
+        "price2": "215"
+      },
+      {
+        "id": "237",
+        "category": "homecare",
+        "image": "https://www.jiomart.com/assets/global/jiomart-default-image-240x285.png",
+        "discount": "33",
+        "name": "Rin Detergent Bar 250 g (Pack of 4)",
+        "price1": "86",
+        "price2": "96"
+      },
+      {
+        "id": "238",
+        "category": "homecare",
+        "image": "https://www.jiomart.com/assets/global/jiomart-default-image-240x285.png",
+        "discount": "26",
+        "name": "Harpic Power Plus Original Disinfectant Toilet Cleaner 1 L (Buy 2 Get 1 500 ml Free)",
+        "price1": "304",
+        "price2": "390"
+      },
+      {
+        "id": "239",
+        "category": "homecare",
+        "image": "https://www.jiomart.com/assets/global/jiomart-default-image-240x285.png",
+        "discount": "5",
+        "name": "Surf Excel Detergent Bar 84 g",
+        "price1": "13",
+        "price2": "200"
+      },
+      {
+        "id": "240",
+        "category": "home&kitchen",
+        "image": "https://www.jiomart.com/images/product/150x150/491963211/jiomart-blue-and-white-polyester-2-fold-umbrella-24-5-inch-product-images-o491963211-p590317361-0-202205180135.jpg",
+        "discount": "",
+        "name": "Jiomart Blue and White Polyester 2 Fold Umbrella 24.5 inch",
+        "price1": "199",
+        "price2": "299"
+      },
+      {
+        "id": "241",
+        "category": "home&kitchen",
+        "image": "https://www.jiomart.com/images/product/150x150/491377754/everest-green-stainless-steel-lighter-peeler-knife-set-3-pcs-product-images-o491377754-p491377754-0-202203170446.jpg",
+        "discount": "12",
+        "name": "Everest Green Stainless Steel Lighter, Peeler & Knife Set (3 pcs)",
+        "price1": "59",
+        "price2": "99"
+      },
+      {
+        "id": "242",
+        "category": "home&kitchen",
+        "image": "https://www.jiomart.com/images/product/150x150/491584193/mangaldeep-mogra-puja-agarbattis-120-pcs-product-images-o491584193-p491584193-0-202203170516.jpg",
+        "discount": "18",
+        "name": "Mangaldeep Mogra Puja Agarbattis 120 pcs",
+        "price1": "32",
+        "price2": "65"
+      },
+      {
+        "id": "243",
+        "category": "home&kitchen",
+        "image": "https://www.jiomart.com/images/product/150x150/491584192/mangaldeep-4-in-1-ziplock-agarbatti-120-pcs-product-images-o491584192-p491584192-0-202203150356.jpg",
+        "discount": "24",
+        "name": "Mangaldeep 4 in 1 Ziplock Agarbatti 120 pcs",
+        "price1": "32",
+        "price2": "65"
+      },
+      {
+        "id": "244",
+        "category": "home&kitchen",
+        "image": "https://www.jiomart.com/images/product/150x150/491598799/mangaldeep-zip-lock-sandal-agarbatti-120-pcs-product-images-o491598799-p491598799-0-202204262100.jpg",
+        "discount": "22",
+        "name": "Mangaldeep Zip Lock Sandal Agarbatti 114 pcs",
+        "price1": "35",
+        "price2": "70"
+      },
+      {
+        "id": "245",
+        "category": "home&kitchen",
+        "image": "https://www.jiomart.com/images/product/150x150/491584194/mangaldeep-ziplock-rose-puja-agarbatti-120-pcs-product-images-o491584194-p491584194-0-202203170244.jpg",
+        "discount": "20",
+        "name": "Mangaldeep Ziplock Rose Puja Agarbatti 120 pcs",
+        "price1": "32",
+        "price2": "65"
+      },
+      {
+        "id": "246",
+        "category": "home&kitchen",
+        "image": "https://www.jiomart.com/images/product/150x150/490876114/lexus-comfort-assorted-ceramic-mug-140-ml-set-of-6-product-images-o490876114-p590363752-0-202203252257.jpg",
+        "discount": "28",
+        "name": "Lexus Comfort Assorted Ceramic Mug 140 ml (Set of 6)",
+        "price1": "109",
+        "price2": "209"
+      },
+      {
+        "id": "247",
+        "category": "home&kitchen",
+        "image": "https://www.jiomart.com/images/product/150x150/491934139/home-one-marvel-no-20-brown-beige-plastic-basket-set-of-3-product-images-o491934139-p590041321-0-202206131314.jpg",
+        "discount": "10",
+        "name": "Home One Marvel No. 20 Brown & Beige Plastic Basket (Set of 3)",
+        "price1": "129",
+        "price2": "299"
+      },
+      {
+        "id": "248",
+        "category": "home&kitchen",
+        "image": "https://www.jiomart.com/images/product/150x150/491350010/syska-ssk-srl-led-bulb-9-w-product-images-o491350010-p491350010-0-202203152306.jpg",
+        "discount": "20",
+        "name": "Syska SSK-SRL LED Bulb 9 W",
+        "price1": "79",
+        "price2": "359"
+      },
+      {
+        "id": "249",
+        "category": "home&kitchen",
+        "image": "https://www.jiomart.com/images/product/150x150/491600002/cycle-om-shanti-chandanam-pooja-oil-1-l-product-images-o491600002-p491600002-0-202203152234.jpg",
+        "discount": "8",
+        "name": "Cycle Om Shanti Chandanam Pooja Oil 1 L",
+        "price1": "179",
+        "price2": "235"
+      },
+      {
+        "id": "250",
+        "category": "home&kitchen",
+        "image": "https://www.jiomart.com/images/product/150x150/491062002/joyo-super-116-assorted-plastic-bucket-16-l-product-images-o491062002-p590034173-0-202203151612.jpg",
+        "discount": "32",
+        "name": "Joyo Super 116 Assorted Plastic Bucket 16 L",
+        "price1": "109",
+        "price2": "237"
+      },
+      {
+        "id": "251",
+        "category": "home&kitchen",
+        "image": "https://www.jiomart.com/images/product/150x150/491587236/yti-5-in-1-black-6-amp-power-strip-240-v-product-images-o491587236-p590113754-0-202203151349.jpg",
+        "discount": "17",
+        "name": "YTI 5 in 1 Black 6 AMP Power Strip 240 V",
+        "price1": "99",
+        "price2": "199"
+      },
+      {
+        "id": "252",
+        "category": "home&kitchen",
+        "image": "https://www.jiomart.com/images/product/150x150/491336969/cycle-baratanatyam-agarbatti-180-g-product-images-o491336969-p491336969-0-202204262100.jpg",
+        "discount": "27",
+        "name": "Cycle Baratanatyam Agarbatti 170 g",
+        "price1": "40",
+        "price2": "80"
+      },
+      {
+        "id": "253",
+        "category": "home&kitchen",
+        "image": "https://www.jiomart.com/images/product/150x150/491598782/home-one-splash-oval-bath-mat-33x53-cm-assorted-colours-product-images-o491598782-p491598782-0-202203150921.jpg",
+        "discount": "32",
+        "name": "Home One Splash Oval Bath Mat 33x53 cm (Assorted Colours)",
+        "price1": "50",
+        "price2": "99"
+      },
+      {
+        "id": "254",
+        "category": "home&kitchen",
+        "image": "https://www.jiomart.com/images/product/150x150/491215021/gala-no-dust-broom-xl-product-images-o491215021-p491215021-0-202203150316.jpg",
+        "discount": "26",
+        "name": "Gala No Dust Broom (XL)",
+        "price1": "159",
+        "price2": "200"
+      },
+      {
+        "id": "255",
+        "category": "home&kitchen",
+        "image": "https://www.jiomart.com/images/product/150x150/491184312/scrubz-stainless-steel-scrubber-product-images-o491184312-p491184312-0-202203150112.jpg",
+        "discount": "2",
+        "name": "Scrubz Stainless Steel Scrubber",
+        "price1": "15",
+        "price2": "30"
+      },
+      {
+        "id": "256",
+        "category": "home&kitchen",
+        "image": "https://www.jiomart.com/assets/global/jiomart-default-image-240x285.png",
+        "discount": "9",
+        "name": "Eveready Red 1015 AA Carbon Zinc Batteries (Pack of 10)",
+        "price1": "125",
+        "price2": "180"
+      },
+      {
+        "id": "257",
+        "category": "home&kitchen",
+        "image": "https://www.jiomart.com/assets/global/jiomart-default-image-240x285.png",
+        "discount": "8",
+        "name": "Home One Airseal Green Plastic Container 840 ml (Set of 3)",
+        "price1": "99",
+        "price2": "239"
+      },
+      {
+        "id": "258",
+        "category": "home&kitchen",
+        "image": "https://www.jiomart.com/assets/global/jiomart-default-image-240x285.png",
+        "discount": "11",
+        "name": "Mangaldeep French Lavender Zip Lock Premium Agarbati 106 pcs",
+        "price1": "35",
+        "price2": "70"
+      },
+      {
+        "id": "259",
+        "category": "home&kitchen",
+        "image": "https://www.jiomart.com/assets/global/jiomart-default-image-240x285.png",
+        "discount": "32",
+        "name": "Eveready B22D Cool Day Light LED Bulb 9 W",
+        "price1": "69",
+        "price2": "150"
+      },
+      {
+        "id": "260",
+        "category": "mom",
+        "image": "https://www.jiomart.com/images/product/150x150/rv59ldxynx/mylo-care-cleansing-baby-wipes-with-98-pure-water-coconut-oil-neem-with-lid-80-pcs-pack-of-3-product-images-orv59ldxynx-p590893732-0-202111231214.jpg",
+        "discount": "9",
+        "name": "Mylo Care Cleansing Baby Wipes with 98% Pure Water, Coconut Oil & Neem With Lid 80 Pcs (Pack of 3)",
+        "price1": "235",
+        "price2": "539"
+      },
+      {
+        "id": "261",
+        "category": "mom",
+        "image": "https://www.jiomart.com/images/product/150x150/rvv3twquk5/mylo-care-gentle-baby-wipes-with-organic-coconut-oil-neem-without-lid-80-wipes-x-3-packs-product-images-orvv3twquk5-p590949651-0-202112171536.png",
+        "discount": "20",
+        "name": "Mylo Care Gentle Baby Wipes with Organic Coconut Oil & Neem Without Lid (80 wipes x 3 packs)",
+        "price1": "215",
+        "price2": "449"
+      },
+      {
+        "id": "262",
+        "category": "mom",
+        "image": "https://www.jiomart.com/images/product/150x150/rvoixec5nl/wowper-fesh-pant-style-diaper-new-m-36-count-7-12-kg-product-images-orvoixec5nl-p590987408-0-202202122329.jpg",
+        "discount": "20",
+        "name": "Wowper Fesh Pant Style Diaper New (M) 36 Count (7-12 kg)",
+        "price1": "312",
+        "price2": "499"
+      },
+      {
+        "id": "263",
+        "category": "mom",
+        "image": "https://www.jiomart.com/images/product/150x150/rvgqf5jbad/bumtum-baby-diaper-medium-72-pcs-product-images-orvgqf5jbad-p590872168-0-202205172212.jpg",
+        "discount": "20",
+        "name": "Bumtum Baby Diaper-Medium (72 pcs)",
+        "price1": "659",
+        "price2": "1099"
+      },
+      {
+        "id": "264",
+        "category": "mom",
+        "image": "https://www.jiomart.com/images/product/150x150/rvwrbteamu/wowper-fesh-pant-style-diaper-new-s-44-count-4-8-kg-product-images-orvwrbteamu-p590987401-0-202202122327.jpg",
+        "discount": "12",
+        "name": "Wowper Fesh Pant Style Diaper New (S) 44 Count (4-8 kg)",
+        "price1": "289",
+        "price2": "499"
+      },
+      {
+        "id": "265",
+        "category": "mom",
+        "image": "https://www.jiomart.com/images/product/150x150/rvay6paasn/wowper-fesh-pant-style-diaper-new-l-96-count-9-14-kg-product-images-orvay6paasn-p590987407-0-202202122329.jpg",
+        "discount": "17",
+        "name": "Wowper Fesh Pant Style Diaper New (L) 96 Count (9-14 kg)",
+        "price1": "854",
+        "price2": "1598"
+      },
+      {
+        "id": "266",
+        "category": "mom",
+        "image": "https://www.jiomart.com/images/product/150x150/rvajfabo3k/little-angel-baby-diaper-pants-medium-2-x-pack-of-40-product-images-orvajfabo3k-p590935100-0-202112040941.jpg",
+        "discount": "33",
+        "name": "Little Angel Baby Diaper Pants, Medium (2 X Pack of 40)",
+        "price1": "669",
+        "price2": "1149"
+      },
+      {
+        "id": "267",
+        "category": "mom",
+        "image": "https://www.jiomart.com/images/product/150x150/rv9vlhjzu2/maxcare-virgin-coconut-oil-cold-pressed-250ml-product-images-orv9vlhjzu2-p590985599-0-202201051350.jpg",
+        "discount": "41",
+        "name": "Maxcare Virgin Coconut Oil (Cold Pressed) 250ML",
+        "price1": "209",
+        "price2": "220"
+      },
+      {
+        "id": "268",
+        "category": "mom",
+        "image": "https://www.jiomart.com/images/product/150x150/rvqcskz23x/softsens-baby-powder-with-olive-clove-leaf-and-patchouli-oil-200g-pack-of-2-product-images-orvqcskz23x-p591053937-0-202202221323.jpg",
+        "discount": "22",
+        "name": "Softsens Baby Powder With Olive Clove Leaf And Patchouli Oil 200g Pack Of 2",
+        "price1": "208",
+        "price2": "260"
+      },
+      {
+        "id": "269",
+        "category": "mom",
+        "image": "https://www.jiomart.com/images/product/150x150/rv596ntt7y/mee-mee-mild-baby-shampoo-500-ml-product-images-orv596ntt7y-p590992889-0-202201102244.jpg",
+        "discount": "26",
+        "name": "Mee Mee Mild Baby Shampoo 500 ml",
+        "price1": "218",
+        "price2": "299"
+      },
+      {
+        "id": "270",
+        "category": "mom",
+        "image": "https://www.jiomart.com/images/product/150x150/rvd06nzgwy/tedibar-baby-bathing-bar-soap-for-baby-s-sensitive-skin-with-ph-5-5-75gm-pack-of-2-product-images-orvd06nzgwy-p591224103-0-202204270938.jpg",
+        "discount": "8",
+        "name": "Tedibar Baby Bathing Bar/Soap for Baby's Sensitive Skin With pH 5.5 - 75gm (Pack of 2)",
+        "price1": "279",
+        "price2": "310"
+      },
+      {
+        "id": "271",
+        "category": "mom",
+        "image": "https://www.jiomart.com/images/product/150x150/rvz9218yqq/coo-coo-baby-pullup-diaper-pants-l-88-pieces-product-images-orvz9218yqq-p591224057-0-202204270935.jpg",
+        "discount": "28",
+        "name": "Coo Coo Baby Pullup Diaper Pants - L (88 Pieces)",
+        "price1": "889",
+        "price2": "1399"
+      },
+      {
+        "id": "272",
+        "category": "mom",
+        "image": "https://www.jiomart.com/assets/global/jiomart-default-image-240x285.png",
+        "discount": "25",
+        "name": "MamyPoko Extra Absorb Pants (L) 70 count (9 - 14 kg)",
+        "price1": "824",
+        "price2": "1249"
+      },
+      {
+        "id": "273",
+        "category": "mom",
+        "image": "https://www.jiomart.com/assets/global/jiomart-default-image-240x285.png",
+        "discount": "19",
+        "name": "MamyPoko Extra Absorb Pants (M) 84 count (7 - 12 kg)",
+        "price1": "824",
+        "price2": "1249"
+      },
+      {
+        "id": "274",
+        "category": "mom",
+        "image": "https://www.jiomart.com/assets/global/jiomart-default-image-240x285.png",
+        "discount": "17",
+        "name": "MamyPoko Extra Absorb Pants (XL) 60 count (12 - 17 kg)",
+        "price1": "824",
+        "price2": "1249"
+      },
+      {
+        "id": "275",
+        "category": "mom",
+        "image": "https://www.jiomart.com/assets/global/jiomart-default-image-240x285.png",
+        "discount": "32",
+        "name": "MamyPoko Extra Absorb Pants (L) 40 count (9 - 14 kg)",
+        "price1": "499",
+        "price2": "699"
+      },
+      {
+        "id": "276",
+        "category": "mom",
+        "image": "https://www.jiomart.com/assets/global/jiomart-default-image-240x285.png",
+        "discount": "4",
+        "name": "Mothercare Quick Absorb Pants (L) 42 count (9- 14 kg)",
+        "price1": "449",
+        "price2": "899"
+      },
+      {
+        "id": "277",
+        "category": "mom",
+        "image": "https://www.jiomart.com/assets/global/jiomart-default-image-240x285.png",
+        "discount": "16",
+        "name": "Colgate (Gentle Soft) Kids Toothbrush (2+ Years)",
+        "price1": "26",
+        "price2": "28"
+      },
+      {
+        "id": "278",
+        "category": "mom",
+        "image": "https://www.jiomart.com/assets/global/jiomart-default-image-240x285.png",
+        "discount": "16",
+        "name": "Colgate Batman (Extra Soft) Kids Toothbrush with Tongue Cleaner (5+ Years)",
+        "price1": "73",
+        "price2": "79"
+      },
+      {
+        "id": "279",
+        "category": "mom",
+        "image": "https://www.jiomart.com/assets/global/jiomart-default-image-240x285.png",
+        "discount": "16",
+        "name": "Himalaya Baby Powder 400 g",
+        "price1": "145",
+        "price2": "235"
+      },
+      {
+        "id": "280",
+        "category": "books",
+        "image": "https://www.jiomart.com/images/product/150x150/491007932/quixot-225-activity-book-product-images-o491007932-p590120598-0-202203151519.jpg",
+        "discount": "11",
+        "name": "Quixot 225 Activity Book",
+        "price1": "99",
+        "price2": "199"
+      },
+      {
+        "id": "281",
+        "category": "books",
+        "image": "https://www.jiomart.com/images/product/150x150/491007910/my-big-book-of-art-craft-activity-book-product-images-o491007910-p491007910-0-202203150321.jpg",
+        "discount": "10",
+        "name": "Quixot My Big Book of Art & Craft Activity Book",
+        "price1": "99",
+        "price2": "199"
+      },
+      {
+        "id": "282",
+        "category": "books",
+        "image": "https://www.jiomart.com/images/product/150x150/491007934/quixot-write-along-activity-book-40-pgs-3-yrs-product-images-o491007934-p590120599-0-202203171131.jpg",
+        "discount": "5",
+        "name": "Quixot Write Along Activity Book 40 pgs (3 + yrs)",
+        "price1": "99",
+        "price2": "199"
+      },
+      {
+        "id": "283",
+        "category": "books",
+        "image": "https://www.jiomart.com/images/product/150x150/491007905/quixot-alphabet-picture-book-3-yrs-product-images-o491007905-p590033168-0-202203150350.jpg",
+        "discount": "",
+        "name": "Quixot Alphabet Picture Book (3 + yrs)",
+        "price1": "99",
+        "price2": "199"
+      },
+      {
+        "id": "284",
+        "category": "books",
+        "image": "https://www.jiomart.com/images/product/150x150/491007912/quixot-colouring-writing-activity-book-3-yrs-product-images-o491007912-p491007912-0-202203170447.jpg",
+        "discount": "8",
+        "name": "Quixot Colouring & Writing Activity Book (3 + yrs)",
+        "price1": "99",
+        "price2": "199"
+      },
+      {
+        "id": "285",
+        "category": "books",
+        "image": "https://www.jiomart.com/images/product/150x150/491007931/quixot-panchatantra-story-book-3-yrs-product-images-o491007931-p491007931-0-202203150840.jpg",
+        "discount": "17",
+        "name": "Quixot Panchatantra Story Book (3 + yrs)",
+        "price1": "99",
+        "price2": "199"
+      },
+      {
+        "id": "286",
+        "category": "books",
+        "image": "https://www.jiomart.com/images/product/150x150/491007911/quixot-colouring-book-3-yrs-product-images-o491007911-p590107359-0-202203151432.jpg",
+        "discount": "27",
+        "name": "Quixot Colouring Book (3 + yrs)",
+        "price1": "99",
+        "price2": "199"
+      },
+      {
+        "id": "287",
+        "category": "books",
+        "image": "https://www.jiomart.com/images/product/150x150/491007927/quixot-my-big-picture-book-of-chart-cut-paste-product-images-o491007927-p491007927-0-202203170237.jpg",
+        "discount": "18",
+        "name": "Quixot My Big Picture Book of Chart Cut & Paste",
+        "price1": "99",
+        "price2": "199"
+      },
+      {
+        "id": "288",
+        "category": "books",
+        "image": "https://www.jiomart.com/images/product/150x150/491007908/quixot-number-picture-book-3-yrs-product-images-o491007908-p590033169-0-202203170317.jpg",
+        "discount": "8",
+        "name": "Quixot Number Picture Book (3 + yrs)",
+        "price1": "99",
+        "price2": "199"
+      },
+      {
+        "id": "289",
+        "category": "books",
+        "image": "https://www.jiomart.com/images/product/150x150/491007909/quixot-words-picture-book-3-yrs-product-images-o491007909-p491007909-0-202203151949.jpg",
+        "discount": "12",
+        "name": "Quixot Words Picture Book (3 + yrs)",
+        "price1": "99",
+        "price2": "199"
+      },
+      {
+        "id": "290",
+        "category": "books",
+        "image": "https://www.jiomart.com/images/product/150x150/491007913/quixot-nursery-rhyme-book-3-yrs-product-images-o491007913-p491007913-0-202203150547.jpg",
+        "discount": "25",
+        "name": "Quixot Nursery Rhyme Book (3 + yrs)",
+        "price1": "99",
+        "price2": "199"
+      },
+      {
+        "id": "291",
+        "category": "books",
+        "image": "https://www.jiomart.com/images/product/150x150/491007906/quixot-animal-picture-book-3-yrs-product-images-o491007906-p491007906-0-202203171048.jpg",
+        "discount": "17",
+        "name": "Quixot Animal Picture Book (3 + yrs)",
+        "price1": "99",
+        "price2": "199"
+      },
+      {
+        "id": "292",
+        "category": "books",
+        "image": "https://www.jiomart.com/assets/global/jiomart-default-image-240x285.png",
+        "discount": "8",
+        "name": "STD 12 Books - Physics, Chemistry And Maths, PCM, Science, Perfect Notes HSC Maharashtra State Board 2176 Pages",
+        "price1": "2137",
+        "price2": "2330"
+      },
+      {
+        "id": "293",
+        "category": "books",
+        "image": "https://www.jiomart.com/assets/global/jiomart-default-image-240x285.png",
+        "discount": "12",
+        "name": "STD 12 Science Books - Physics, Chemistry, Maths And English, PCM Plus E, Science, Perfect Notes",
+        "price1": "2487",
+        "price2": "2680"
+      },
+      {
+        "id": "294",
+        "category": "books",
+        "image": "https://www.jiomart.com/assets/global/jiomart-default-image-240x285.png",
+        "discount": "17",
+        "name": "STD 11 Perfect PCMB Books - Physics, Chemistry, Maths And Biology Combo, FYJC Science Guide",
+        "price1": "2410",
+        "price2": "2800"
+      },
+      {
+        "id": "295",
+        "category": "books",
+        "image": "https://www.jiomart.com/assets/global/jiomart-default-image-240x285.png",
+        "discount": "16",
+        "name": "The Originals The Prophet",
+        "price1": "99",
+        "price2": "399"
+      },
+      {
+        "id": "296",
+        "category": "books",
+        "image": "https://www.jiomart.com/assets/global/jiomart-default-image-240x285.png",
+        "discount": "18",
+        "name": "The Little Prince",
+        "price1": "99",
+        "price2": "850"
+      },
+      {
+        "id": "297",
+        "category": "books",
+        "image": "https://www.jiomart.com/assets/global/jiomart-default-image-240x285.png",
+        "discount": "9",
+        "name": "STD 12 Commerce Books- Economics, OC, BK, Eng, Maths 1 And 2, SYJC Commerce Guide, Smart Notes 1976 Pages",
+        "price1": "1840",
+        "price2": "299"
+      },
+      {
+        "id": "298",
+        "category": "books",
+        "image": "https://www.jiomart.com/assets/global/jiomart-default-image-240x285.png",
+        "discount": "47",
+        "name": "STD 11 Perfect PCM Books - Physics, Chemistry And Maths, FYJC Science Guide, Maharashtra State Board 1984 Pages",
+        "price1": "1905",
+        "price2": "299"
+      },
+      {
+        "id": "299",
+        "category": "books",
+        "image": "https://www.jiomart.com/assets/global/jiomart-default-image-240x285.png",
+        "discount": "46",
+        "name": "STD 9 Perfect Notes Entire Set Books, English Medium, Maharashtra State Board Paperback 1840 Pages",
+        "price1": "1566",
+        "price2": "299"
+      },
+      {
+        "id": "300",
+        "category": "pets",
+        "image": "https://www.jiomart.com/images/product/150x150/rv58ffrhzn/bark-out-loud-by-vivaldis-allergy-itch-relief-shampoo-effective-on-food-flea-allergy-rashes-long-lasting-skin-conditions-200ml-dogs-cats-product-images-orv58ffrhzn-p591223898-0-202204261923.jpg",
+        "discount": "14",
+        "name": "Bark Out Loud by Vivaldis - Allergy & Itch Relief Shampoo- Effective on Food, Flea Allergy Rashes & Long Lasting Skin Conditions 200ml (Dogs & Cats)",
+        "price1": "300",
+        "price2": "349"
+      },
+      {
+        "id": "301",
+        "category": "pets",
+        "image": "https://www.jiomart.com/images/product/150x150/rv6xtho6hd/boltz-anti-itching-and-anti-dandruff-dog-shampoo-oatmeal-apple-cider-vinegar-200-ml-product-images-orv6xtho6hd-p591017260-0-202201251332.jpg",
+        "discount": "",
+        "name": "Boltz Anti-Itching And Anti-Dandruff Dog Shampoo Oatmeal Apple Cider Vinegar -200 ml",
+        "price1": "249",
+        "price2": "349"
+      },
+      {
+        "id": "302",
+        "category": "pets",
+        "image": "https://www.jiomart.com/images/product/150x150/rvgxfrfof8/captain-zack-tazsoothe-itch-relief-af-and-oatmeal-spray-for-dogs-250-ml-product-images-orvgxfrfof8-p591233400-0-202205060536.jpg",
+        "discount": "5",
+        "name": "Captain Zack Tazsoothe Itch Relief Af And Oatmeal Spray For Dogs 250 ml",
+        "price1": "805",
+        "price2": "698"
+      },
+      {
+        "id": "303",
+        "category": "pets",
+        "image": "https://www.jiomart.com/images/product/150x150/rvvdfauthd/captain-zack-tazsoothe-itch-relief-shampoo-for-dogs-50-ml-product-images-orvvdfauthd-p591233350-0-202205060530.jpg",
+        "discount": "5",
+        "name": "Captain Zack Tazsoothe Itch Relief Shampoo For Dogs 50 ml",
+        "price1": "280",
+        "price2": "725"
+      },
+      {
+        "id": "304",
+        "category": "pets",
+        "image": "https://www.jiomart.com/images/product/150x150/rvkuii4t4o/captain-zack-tazsoothe-itch-relief-spray-af-and-oatmeal-for-dogs-50-ml-product-images-orvkuii4t4o-p591223856-0-202204261918.jpg",
+        "discount": "19",
+        "name": "Captain Zack Tazsoothe Itch Relief Spray Af And Oatmeal For Dogs 50 ml",
+        "price1": "280",
+        "price2": "40"
+      },
+      {
+        "id": "305",
+        "category": "pets",
+        "image": "https://www.jiomart.com/images/product/150x150/rv67ptc83z/dogz-dudez-cats-dogs-itchgone-deodorizing-spray-moisturize-and-deodorize-skin-100-ml-product-images-orv67ptc83z-p591137975-0-202202270325.jpg",
+        "discount": "4",
+        "name": "Dogz & Dudez Cats & Dogs Itchgone Deodorizing Spray Moisturize and Deodorize Skin, 100 Ml",
+        "price1": "198",
+        "price2": "40"
+      },
+      {
+        "id": "306",
+        "category": "pets",
+        "image": "https://www.jiomart.com/images/product/150x150/rv3kccphek/dogz-dudez-herbal-ear-cleaner-for-dogs-puppies-kitten-cats-200ml-relieves-itchy-ear-head-shaking-prevents-ear-discharge-odour-fights-bacterial-fungal-and-yeast-infection-treats-ear-mites-ear-cleaning-solution-product-images-orv3kccphek-p591137974-0-202202270325.jpg",
+        "discount": "12",
+        "name": "Dogz & Dudez Herbal Ear Cleaner for Dogs, Puppies, Kitten & Cats 200ml | Relieves Itchy Ear, Head Shaking, Prevents Ear Discharge & Odour, Fights Bacterial, Fungal and Yeast Infection, Treats Ear Mites | Ear Cleaning Solution",
+        "price1": "269",
+        "price2": "310"
+      },
+      {
+        "id": "307",
+        "category": "pets",
+        "image": "https://www.jiomart.com/images/product/150x150/rvkt7rnbtn/dogz-dudez-itchgone-anti-itch-oatmeal-spray-for-dogs-and-cats-natural-spray-for-dry-skin-and-flaky-skin-with-anti-microbial-properties-200ml-made-with-oatmeal-aloe-vera-wheat-germ-oil-flax-seed-oil-olive-oil-and-prime-rose-oil-product-images-orvkt7rnbtn-p591137964-0-202202270325.jpg",
+        "discount": "",
+        "name": "Dogz & Dudez Itchgone - Anti Itch Oatmeal Spray for Dogs and Cats | Natural Spray for Dry Skin and Flaky Skin With Anti-microbial Properties | 200ml | Made with Oatmeal, Aloe Vera, Wheat Germ Oil, Flax Seed Oil, Olive Oil and Prime Rose oil",
+        "price1": "244",
+        "price2": "175"
+      },
+      {
+        "id": "308",
+        "category": "pets",
+        "image": "https://www.jiomart.com/images/product/150x150/rvl0v3ggex/dogz-dudez-natural-dog-shampoo-itch-relief-spray-for-all-breeds-combo-of-2-product-images-orvl0v3ggex-p591137968-0-202202270325.jpg",
+        "discount": "15",
+        "name": "Dogz & Dudez Natural Dog Shampoo & Itch Relief Spray for All Breeds, Combo of 2",
+        "price1": "499",
+        "price2": "725"
+      },
+      {
+        "id": "309",
+        "category": "pets",
+        "image": "https://www.jiomart.com/images/product/150x150/490017552/pedigree-adlt-chk-veg-dog-food-3-kg-pp-product-images-o490017552-p490017552-0-202203252256.jpg",
+        "discount": "53",
+        "name": "Pedigree Chicken and Vegetables Adult Dog Food 3 kg",
+        "price1": "652",
+        "price2": "190"
+      },
+      {
+        "id": "310",
+        "category": "pets",
+        "image": "https://www.jiomart.com/images/product/150x150/490290911/pedigree-chk-chunks-grvy-puppy-fd-70g-pp-product-images-o490290911-p490290911-0-202203170331.jpg",
+        "discount": "9",
+        "name": "Pedigree Chicken Chunks Gravy Puppy Food 70 g",
+        "price1": "37",
+        "price2": "260"
+      },
+      {
+        "id": "311",
+        "category": "pets",
+        "image": "https://www.jiomart.com/images/product/150x150/490290912/pedigree-adult-chic-liver-gravy-70g-pp-product-images-o490290912-p490290912-0-202203170351.jpg",
+        "discount": "9",
+        "name": "Pedigree Chicken and Liver Chunks in Gravy Adult Dog Food 80 g",
+        "price1": "37",
+        "price2": "160"
+      },
+      {
+        "id": "312",
+        "category": "pets",
+        "image": "https://www.jiomart.com/assets/global/jiomart-default-image-240x285.png",
+        "discount": "34",
+        "name": "Pedigree Meat and Rice Adult Dog Food 1.2 kg",
+        "price1": "288",
+        "price2": "160"
+      },
+      {
+        "id": "313",
+        "category": "pets",
+        "image": "https://www.jiomart.com/assets/global/jiomart-default-image-240x285.png",
+        "discount": "41",
+        "name": "Pedigree Dentastix Medium Breed Daily Oral Care 180 g",
+        "price1": "162",
+        "price2": "190"
+      },
+      {
+        "id": "314",
+        "category": "pets",
+        "image": "https://www.jiomart.com/assets/global/jiomart-default-image-240x285.png",
+        "discount": "38",
+        "name": "Pedigree Meat and Rice Adult Dog Food 3 kg",
+        "price1": "652",
+        "price2": "349"
+      },
+      {
+        "id": "315",
+        "category": "pets",
+        "image": "https://www.jiomart.com/assets/global/jiomart-default-image-240x285.png",
+        "discount": "30",
+        "name": "Himalaya Erina-EP Tick and Flea Control Powder 150 g",
+        "price1": "176",
+        "price2": "698"
+      },
+      {
+        "id": "316",
+        "category": "pets",
+        "image": "https://www.jiomart.com/assets/global/jiomart-default-image-240x285.png",
+        "discount": "33",
+        "name": "Himalaya Erina-EP Tick and Flea Control Shampoo 200 ml",
+        "price1": "241",
+        "price2": "725"
+      },
+      {
+        "id": "317",
+        "category": "pets",
+        "image": "https://www.jiomart.com/assets/global/jiomart-default-image-240x285.png",
+        "discount": "38",
+        "name": "Pedigree Meat Jerky Barbequed Chicken Dog Treat 80 g",
+        "price1": "148",
+        "price2": "40"
+      },
+      {
+        "id": "318",
+        "category": "pets",
+        "image": "https://www.jiomart.com/assets/global/jiomart-default-image-240x285.png",
+        "discount": "30",
+        "name": "Pedigree Meat Jerky Grilled Liver Dog Treat 80 g",
+        "price1": "148",
+        "price2": "40"
+      },
+      {
+        "id": "319",
+        "category": "pets",
+        "image": "https://www.jiomart.com/assets/global/jiomart-default-image-240x285.png",
+        "discount": "33",
+        "name": "Pedigree Biscrok with Milk and Chicken Dog Treat Biscuits 500 g",
+        "price1": "176",
+        "price2": "310"
+      }
+    ]
+  }
