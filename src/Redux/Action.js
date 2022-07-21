@@ -7,7 +7,7 @@ const getdataRequest = () => {
   };
 };
 const getdataSuccess = (payload) => {
-  //console.log('payload:', payload)
+
   return {
     type: types.GET_FRUITS_VEG_DATA_SUCCESS,
     payload,
@@ -23,10 +23,10 @@ const getdataFailure = () => {
 
 
 
-const getfruitsvegData = (payload) => (dispatch) => {
+const getfruitsvegData = (params) => (dispatch) => {
   dispatch(getdataRequest());
   return axios
-    .get('http://localhost:5050/Fruits_Vegitables')
+    .get('http://localhost:5050/Fruits_Vegitables', params)
     .then((res) => {
       dispatch(getdataSuccess(res.data));
     })

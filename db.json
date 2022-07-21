@@ -1,92 +1,799 @@
 {
   "Fruits_Vegitables": [
     {
-      "image": "https://www.jiomart.com/images/product/150x150/590001265/watermelon-kiran-1-pc-approx-2300-g-3000-g-product-images-o590001265-p590041413-0-202203142036.jpg",
-      "description": "Watermelon Kiran Big 1 pc (Approx. 2800 g - 4000 g)",
-      "price": "₹ 55.00"
-    },
-    {
+      "id": 1,
+      "category": "Fresh Vegitables",
       "image": "https://www.jiomart.com/images/product/150x150/590002136/onion-5-kg-pack-product-images-o590002136-p590002136-0-202203141906.jpg",
       "description": "Onion 5 kg (Pack)",
-      "price": "₹ 120.00"
+      "price": " 125.00"
     },
     {
+      "id": 2,
+      "category": "Fresh Vegitables",
       "image": "https://www.jiomart.com/images/product/150x150/590003515/onion-1-kg-product-images-o590003515-p590003515-0-202203170724.jpg",
       "description": "Onion 1 kg",
-      "price": "₹ 24.00"
+      "price": " 26.00"
     },
-    {
+    { 
+      "category": "Fresh Vegitables",
       "image": "https://www.jiomart.com/images/product/150x150/590003516/potato-per-kg-product-images-o590003516-p590003516-0-202203170642.jpg",
       "description": "Potato per kg",
-      "price": "₹ 35.00"
+      "price": " 35.00"
     },
     {
+      "category": "Fresh Vegitables",
       "image": "https://www.jiomart.com/images/product/150x150/590001266/sweet-corn-1-pc-approx-250-g-450-g-product-images-o590001266-p590001266-0-202203170359.jpg",
       "description": "Sweet Corn 1 pc (Approx 250 g - 450 g)",
-      "price": "₹ 16.00"
+      "price": " 16.00"
     },
     {
+      "category": "Fresh Vegitables",
       "image": "https://www.jiomart.com/images/product/150x150/590003517/tomato-1-kg-product-images-o590003517-p590003517-0-202203170629.jpg",
       "description": "Tomato 500 g",
-      "price": "₹ 19.50"
+      "price": " 19.50"
     },
     {
-      "image": "https://www.jiomart.com/images/product/150x150/590003531/ginger-indian-200-g-product-images-o590003531-p590003531-0-202203171030.jpg",
-      "description": "Ginger Indian 200 g",
-      "price": "₹ 18.00"
-    },
-    {
+      "category": "Fresh Vegitables",
       "image": "https://www.jiomart.com/images/product/150x150/590000086/coconut-1-pc-approx-350-g-600-g-product-images-o590000086-p590000086-0-202203170206.jpg",
       "description": "Coconut 1 pc (Approx 350 g - 600 g)",
-      "price": "₹ 29.00"
+      "price": " 30.00"
     },
     {
+      "category": "Fresh Vegitables",
       "image": "https://www.jiomart.com/images/product/150x150/590000174/lauki-bottle-gourd-1-kg-product-images-o590000174-p590000174-0-202203170512.jpg",
       "description": "Lauki (Bottle Gourd) 1 kg",
-      "price": "₹ 89.00"
+      "price": " 79.00"
     },
     {
+      "category": "Fresh Vegitables",
       "image": "https://www.jiomart.com/images/product/150x150/590003550/bhendi-okra-500-g-product-images-o590003550-p590003550-0-202203170339.jpg",
       "description": "Bhendi (Okra) 250 g",
-      "price": "₹ 32.50"
+      "price": " 27.50"
     },
     {
-      "image": "https://www.jiomart.com/images/product/150x150/590003533/green-chilli-200-g-product-images-o590003533-p590003533-0-202203150435.jpg",
-      "description": "Green Chilli 200 g",
-      "price": "₹ 20.00"
+      "category": "Fresh Vegitables",
+      "image": "https://www.jiomart.com/images/product/150x150/590003662/green-capsicum-500-g-product-images-o590003662-p590003662-0-202203151617.jpg",
+      "description": "Green Capsicum 500 g",
+      "price": " 44.50"
     },
     {
+      "category": "Fresh Vegitables",
+      "image": "https://www.jiomart.com/images/product/150x150/590003540/beetroot-500-g-product-images-o590003540-p590003540-0-202203141904.jpg",
+      "description": "Beetroot 500 g",
+      "price": " 27.00"
+    },
+    {
+      "category": "Fresh Vegitables",
+      "image": "https://www.jiomart.com/images/product/150x150/590000171/cucumber-madras-1-kg-product-images-o590000171-p590000171-0-202203170607.jpg",
+      "description": "Cucumber Madras 1 kg",
+      "price": " 39.00"
+    },
+    {
+      "category": "Fresh Vegitables",
+      "image": "https://www.jiomart.com/images/product/150x150/590000191/raw-mango-500-g-product-images-o590000191-p590000191-0-202203151016.jpg",
+      "description": "Raw Mango 500 g",
+      "price": " 59.50"
+    },
+    {
+      "category": "Fresh Vegitables",
+      "image": "https://www.jiomart.com/assets/global/jiomart-default-image-240x285.png",
+      "description": "Carrot Orange 500 g",
+      "price": " 37.00"
+    },
+    {
+      "category": "Fresh Vegitables",
+      "image": "https://www.jiomart.com/assets/global/jiomart-default-image-240x285.png",
+      "description": "Cucumber 500 g",
+      "price": " 32.00"
+    },
+    {
+      "category": "Fresh Vegitables",
+      "image": "https://www.jiomart.com/assets/global/jiomart-default-image-240x285.png",
+      "description": "Drumstick (Each) (Approx. 25 g - 100 g)",
+      "price": " 7.00"
+    },
+    {
+      "category": "Fresh Vegitables",
+      "image": "https://www.jiomart.com/assets/global/jiomart-default-image-240x285.png",
+      "description": "Potato Baby 500 g",
+      "price": " 22.00"
+    },
+    {
+      "category": "Fresh Vegitables",
+      "image": "https://www.jiomart.com/assets/global/jiomart-default-image-240x285.png",
+      "description": "Cucumber Regular 500 g",
+      "price": " 32.00"
+    },
+    {
+      "category": "Fresh Vegitables",
+      "image": "https://www.jiomart.com/assets/global/jiomart-default-image-240x285.png",
+      "description": "Sambar Onion 250 g",
+      "price": " 27.50"
+    },
+    {
+      "category": "Fresh Vegitables",
+      "image": "https://www.jiomart.com/assets/global/jiomart-default-image-240x285.png",
+      "description": "Curry Leaves 1 bunch (Approx 20 g - 100 g)",
+      "price": " 7.00"
+    },
+    {
+      "category": "Fresh Vegitables",
+      "image": "https://www.jiomart.com/assets/global/jiomart-default-image-240x285.png",
+      "description": "Coriander Bunch (Approx 50 g - 200 g)",
+      "price": " 18.00"
+    },
+
+    {
+      "category": "exotic-fruits-vegetables",
       "image": "https://www.jiomart.com/images/product/150x150/590000245/button-mushroom-200-g-product-images-o590000245-p590000245-0-202203151749.jpg",
       "description": "Button Mushroom 200 g",
-      "price": "₹ 39.00"
+      "drug-varients": "PRIVATE LABEL",
+      "price": " 32.00"
     },
     {
-      "image": "https://www.jiomart.com/images/product/150x150/590003532/indian-garlic-200-g-product-images-o590003532-p590003532-0-202203141952.jpg",
-      "description": "Indian Garlic 200 g",
-      "price": "₹ 20.00"
+      "category": "exotic-fruits-vegetables",
+      "image": "https://www.jiomart.com/images/product/150x150/590007689/dragonfruit-per-pc-approx-280-g-450-g-product-images-o590007689-p590007689-0-202203170904.jpg",
+      "description": "Dragonfruit per pc (Approx 280 g - 450 g)",
+      "drug-varients": "PRIVATE LABEL",
+      "price": " 72.00"
     },
     {
-      "image": "https://www.jiomart.com/images/product/150x150/590004153/lemon-100-g-product-images-o590004153-p590004153-0-202203170317.jpg",
-      "description": "Lemon 100 g",
-      "price": "₹ 11.00"
+      "category": "exotic-fruits-vegetables",
+      "image": "https://www.jiomart.com/images/product/150x150/590003490/cherry-tomato-1-pack-approx-100-g-200-g-product-images-o590003490-p590003490-0-202203170442.jpg",
+      "description": "Cherry Tomato 1 Pack (Approx 100 g - 200 g)",
+      "drug-varients": "PRIVATE LABEL",
+      "price": " 25.00"
     },
     {
-      "image": "https://www.jiomart.com/images/product/150x150/590000025/orange-imported-1-kg-product-images-o590000025-p590000025-0-202203171007.jpg",
-      "description": "Orange Imported 1 kg",
-      "price": "₹ 169.00"
+      "category": "exotic-fruits-vegetables",
+      "image": "https://www.jiomart.com/images/product/150x150/590000110/zucchini-green-500-g-product-images-o590000110-p590000110-0-202203170200.jpg",
+      "description": "Zucchini Green 500 g",
+      "drug-varients": "PRIVATE LABEL",
+      "price": " 64.50"
     },
     {
-      "image": "https://www.jiomart.com/images/product/150x150/590001887/musk-melon-1-pc-approx-600-g-900-g-product-images-o590001887-p591217775-0-202204111800.jpg",
-      "description": "Musk Melon 1 pc (Approx. 600 g - 900 g)",
-      "price": "₹ 39.00"
+      "category": "exotic-fruits-vegetables",
+      "image": "https://www.jiomart.com/images/product/150x150/590003475/red-capsicum-200-g-product-images-o590003475-p590003475-0-202203170158.jpg",
+      "description": "Red Capsicum 200 g",
+      "drug-varients": "PRIVATE LABEL",
+      "price": " 290.00"
+    },
+    {
+      "category": "exotic-fruits-vegetables",
+      "image": "https://www.jiomart.com/images/product/150x150/590003467/lemongrass-1-bunch-approx-40-g-100-g-product-images-o590003467-p590003467-0-202203151435.jpg",
+      "description": "Lemongrass 1 bunch (Approx 40 g - 100 g)",
+      "drug-varients": "PRIVATE LABEL",
+      "price": " 12.00"
+    },
+    {
+      "category": "exotic-fruits-vegetables",
+      "image": "https://www.jiomart.com/images/product/150x150/590003476/yellow-capsicum-200-g-product-images-o590003476-p590003476-0-202203170319.jpg",
+      "description": "Yellow Capsicum 200 g",
+      "drug-varients": "PRIVATE LABEL",
+      "price": " 290.00"
+    },
+    {
+      "category": "exotic-fruits-vegetables",
+      "image": "https://www.jiomart.com/images/product/150x150/590003581/broccoli-each-approx-400-g-600-g-product-images-o590003581-p590113044-0-202203150433.jpg",
+      "description": "Broccoli (Each) (Approx 400 g - 600 g)",
+      "drug-varients": "PRIVATE LABEL",
+      "price": " 169.00"
+    },
+    {
+      "category": "exotic-fruits-vegetables",
+      "image": "https://www.jiomart.com/images/product/150x150/590000111/zucchini-yellow-500-g-product-images-o590000111-p590000111-0-202203150714.jpg",
+      "description": "Zucchini Yellow 500 g",
+      "drug-varients": "PRIVATE LABEL",
+      "price": " 64.50"
+    },
+    {
+      "category": "exotic-fruits-vegetables",
+      "image": "https://www.jiomart.com/images/product/150x150/590003896/avocado-hass-approx-400-g-600-g-product-images-o590003896-p590003896-0-202203150700.jpg",
+      "description": "Avocado Hass (Approx. 170 g - 250 g)",
+      "drug-varients": "PRIVATE LABEL",
+      "price": " 159.00"
+    },
+    {
+      "category": "exotic-fruits-vegetables",
+      "image": "https://www.jiomart.com/images/product/150x150/590000102/red-cabbage-1-kg-product-images-o590000102-p590000102-0-202203151949.jpg",
+      "description": "Red Cabbage 1 kg",
+      "drug-varients": "PRIVATE LABEL",
+      "price": " 129.00"
+    },
+    {
+      "category": "exotic-fruits-vegetables",
+      "image": "https://www.jiomart.com/images/product/150x150/590009740/trikaya-potted-herbs-wheatgrass-product-images-o590009740-p590364660-0-202206011141.jpg",
+      "description": "Trikaya Potted Herbs Wheatgrass",
+      "drug-varients": "TRIKAYA",
+      "price": " 219.00"
+    },
+    {
+      "category": "exotic-fruits-vegetables",
+      "image": "https://www.jiomart.com/images/product/150x150/590009734/trikaya-ready-to-eat-salad-mini-60-g-product-images-o590009734-p590364654-0-202206011141.jpg",
+      "description": "Trikaya Ready To Eat Salad Mini 60 g",
+      "drug-varients": "TRIKAYA",
+      "price": " 55.00"
+    },
+    {
+      "category": "exotic-fruits-vegetables",
+      "image": "https://www.jiomart.com/images/product/150x150/590003600/basil-1-bunch-10-g-product-images-o590003600-p590003600-0-202203150527.jpg",
+      "description": "Basil 1 bunch 10 g",
+      "drug-varients": "PRIVATE LABEL",
+      "price": " 15.00"
+    },
+    {
+      "category": "exotic-fruits-vegetables",
+      "image": "https://www.jiomart.com/images/product/150x150/590003898/celery-approx-225-g-300-g-product-images-o590003898-p590034373-0-202203151909.jpg",
+      "description": "Celery (Approx 225 g - 300 g)",
+      "drug-varients": "PRIVATE LABEL",
+      "price": " 65.00"
+    },
+    {
+      "category": "exotic-fruits-vegetables",
+      "image": "https://www.jiomart.com/images/product/150x150/590009680/trikaya-lettuce-romaine-green-250-g-product-images-o590009680-p590364600-0-202204291052.jpg",
+      "description": "Trikaya Lettuce Romaine Green 250 g",
+      "drug-varients": "TRIKAYA",
+      "price": " 59.00"
+    },
+    {
+      "category": "exotic-fruits-vegetables",
+      "image": "https://www.jiomart.com/images/product/150x150/590003606/rosemary-10-g-product-images-o590003606-p590362822-0-202203150616.jpg",
+      "description": "Rosemary 10 g",
+      "drug-varients": "RELIANCE",
+      "price": " 15.00"
+    },
+    {
+      "category": "exotic-fruits-vegetables",
+      "image": "https://www.jiomart.com/images/product/150x150/590008019/potted-herbs-basil-each-product-images-o590008019-p590362829-0-202203150758.jpg",
+      "description": "Potted Herbs Basil Each",
+      "drug-varients": "PRIVATE LABEL",
+      "price": "335.00"
+    },
+    {
+      "category": "exotic-fruits-vegetables",
+      "image": "https://www.jiomart.com/images/product/150x150/590009710/trikaya-thai-brinjal-100-g-product-images-o590009710-p590364630-0-202204291052.jpg",
+      "description": "Trikaya Thai Brinjal 100 g",
+      "drug-varients": "TRIKAYA",
+      "price": "65.00"
+    },
+    {
+      "category": "exotic-fruits-vegetables",
+      "image": "https://www.jiomart.com/images/product/150x150/590003602/garlic-chives-10-g-product-images-o590003602-p590362820-0-202203142129.jpg",
+      "description": "Garlic Chives 10 g",
+      "drug-varients": "RELIANCE",
+      "price": "15.00"
+    },
+
+    {
+      "category": "Dairy",
+      "image": "https://www.jiomart.com/images/product/150x150/490001392/amul-butter-500-g-carton-product-images-o490001392-p490001392-0-202203152128.jpg",
+      "dis_section 2": 3,
+      "description": "Amul Butter 500 g (Carton)",
+      "drug-varients": "AMUL",
+      "price-box 2": " 245.00",
+      "price": " 255.00"
+    },
+    {
+      "category": "Dairy",
+      "image": "https://www.jiomart.com/images/product/150x150/490010311/amul-taaza-homogenised-toned-milk-1-l-tetra-pak-product-images-o490010311-p490010311-0-202203152257.jpg",
+      "dis_section 2": 4,
+      "description": "Amul Taaza Homogenised Toned Milk 1 L (Tetra Pak)",
+      "drug-varients": "AMUL",
+      "price-box 2": " 65.00",
+      "price": " 68.00"
+    },
+    {
+      "category": "Dairy",
+      "image": "https://www.jiomart.com/images/product/150x150/490001387/amul-butter-100-g-carton-product-images-o490001387-p490001387-0-202203170403.jpg",
+      "dis_section 2": 3,
+      "description": "Amul Butter 100 g (Carton)",
+      "drug-varients": "AMUL",
+      "price-box 2": " 50.00",
+      "price": " 52.00"
+    },
+    {
+      "category": "Dairy",
+      "image": "https://www.jiomart.com/images/product/150x150/491168210/amul-pasteurised-butter-200-g-tub-product-images-o491168210-p491168210-0-202203152232.jpg",
+      "dis_section 2": 5,
+      "description": "Amul Pasteurised Butter 200 g (Tub)",
+      "drug-varients": "AMUL",
+      "price-box 2": " 100.00",
+      "price": " 106.00"
+    },
+    {
+      "category": "Dairy",
+      "image": "https://www.jiomart.com/images/product/150x150/490478026/nandini-goodlife-toned-milk-1-l-tetra-pak-product-images-o490478026-p490478026-0-202203170959.jpg",
+      "dis_section 2": 7,
+      "description": "Nandini GoodLife Toned Milk 1 L (Tetra Pak)",
+      "drug-varients": "NANDINI",
+      "price-box 2": " 60.00",
+      "price": " 65.00"
+    },
+    {
+      "category": "Dairy",
+      "image": "https://www.jiomart.com/images/product/150x150/490808047/amul-masti-dahi-1-kg-pouch-product-images-o490808047-p590032629-0-202203170902.jpg",
+      "dis_section 2": 2,
+      "description": "Amul Masti Dahi 1 kg (Pouch)",
+      "drug-varients": "AMUL",
+      "price-box 2": " 72.00",
+      "price": " 74.00"
+    },
+    {
+      "category": "Dairy",
+      "image": "https://www.jiomart.com/images/product/150x150/490010286/delicious-fat-spread-100-g-carton-product-images-o490010286-p490010286-0-202203150323.jpg",
+      "dis_section 2": 22,
+      "description": "Delicious Fat Spread 100 g (Carton)",
+      "drug-varients": "AMUL",
+      "price-box 2": " 17.00",
+      "price": " 22.00"
+    },
+    {
+      "category": "Dairy",
+      "image": "https://www.jiomart.com/images/product/150x150/490001537/nestle-milkmaid-sweetened-condensed-milk-400-g-tin-product-images-o490001537-p490001537-0-202203151440.jpg",
+      "dis_section 2": 10,
+      "description": "Nestle Milkmaid Sweetened Condensed Milk 400 g (Tin)",
+      "drug-varients": "NESTLE",
+      "price-box 2": " 124.00",
+      "price": " 139.00"
+    },
+    {
+      "category": "Dairy",
+      "image": "https://www.jiomart.com/images/product/150x150/492642508/sunfeast-mango-smoothie-with-mango-chunks-300-ml-pet-bottle-product-images-o492642508-p591189470-0-202203231315.jpg",
+      "dis_section 2": 50,
+      "description": "Sunfeast Mango Smoothie With Mango Chunks 300 ml (Pet Bottle)",
+      "drug-varients": "SUNFEAST",
+      "price-box 2": " 37.00",
+      "price": " 75.00"
+    },
+    {
+      "category": "Dairy",
+      "image": "https://www.jiomart.com/images/product/150x150/490010287/delicious-fat-spread-500-g-carton-product-images-o490010287-p490010287-0-202203150530.jpg",
+      "dis_section 2": 33,
+      "description": "Delicious Fat Spread 500 g (Carton)",
+      "drug-varients": "AMUL",
+      "price-box 2": " 71.00",
+      "price": " 106.00"
+    },
+    {
+      "category": "Dairy",
+      "dis_section 2": 5,
+      "description": "Amul Masti Spiced Buttermilk 1 L (Tetra Pak)",
+      "drug-varients": "AMUL",
+      "price-box 2": " 52.00",
+      "price": " 55.00"
+    },
+    {
+      "category": "Dairy",
+      "image": "https://www.jiomart.com/images/product/150x150/490306318/amul-school-pack-butter-100-g-pack-product-images-o490306318-p490306318-0-202203170317.jpg",
+      "dis_section 2": 6,
+      "description": "Amul School Pack Butter 100 g (Pack of 10)",
+      "drug-varients": "AMUL",
+      "price-box 2": " 57.00",
+      "price": " 61.00"
+    },
+    {
+      "category": "Dairy",
+      "image": "https://www.jiomart.com/assets/global/jiomart-default-image-240x285.png",
+      "dis_section 2": 34,
+      "description": "Cavin's Vanilla Milkshake 200 ml (Tetra Pak)",
+      "drug-varients": "CAVIN'S",
+      "price-box 2": " 23.00",
+      "price": " 35.00"
+    },
+    {
+      "category": "Dairy",
+      "image": "https://www.jiomart.com/assets/global/jiomart-default-image-240x285.png",
+      "dis_section 2": 6,
+      "description": "Nestle EveryDay Dairy Whitener 400 g (Pouch)",
+      "drug-varients": "NESTLE",
+      "price-box 2": " 203.00",
+      "price": " 218.00"
+    },
+    {
+      "category": "Dairy",
+      "image": "https://www.jiomart.com/assets/global/jiomart-default-image-240x285.png",
+      "dis_section 2": 8,
+      "description": "Nestle EveryDay Dairy Whitener 1 kg (Pouch)",
+      "drug-varients": "NESTLE",
+      "price-box 2": " 490.00",
+      "price": " 535.00"
+    },
+    {
+      "category": "Dairy",
+      "image": "https://www.jiomart.com/assets/global/jiomart-default-image-240x285.png",
+      "dis_section 2": 6,
+      "description": "Amul Fresh Cooking Cream 1 L (Tetra Pak)",
+      "drug-varients": "AMUL",
+      "price-box 2": " 191.00",
+      "price": " 205.00"
+    },
+    {
+      "category": "Dairy",
+      "image": "https://www.jiomart.com/assets/global/jiomart-default-image-240x285.png",
+      "dis_section 2": 6,
+      "description": "Amulya Dairy Whitener 500 g (Pouch)",
+      "drug-varients": "AMULYA",
+      "price-box 2": " 202.00",
+      "price": " 215.00"
+    },
+    {
+      "category": "Dairy",
+      "image": "https://www.jiomart.com/assets/global/jiomart-default-image-240x285.png",
+      "dis_section 2": 10,
+      "description": "Mother Dairy Tadka Chach 350 ml (Pouch)",
+      "drug-varients": "MOTHER DAIRY",
+      "price-box 2": " 9.00",
+      "price": " 10.00"
+    },
+    {
+      "category": "Dairy",
+      "image": "https://www.jiomart.com/assets/global/jiomart-default-image-240x285.png",
+      "dis_section 2": 6,
+      "description": "Amul Buttermilk 500 ml (Pack)",
+      "drug-varients": "AMUL",
+      "price-box 2": " 15.00",
+      "price": " 16.00"
+    },
+    {
+      "category": "Dairy",
+      "image": "https://www.jiomart.com/assets/global/jiomart-default-image-240x285.png",
+      "dis_section 2": 2,
+      "description": "Amul Masti Dahi 400 g (Cup)",
+      "drug-varients": "AMUL",
+      "price-box 2": " 41.00",
+      "price": " 42.00"
+    },
+
+    {
+      "category": "Cheese",
+      "image": "https://www.jiomart.com/images/product/150x150/490800934/go-plain-cheese-slices-476-g-pouch-product-images-o490800934-p490800934-0-202203142126.jpg",
+      "dis_section 2": 50,
+      "description": "Go Plain Cheese Slices 476 g (Pouch)",
+      "drug-varients": "GO",
+      "price-box 2": " 205.00",
+      "price": " 410.00"
+    },
+    {
+      "category": "Cheese",
+      "image": "https://www.jiomart.com/images/product/150x150/490001401/amul-cheese-block-200-g-carton-product-images-o490001401-p490001401-0-202204261856.jpg",
+      "dis_section 2": 5,
+      "description": "Amul Cheese Block 200 g (Carton)",
+      "drug-varients": "AMUL",
+      "price-box 2": " 108.00",
+      "price": " 114.00"
+    },
+    {
+      "category": "Cheese",
+      "dis_section 2": 5,
+      "description": "Amul Cheese Chiplets 200 g (Carton)",
+      "drug-varients": "AMUL",
+      "price-box 2": " 115.00",
+      "price": " 122.00"
+    },
+    {
+      "category": "Cheese",
+      "dis_section 2": 5,
+      "description": "Amul Cheese Block 1 kg (Carton)",
+      "drug-varients": "AMUL",
+      "price-box 2": " 465.00",
+      "price": " 490.00"
+    },
+    {
+      "category": "Cheese",
+      "dis_section 2": 5,
+      "description": "Amul Plain Cheese Slices 200 g (Pack of 10)",
+      "drug-varients": "AMUL",
+      "price-box 2": " 123.00",
+      "price": " 130.00"
+    },
+    {
+      "category": "Cheese",
+      "dis_section 2": 25,
+      "description": "Go Cheese Slices 200 g (Pouch)",
+      "drug-varients": "GO",
+      "price-box 2": " 116.00",
+      "price": " 155.00"
+    },
+    {
+      "category": "Cheese",
+      "image": "https://www.jiomart.com/images/product/150x150/490001395/britannia-cheese-slices-200-g-pack-product-images-o490001395-p490001395-0-202203150159.jpg",
+      "dis_section 2": 25,
+      "description": "Britannia Cheese Slices 200 g (Pack)",
+      "drug-varients": "BRITANNIA",
+      "price-box 2": " 123.00",
+      "price": " 165.00"
+    },
+    {
+      "category": "Cheese",
+      "image": "https://www.jiomart.com/images/product/150x150/490001397/britannia-cheese-cubes-200-g-carton-product-images-o490001397-p490001397-0-202203150801.jpg",
+      "dis_section 2": 25,
+      "description": "Britannia Cheese Cubes 200 g (Carton)",
+      "drug-varients": "BRITANNIA",
+      "price-box 2": " 116.00",
+      "price": " 155.00"
+    },
+    {
+      "category": "Cheese",
+      "image": "https://www.jiomart.com/images/product/150x150/490001407/amul-yummy-plain-cheese-spread-200-g-container-product-images-o490001407-p490001407-0-202206101257.jpg",
+      "dis_section 2": 5,
+      "description": "Amul Yummy Plain Cheese Spread 200 g (Container)",
+      "drug-varients": "AMUL",
+      "price-box 2": " 89.00",
+      "price": " 94.00"
+    },
+    {
+      "category": "Cheese",
+      "dis_section 2": 25,
+      "description": "Mother Dairy Plain Cheese Slices 200 g (Pouch)",
+      "drug-varients": "MOTHER DAIRY",
+      "price-box 2": " 101.00",
+      "price": " 135.00"
+    },
+    {
+      "category": "Cheese",
+      "image": "https://www.jiomart.com/images/product/150x150/490001399/britannia-cheese-block-400-g-carton-product-images-o490001399-p490001399-0-202203171012.jpg",
+      "dis_section 2": 25,
+      "description": "Britannia Cheese Block 400 g (Carton)",
+      "drug-varients": "BRITANNIA",
+      "price-box 2": " 221.00",
+      "price": " 295.00"
+    },
+    {
+      "category": "Cheese",
+      "image": "https://www.jiomart.com/images/product/150x150/491276609/d-lecta-cheese-block-200-g-carton-product-images-o491276609-p590049078-0-202203150200.jpg",
+      "dis_section 2": 50,
+      "description": "D'lecta Cheese Block 200 g (Carton)",
+      "drug-varients": "D'LECTA",
+      "price-box 2": " 77.00",
+      "price": " 155.00"
+    },
+    {
+      "category": "Cheese",
+      "image": "https://www.jiomart.com/assets/global/jiomart-default-image-240x285.png",
+      "dis_section 2": 5,
+      "description": "Amul Processed Cheese Slices 750 g (Pack)",
+      "drug-varients": "AMUL",
+      "price-box 2": " 370.00",
+      "price": " 390.00"
+    },
+    {
+      "category": "Cheese",
+      "image": "https://www.jiomart.com/assets/global/jiomart-default-image-240x285.png",
+      "dis_section 2": 54,
+      "description": "Moowing Cheese Slices 600 g (Pack)",
+      "drug-varients": "MOOWING",
+      "price-box 2": " 290.00",
+      "price": " 640.00"
+    },
+    {
+      "category": "Cheese",
+      "image": "https://www.jiomart.com/assets/global/jiomart-default-image-240x285.png",
+      "dis_section 2": 26,
+      "description": "Britannia Blend And Diced Pizza Cheese 200 g (Pouch)",
+      "drug-varients": "BRITANNIA",
+      "price-box 2": " 99.00",
+      "price": " 135.00"
+    },
+    {
+      "category": "Cheese",
+      "image": "https://www.jiomart.com/assets/global/jiomart-default-image-240x285.png",
+      "dis_section 2": 10,
+      "description": "Amul Mozzarella Pizza Diced Cheese 1 kg (Pouch)",
+      "drug-varients": "AMUL",
+      "price-box 2": " 437.00",
+      "price": " 486.00"
+    },
+    {
+      "category": "Cheese",
+      "image": "https://www.jiomart.com/assets/global/jiomart-default-image-240x285.png",
+      "dis_section 2": 20,
+      "description": "Britannia Cheezza 200 g (Carton)",
+      "drug-varients": "BRITANNIA",
+      "price-box 2": " 124.00",
+      "price": " 155.00"
+    },
+    {
+      "category": "Cheese",
+      "image": "https://www.jiomart.com/assets/global/jiomart-default-image-240x285.png",
+      "dis_section 2": 55,
+      "description": "Moowing Cheese Block 200 g (Carton)",
+      "drug-varients": "MOOWING",
+      "price-box 2": " 99.00",
+      "price": " 220.00"
+    },
+    {
+      "category": "Cheese",
+      "image": "https://www.jiomart.com/assets/global/jiomart-default-image-240x285.png",
+      "dis_section 2": 25,
+      "description": "Go Pizza Cheese 200 g (Carton)",
+      "drug-varients": "GO",
+      "price-box 2": " 112.00",
+      "price": " 150.00"
+    },
+    {
+      "category": "Cheese",
+      "image": "https://www.jiomart.com/assets/global/jiomart-default-image-240x285.png",
+      "dis_section 2": 25,
+      "description": "Mother Dairy Cheese Cubes 180 g (Carton)",
+      "drug-varients": "MOTHER DAIRY",
+      "price-box 2": " 93.00",
+      "price": " 125.00"
+    },
+    {
+      "category": "Ghee",
+      "image": "https://www.jiomart.com/images/product/150x150/490010164/amul-pure-ghee-1-l-pouch-product-images-o490010164-p490010164-0-202203151915.jpg",
+      "dis_section 2": 3,
+      "description": "Amul Pure Ghee 1 L (Pouch)",
+      "drug-varients": "AMUL",
+      "price-box 2": " 509.00",
+      "price": " 525.00"
+    },
+    {
+      "category": "Ghee",
+      "dis_section 2": 23,
+      "description": "Heritage Cow Ghee 1 L (Pouch)",
+      "drug-varients": "HERITAGE",
+      "price-box 2": " 479.00",
+      "price": " 630.00"
+    },
+    {
+      "category": "Ghee",
+      "image": "https://www.jiomart.com/images/product/150x150/490010244/gowardhan-pure-cow-ghee-1-l-pouch-product-images-o490010244-p490010244-0-202203150918.jpg",
+      "dis_section 2": 7,
+      "description": "Gowardhan Pure Cow Ghee 1 L (Pouch)",
+      "drug-varients": "GOWARDHAN",
+      "price-box 2": " 566.00",
+      "price": " 609.00"
+    },
+    {
+      "category": "Ghee",
+      "image": "https://www.jiomart.com/images/product/150x150/490022073/amul-cow-ghee-1-l-tin-product-images-o490022073-p490022073-0-202203150930.jpg",
+      "dis_section 2": 3,
+      "description": "Amul Cow Ghee 1 L (Tin)",
+      "drug-varients": "AMUL",
+      "price-box 2": " 538.00",
+      "price": " 555.00"
+    },
+    {
+      "category": "Ghee",
+      "image": "https://www.jiomart.com/images/product/150x150/490001520/amul-pure-ghee-500-ml-pouch-product-images-o490001520-p490001520-0-202203141904.jpg",
+      "dis_section 2": 3,
+      "description": "Amul Pure Ghee 500 ml (Pouch)",
+      "drug-varients": "AMUL",
+      "price-box 2": " 255.00",
+      "price": " 265.00"
+    },
+    {
+      "category": "Ghee",
+      "dis_section 2": 3,
+      "description": "Amul Cow Ghee 1 L (Pouch)",
+      "drug-varients": "AMUL",
+      "price-box 2": " 523.00",
+      "price": " 540.00"
+    },
+    {
+      "category": "Ghee",
+      "image": "https://www.jiomart.com/images/product/150x150/491895396/gowardhan-cow-ghee-1-l-pack-of-2-pouch-with-lock-seal-container-product-images-o491895396-p590052513-0-202203171122.jpg",
+      "dis_section 2": 11,
+      "description": "Gowardhan Cow Ghee 1 L (Pack of 2) Pouch With Lock & Seal Container",
+      "drug-varients": "GOWARDHAN",
+      "price-box 2": " 1,144.00",
+      "price": " 1,299.00"
+    },
+    {
+      "category": "Ghee",
+      "image": "https://www.jiomart.com/images/product/150x150/491070289/milky-mist-cow-ghee-1-l-jar-product-images-o491070289-p590950364-0-202203170918.jpg",
+      "dis_section 2": 28,
+      "description": "Milky Mist Cow Ghee 1 L (Jar)",
+      "drug-varients": "MILKY MIST",
+      "price-box 2": " 499.00",
+      "price": " 699.00"
+    },
+    {
+      "category": "Ghee",
+      "image": "https://www.jiomart.com/images/product/150x150/491089733/mother-dairy-cow-ghee-1-l-pouch-product-images-o491089733-p590087548-0-202203170450.jpg",
+      "dis_section 2": 9,
+      "description": "Mother Dairy Cow Ghee 1 L (Pouch)",
+      "drug-varients": "MOTHER DAIRY",
+      "price-box 2": " 499.00",
+      "price": " 550.00"
+    },
+    {
+      "category": "Ghee",
+      "dis_section 2": 7,
+      "description": "Gowardhan Pure Cow Ghee 1 L (Jar)",
+      "drug-varients": "GOWARDHAN",
+      "price-box 2": " 584.00",
+      "price": " 629.00"
+    },
+    {
+      "category": "Ghee",
+      "dis_section 2": 22,
+      "description": "Prabhat Cow Ghee 1 L (Pouch)",
+      "drug-varients": "PRABHAT",
+      "price-box 2": " 466.00",
+      "price": " 599.00"
+    },
+    {
+      "category": "Ghee",
+      "image": "https://www.jiomart.com/images/product/150x150/490011305/amul-cow-ghee-500-ml-pouch-product-images-o490011305-p490011305-0-202203150541.jpg",
+      "dis_section 2": 2,
+      "description": "Amul Cow Ghee 500 ml (Pouch)",
+      "drug-varients": "AMUL",
+      "price-box 2": " 262.00",
+      "price": " 270.00"
+    },
+    {
+      "category": "Ghee",
+      "image": "https://www.jiomart.com/assets/global/jiomart-default-image-240x285.png",
+      "dis_section 2": 9,
+      "description": "Paras Ghee 1 L (Pouch)",
+      "drug-varients": "PARAS",
+      "price-box 2": " 489.00",
+      "price": " 543.00"
+    },
+    {
+      "category": "Ghee",
+      "image": "https://www.jiomart.com/assets/global/jiomart-default-image-240x285.png",
+      "dis_section 2": 7,
+      "description": "Gowardhan Pure Cow Ghee 500 ml (Pouch)",
+      "drug-varients": "GOWARDHAN",
+      "price-box 2": " 287.00",
+      "price": " 309.00"
+    },
+    {
+      "category": "Ghee",
+      "image": "https://www.jiomart.com/assets/global/jiomart-default-image-240x285.png",
+      "dis_section 2": 6,
+      "description": "Nestle EveryDay Ghee 1 L (Carton)",
+      "drug-varients": "NESTLE",
+      "price-box 2": " 469.00",
+      "price": " 500.00"
+    },
+    {
+      "category": "Ghee",
+      "image": "https://www.jiomart.com/assets/global/jiomart-default-image-240x285.png",
+      "dis_section 2": 4,
+      "description": "Sagar Pure Ghee 1 L (Pouch)",
+      "drug-varients": "SAGAR",
+      "price-box 2": " 499.00",
+      "price": " 525.00"
+    },
+    {
+      "category": "Ghee",
+      "image": "https://www.jiomart.com/assets/global/jiomart-default-image-240x285.png",
+      "dis_section 2": 7,
+      "description": "Gowardhan Pure Cow Ghee 500 ml (Jar)",
+      "drug-varients": "GOWARDHAN",
+      "price-box 2": " 302.00",
+      "price": " 325.00"
+    },
+    {
+      "category": "Ghee",
+      "image": "https://www.jiomart.com/assets/global/jiomart-default-image-240x285.png",
+      "dis_section 2": 3,
+      "description": "Sagar Pure Ghee 500 ml (Pouch)",
+      "drug-varients": "SAGAR",
+      "price-box 2": " 257.00",
+      "price": " 265.00"
+    },
+    {
+      "category": "Ghee",
+      "image": "https://www.jiomart.com/assets/global/jiomart-default-image-240x285.png",
+      "dis_section 2": 13,
+      "description": "Dynamix Cow Ghee 1 L (Pouch)",
+      "drug-varients": "DYNAMIX",
+      "price-box 2": " 520.00",
+      "price": " 599.00"
+    },
+    {
+      "category": "Ghee",
+      "image": "https://www.jiomart.com/assets/global/jiomart-default-image-240x285.png",
+      "dis_section 2": 7,
+      "description": "Chitale Ghee 1 L (Carton)",
+      "drug-varients": "CHITALE",
+      "price-box 2": " 525.00",
+      "price": " 570.00"
     }
-  ],
-
-
-    "primium":[
-      {
-
-      }
-    ]
+  ]
 }
-

@@ -7,7 +7,7 @@ const initState = {
 };
 
 const reducer = (state = initState, { type, payload }) => {
-  console.log('payload:', payload);
+
 
   switch (type) {
     case types.GET_FRUITS_VEG_DATA_REQUEST:
