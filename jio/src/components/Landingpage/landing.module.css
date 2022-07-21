@@ -1,0 +1,82 @@
+.topcate{
+ display: grid;
+ grid-template-columns: repeat(7,1fr);
+ width: 97%;
+ margin: auto;
+ margin-bottom: 10px;
+}
+.topcatediv:hover{
+    transform: scale(1.1);
+    /* border: 1px solid black; */
+}
+.topcateimg{
+    width: 100%;
+}
+.womenh{
+    display: flex;
+       justify-content: space-between;
+        width: 97%;
+        margin: auto;
+        margin-bottom: 10px;
+}
+.womenhdiv{
+   padding: 15px;
+}
+.womenhimg:hover,.womenbimg:hover{
+    transition: 1s;
+    transform: scale(1.04);
+}
+.womenhimg{
+    width: 100%;
+    border-radius: 10px;
+}
+.womenb{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.womenbdiv{
+    border: 1px solid rgb(187, 187, 187);
+    border-radius: 10px;
+}
+.womenbimg{
+    width: 100%;
+    border-radius: 10px;
+}
+.addbw {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 97%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.addbwdiv {
+    padding: 15px;
+}
+
+.adbwimg {
+    width: 100%;
+    border-radius: 10px;
+}
+.hotd{
+    width: 95%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+   gap: 20px;
+    margin-bottom: 50px;  
+}
+.hotdiv{
+    border: 1px solid rgb(187, 187, 187);
+    border-radius: 10px;
+    padding: 15px;
+}
+.itemcardd {
+    width: 97%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
