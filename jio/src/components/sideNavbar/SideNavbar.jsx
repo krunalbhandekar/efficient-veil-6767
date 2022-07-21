@@ -20,8 +20,8 @@ const SideNavbar = ({sidebarVisible,setsidebarVisible}) => {
                     <AiOutlineClose onClick={closeBar} style={{ cursor: 'pointer'}}/>
                 </div>
                 <div>
-                    <Link to="/login" onClick={closeBar}> Account </Link>
-                    <Link to="/" onClick={closeBar}> Orders </Link>
+                    <Link to="/account" onClick={closeBar}> Account </Link>
+                    <Link to="/cart" onClick={closeBar}> Orders </Link>
                 </div>
             </section>
 
@@ -51,7 +51,7 @@ const SideNavbar = ({sidebarVisible,setsidebarVisible}) => {
 
           <section className='sideBarsects'>
             <ul>
-              <Link to="/" onClick={closeBar}>
+              <Link to="/account" onClick={closeBar}>
                 <li> My Account </li>
               </Link>
               <Link  to="/" onClick={closeBar}>

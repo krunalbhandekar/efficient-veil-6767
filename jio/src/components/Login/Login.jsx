@@ -1,5 +1,6 @@
 import React from 'react'
-import { Box ,Input,Text,Flex,Image,Heading,Button} from '@chakra-ui/react'
+import { Box ,Text,Flex,Image,Heading,Button} from '@chakra-ui/react'
+import { Link as RouterLink } from 'react-router-dom'
 import loginimage from "../../images/sign/login.jpg"
 
 const Login = () => {
@@ -11,24 +12,25 @@ const Login = () => {
             </Box>
             <Box marginTop="10">
                 <Box>
-                    <Heading fontSize="27px" mb="2">Sign in</Heading>
-                <Text>Sign in to access your Orders, Offers and Wishlist.</Text>
+                    <Heading fontSize="27px" mb="2">Login</Heading>
+                <Text>Login to access your Orders, Offers and Wishlist.</Text>
                 </Box>
 
                 <Flex alignItems="center" gap="5px" my="12">
-                <Text fontWeight="500">+91</Text>|
-                <input placeholder='Enter Your Mobile no.' style={{border:'none', outline:"none",fontWeight:"500"}}/>
+                <input placeholder='Username' style={{border:'none', outline:"none",fontWeight:"500"}}/>
                 </Flex>
                 <form>
                     <Box my="12">
-                         <input placeholder='Enter Your OTP' style={{border:'none', outline:"none",fontWeight:"500"}}/>
+                         <input placeholder='Password' style={{border:'none', outline:"none",fontWeight:"500"}}/>
                     </Box>
                     <Box>
                          <Button type='submit' backgroundColor="#008ecc" color="white" w="30rem">Verify</Button>
                     </Box>
-               
-               
                 </form>
+
+                 <Text align={'center'}>
+                Don't have an account? <RouterLink to="/signup" style={{color:'#008ecc'}}>Signup</RouterLink>
+              </Text>
 
                 
             </Box>
