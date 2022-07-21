@@ -6,7 +6,9 @@ import UserAvatar from './UserAvatar'
 import {AiOutlineClose} from "react-icons/ai"
 
 const SideNavbar = ({sidebarVisible,setsidebarVisible}) => {
-    const isAuth =useSelector((state)=>state.login.isAuth)
+    const isAuth =useSelector((state)=>state.log.isAuth)
+    let username=localStorage.getItem("user")
+    console.log('isAuth:', isAuth)
     let closeBar=()=>{
         setsidebarVisible(false)
     }
@@ -16,7 +18,7 @@ const SideNavbar = ({sidebarVisible,setsidebarVisible}) => {
             <section className='sideBarsects'>
                 <div>
                     <UserAvatar/>
-                    <Link to="/login" onClick={closeBar}> { isAuth? "Eve Holt": 'Hello, Sign In'}</Link>
+                    <Link to="/login" onClick={closeBar}> { isAuth ? username : 'Hello, Sign In'}</Link>
                     <AiOutlineClose onClick={closeBar} style={{ cursor: 'pointer'}}/>
                 </div>
                 <div>

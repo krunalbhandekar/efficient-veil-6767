@@ -2,8 +2,19 @@ import React from 'react'
 import { Box ,Text,Flex,Image,Heading,Button} from '@chakra-ui/react'
 import { FiUser } from 'react-icons/fi';
 import { BsFillCreditCardFill } from 'react-icons/bs';
+import { useNavigate } from 'react-router-dom';
+import { logout } from '../../Redux/login/action';
+import { useDispatch } from 'react-redux';
+
 
 const Account = () => {
+    const dispatch=useDispatch()
+    const navigate=useNavigate()
+
+    const handlelogout=()=>{
+       dispatch(logout());
+        navigate("/login");
+    }
   return (
     <div>
         <Heading size="md" my="5" mx="20">My Account</Heading>
@@ -47,7 +58,7 @@ const Account = () => {
                     <div style={{margin:"18px 0",fontWeight:"500", borderBottom:"0.1px solid #cbcdd4",paddingBottom:'5px', cursor:"pointer"}}><p>Legal Information</p></div>
                     <div style={{margin:"18px 0",fontWeight:"500", borderBottom:"0.1px solid #cbcdd4",paddingBottom:'5px', cursor:"pointer"}}><p>Need Help</p></div>
                     <div style={{margin:"18px 0",fontWeight:"500", borderBottom:"0.1px solid #cbcdd4",paddingBottom:'5px', cursor:"pointer"}}> <p>Contact us</p></div>
-                    <div style={{margin:"18px 0",fontWeight:"500",borderBottom:"0.1px solid #cbcdd4",paddingBottom:'5px',cursor:"pointer"}}> <p>Logout</p></div>
+                    <div onClick={()=>handlelogout()} style={{margin:"18px 0",fontWeight:"500",borderBottom:"0.1px solid #cbcdd4",paddingBottom:'5px',cursor:"pointer"}}> <p >Logout</p></div>
                    
                 </div>
 

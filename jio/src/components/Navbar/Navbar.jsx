@@ -8,11 +8,13 @@ import {Link} from "react-router-dom"
 import { kitchen1,kitchen2,fashion1,fruits1,fruits2,Groceries1,Groceries2,electronics,beauty } from '../helper/navbarhelper';
 import JioMart from "../../images/landing page/logo/jiomartBeta.jpg"
 import "./Navbar.css"
-
-
+import { useSelector } from 'react-redux';
 
 const Navbar = ({setsidebarVisible}) => {
-
+  const isAuth=useSelector((state)=>state.log.isAuth)
+  let username=localStorage.getItem("user")
+    console.log('name:', username)
+    
   return (
     <>
     <Flex direction="column" >
@@ -30,7 +32,7 @@ const Navbar = ({setsidebarVisible}) => {
             
               <Flex alignItems="center" gap="2">
                 <FaUser/>
-                <Text fontWeight="600"><Link to="/login">Sign in / Sign up</Link></Text>
+                <Text fontWeight="600"><Link to={isAuth ? "/account" : "/login"}>{isAuth ? username : "Sign in / Sign up"}</Link></Text>
               </Flex>
               <Flex alignItems="center" gap="2">
                 <BsFillCartFill/>
@@ -49,7 +51,7 @@ const Navbar = ({setsidebarVisible}) => {
           <div className='dropdown'>
             <div className="dropbtn"><Text>Groceries</Text> <IoIosArrowDown/></div>
 
-              <div class="dropdown-content one">
+              <div className="dropdown-content one">
                 <div style={{display:"flex"}}>
                   <div style={{width:"50%",borderRight:"1px solid #b5b4b4"}}>
                     {Groceries1.map((e)=>(
@@ -74,7 +76,7 @@ const Navbar = ({setsidebarVisible}) => {
 
             
 
-              <div class="dropdown-content two">
+              <div className="dropdown-content two">
                 <div style={{display:"flex"}}>
                   <div style={{width:"50%",borderRight:"1px solid #b5b4b4"}}>
                     {fruits1.map((e)=>(
@@ -97,7 +99,7 @@ const Navbar = ({setsidebarVisible}) => {
 
 
 
-           <div class="dropdown-content three">
+           <div className="dropdown-content three">
                 <div style={{display:"flex"}}>
                   <div style={{width:"50%",borderRight:"1px solid #b5b4b4"}}>
                     {kitchen1.map((e)=>(
@@ -120,7 +122,7 @@ const Navbar = ({setsidebarVisible}) => {
           <div className='dropdown'>
           <div className="dropbtn"><Text>Fashion</Text><IoIosArrowDown/></div>
 
-           <div class="dropdown-content four">
+           <div className="dropdown-content four">
               <div>
                  {fashion1.map((e)=>(
                       <a href={e.link} key={e.cat}>{e.cat}</a>
@@ -133,7 +135,7 @@ const Navbar = ({setsidebarVisible}) => {
           <div className="dropbtn"><Text>Electronics</Text><IoIosArrowDown/></div>
          
 
-           <div class="dropdown-content five">
+           <div className="dropdown-content five">
               <div>
                  {electronics.map((e)=>(
                       <a href={e.link} key={e.cat}>{e.cat}</a>
@@ -146,7 +148,7 @@ const Navbar = ({setsidebarVisible}) => {
           <div className="dropbtn"><Text>Beauty</Text><IoIosArrowDown/></div>
           
 
-           <div class="dropdown-content five">
+           <div className="dropdown-content five">
               <div>
                  {beauty.map((e)=>(
                       <a href={e.link} key={e.cat}>{e.cat}</a>
@@ -159,7 +161,7 @@ const Navbar = ({setsidebarVisible}) => {
           <div className='dropdown'>
           <div className="dropbtn"><Text>Jewellery</Text><IoIosArrowDown/></div>
 
-           <div class="dropdown-content six">
+           <div className="dropdown-content six">
               <div>
                 <a href="#">Fine Jewellery</a>
               </div> 
