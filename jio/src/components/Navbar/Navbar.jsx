@@ -143,7 +143,7 @@ const Navbar = ({setsidebarVisible}) => {
           </div>
 
           <div className='dropdown'>
-          <div className="dropbtn"><Link to="/beauty"><Text>Beauty</Text></Link><IoIosArrowDown/></div>
+          <div className="dropbtn"><Text>Beauty</Text><IoIosArrowDown/></div>
           
 
            <div class="dropdown-content five">

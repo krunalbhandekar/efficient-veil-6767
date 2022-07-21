@@ -9,7 +9,6 @@ import Cart from './components/Cart/Cart';
 import Account from './components/Login/Account';
 import Landingpage from './components/Landingpage/Landingpage';
 import SideNavbar from './components/sideNavbar/SideNavbar';
-import Beauty from './components/Beauty/Beauty';
 
 
 function App() {
@@ -26,7 +25,6 @@ function App() {
         <Route path="/signup" element={<Signup />} />
         <Route path="/account" element={<Account />} />
         <Route path="/cart" element={<Cart />} />
-        <Route path="/beauty" element={<Beauty/>}/>
     </Routes>
       <Footer/>
     </>
