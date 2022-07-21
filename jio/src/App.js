@@ -8,8 +8,12 @@ import Signup from "./components/Login/Signup"
 import Cart from './components/Cart/Cart';
 import Landingpage from './components/Landingpage/Landingpage';
 import SideNavbar from './components/sideNavbar/SideNavbar';
+
 import RequiredAuth from "./components/utils/RequiredAuth"
 import Account from './components/Login/Account';
+
+import {MainProduct} from './components/fruit/MainProduct';
+
 
 
 function App() {
@@ -24,8 +28,12 @@ function App() {
        <Route path="/" element={<Landingpage />} />
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
+
         <Route path="/cart" element={<RequiredAuth><Cart /></RequiredAuth>} />
         <Route path="/account" element={<RequiredAuth><Account /></RequiredAuth>} />
+        <Route path="/cart" element={<Cart />} />
+        <Route path="/groceries/:category" element={<MainProduct/>}/>
+
     </Routes>
       <Footer/>
     </>

@@ -1,0 +1,32 @@
+.product{
+    height:auto;
+    width: 200px;
+    border: 0.5px solid rgb(201,201,201);
+    border-radius: 3%;
+    text-align: center;
+    padding: 15px;
+}
+
+.addtoCart{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(0,142,204);
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    margin: 0;
+    border-radius: 5%;
+    cursor: pointer;
+}
+.addtoCart:active{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(71, 183, 231);
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    margin: 0;
+    border-radius: 5%;
+    cursor: pointer;
+    animation: infinite 2s linear;
+}
