@@ -32,7 +32,7 @@ function App() {
         <Route path="/cart" element={<RequiredAuth><Cart /></RequiredAuth>} />
         <Route path="/account" element={<RequiredAuth><Account /></RequiredAuth>} />
         <Route path="/cart" element={<Cart />} />
-        <Route path="/groceries/:category" element={<MainProduct/>}/>
+        <Route path="/product/:category" element={<MainProduct/>}/>
 
     </Routes>
       <Footer/>

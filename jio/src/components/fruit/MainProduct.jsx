@@ -4,16 +4,17 @@ import {Product} from "./Product"
 import {useParams} from "react-router-dom"
 import { getProducts } from '../../Redux/fruit/action';
 
+
 export const MainProduct = () => {
   let dispatch=useDispatch();
   let products=useSelector((state)=>state.data.products);
  
 
   const {category}=useParams()
-  console.log(category)
+  // console.log(category)
   
   useEffect(()=>{
-    dispatch(getProducts(category))
+    dispatch(getProducts(category));
   },[])
 
   
