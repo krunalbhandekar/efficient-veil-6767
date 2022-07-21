@@ -132,7 +132,7 @@ const Navbar = ({setsidebarVisible}) => {
           <div className='dropdown'>
           <div className="dropbtn"><Text>Electronics</Text><IoIosArrowDown/></div>
          
-
+{/* onclick */}
            <div class="dropdown-content five">
               <div>
                  {electronics.map((e)=>(
@@ -143,7 +143,7 @@ const Navbar = ({setsidebarVisible}) => {
           </div>
 
           <div className='dropdown'>
-          <div className="dropbtn"><Text>Beauty</Text><IoIosArrowDown/></div>
+          <div className="dropbtn"><Link to="/beauty"><Text>Beauty</Text></Link><IoIosArrowDown/></div>
           
 
            <div class="dropdown-content five">

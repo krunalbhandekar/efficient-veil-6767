@@ -1,0 +1,201 @@
+{
+    "Fruits_Vegitables": [
+      {
+        "image": "https://www.jiomart.com/images/product/150x150/590001265/watermelon-kiran-1-pc-approx-2300-g-3000-g-product-images-o590001265-p590041413-0-202203142036.jpg",
+        "description": "Watermelon Kiran Big 1 pc (Approx. 2800 g - 4000 g)",
+        "price": "₹ 55.00"
+      },
+      {
+        "image": "https://www.jiomart.com/images/product/150x150/590002136/onion-5-kg-pack-product-images-o590002136-p590002136-0-202203141906.jpg",
+        "description": "Onion 5 kg (Pack)",
+        "price": "₹ 120.00"
+      },
+      {
+        "image": "https://www.jiomart.com/images/product/150x150/590003515/onion-1-kg-product-images-o590003515-p590003515-0-202203170724.jpg",
+        "description": "Onion 1 kg",
+        "price": "₹ 24.00"
+      },
+      {
+        "image": "https://www.jiomart.com/images/product/150x150/590003516/potato-per-kg-product-images-o590003516-p590003516-0-202203170642.jpg",
+        "description": "Potato per kg",
+        "price": "₹ 35.00"
+      },
+      {
+        "image": "https://www.jiomart.com/images/product/150x150/590001266/sweet-corn-1-pc-approx-250-g-450-g-product-images-o590001266-p590001266-0-202203170359.jpg",
+        "description": "Sweet Corn 1 pc (Approx 250 g - 450 g)",
+        "price": "₹ 16.00"
+      },
+      {
+        "image": "https://www.jiomart.com/images/product/150x150/590003517/tomato-1-kg-product-images-o590003517-p590003517-0-202203170629.jpg",
+        "description": "Tomato 500 g",
+        "price": "₹ 19.50"
+      },
+      {
+        "image": "https://www.jiomart.com/images/product/150x150/590003531/ginger-indian-200-g-product-images-o590003531-p590003531-0-202203171030.jpg",
+        "description": "Ginger Indian 200 g",
+        "price": "₹ 18.00"
+      },
+      {
+        "image": "https://www.jiomart.com/images/product/150x150/590000086/coconut-1-pc-approx-350-g-600-g-product-images-o590000086-p590000086-0-202203170206.jpg",
+        "description": "Coconut 1 pc (Approx 350 g - 600 g)",
+        "price": "₹ 29.00"
+      },
+      {
+        "image": "https://www.jiomart.com/images/product/150x150/590000174/lauki-bottle-gourd-1-kg-product-images-o590000174-p590000174-0-202203170512.jpg",
+        "description": "Lauki (Bottle Gourd) 1 kg",
+        "price": "₹ 89.00"
+      },
+      {
+        "image": "https://www.jiomart.com/images/product/150x150/590003550/bhendi-okra-500-g-product-images-o590003550-p590003550-0-202203170339.jpg",
+        "description": "Bhendi (Okra) 250 g",
+        "price": "₹ 32.50"
+      },
+      {
+        "image": "https://www.jiomart.com/images/product/150x150/590003533/green-chilli-200-g-product-images-o590003533-p590003533-0-202203150435.jpg",
+        "description": "Green Chilli 200 g",
+        "price": "₹ 20.00"
+      },
+      {
+        "image": "https://www.jiomart.com/images/product/150x150/590000245/button-mushroom-200-g-product-images-o590000245-p590000245-0-202203151749.jpg",
+        "description": "Button Mushroom 200 g",
+        "price": "₹ 39.00"
+      },
+      {
+        "image": "https://www.jiomart.com/images/product/150x150/590003532/indian-garlic-200-g-product-images-o590003532-p590003532-0-202203141952.jpg",
+        "description": "Indian Garlic 200 g",
+        "price": "₹ 20.00"
+      },
+      {
+        "image": "https://www.jiomart.com/images/product/150x150/590004153/lemon-100-g-product-images-o590004153-p590004153-0-202203170317.jpg",
+        "description": "Lemon 100 g",
+        "price": "₹ 11.00"
+      },
+      {
+        "image": "https://www.jiomart.com/images/product/150x150/590000025/orange-imported-1-kg-product-images-o590000025-p590000025-0-202203171007.jpg",
+        "description": "Orange Imported 1 kg",
+        "price": "₹ 169.00"
+      },
+      {
+        "image": "https://www.jiomart.com/images/product/150x150/590001887/musk-melon-1-pc-approx-600-g-900-g-product-images-o590001887-p591217775-0-202204111800.jpg",
+        "description": "Musk Melon 1 pc (Approx. 600 g - 900 g)",
+        "price": "₹ 39.00"
+      }
+    ],
+  
+  
+      "beauty": [
+        {
+            "id":1,
+            "image":"https://www.jiomart.com/images/product/360x360/945967/wipeout-germ-killing-soap-75-gm-prod-945967-0-202111141144.jpg",
+            "name": "Wipeout Germ Killing Soap 75 Gm",
+            "price-new": 55.00,
+            "price-old": 69.00
+        },
+        {
+            "id":2,
+            "image":"https://www.jiomart.com/images/product/360x360/940272/l-oreal-paris-6-oil-nourish-shampoo-192-5-ml-prod-940272-0-202112010626.jpg",
+            "name":"L'Oreal Paris 6 Oil Nourish Shampoo 192.5 ml",
+            "price-new": 170.00,
+            "price-old": 179.00
+        },
+        {
+            "id":3,
+            "image":"https://www.jiomart.com/images/product/360x360/940215/l-oreal-paris-fall-resist-3x-anti-hairfall-shampoo-82-5-ml-prod-940215-0-202112010457.jpg",
+            "name":"L'Oreal Paris Fall Resist 3X Anti Hairfall Shampoo 82.5 Ml",
+            "price-new":75.00,
+            "price-old":79.00
+        },
+        {
+            "id":4,
+            "image":"https://www.jiomart.com/images/product/360x360/13081/biotique-himalayan-plum-refreshing-body-soap-150-gm-prod-13081-0-202112020157.jpg",
+            "name":"Biotique Himalayan Plum Refreshing Body Soap 150 gm",
+            "price-new":76.00,
+            "price-old":90.00
+        },
+        {
+            "id":5,
+            "image":"https://www.jiomart.com/images/product/360x360/940221/l-oreal-paris-extraordinary-clay-shampoo-82-5-ml-prod-940221-0-202112010457.jpg",
+            "name":"L'Oreal Paris Extraordinary Clay Shampoo 82.5 Ml",
+            "price-new":75.00,
+            "price-old":79.00
+        },
+        {
+            "id":6,
+            "image":"https://www.jiomart.com/images/product/360x360/940235/l-oreal-paris-color-protect-conditioner-71-5-ml-prod-940235-0-202112010512.jpg",
+            "name":"L'Oreal Paris Color Protect Conditioner 71.5 Ml",
+            "price-new":103.00,
+            "price-old":109.00
+        },
+        {
+            "id":7,
+            "image":"https://www.jiomart.com/images/product/360x360/969923/sweet-heart-red-deodorant-perfumed-bodyspray-100-ml-prod-969923-0-202112020138.jpg",
+            "name":"Sweet Heart Red Deodorant Perfumed Bodyspray 100 ml",
+            "price-new":114.00,
+            "price-old": 120.00
+        },
+        {
+            "id":8,
+            "image":"https://www.jiomart.com/images/product/360x360/940246/l-oreal-paris-total-repair-5-serum-40-ml-prod-940246-0-202112010513.jpg",
+            "name":"L'Oreal Paris Total Repair 5 Serum 40 Ml",
+            "price-new":166.00,
+            "price-old":175.00
+        },
+        {
+            "id":9,
+            "image":"https://www.jiomart.com/images/product/360x360/944260/insta-glow-gold-bleach-30-gm-prod-944260-0-202111141129.jpg",
+            "name":"Insta Glow Gold Bleach 30 Gm",
+            "price-new":71.00,
+            "price-old":75.00
+        },
+        {
+            "id":10,
+            "image":"https://www.jiomart.com/images/product/360x360/940610/maybelline-new-york-colossal-kajal-super-black-0-35-gm-prod-940610-0-202112041345.jpg",
+            "name":"Maybelline New York Colossal Kajal, Super Black 0.35 gm",
+            "price-new":308.00,
+            "price-old":325.00
+        },
+        {
+            "id":11,
+            "image":"https://www.jiomart.com/images/product/360x360/940274/l-oreal-paris-6-oil-nourish-conditioner-192-5-ml-prod-940274-0-202112010626.jpg",
+            "name":"L'Oreal Paris 6 Oil Nourish Conditioner 192.5 ml",
+            "price-new":189.00,
+            "price-old":199.00
+        },
+        {
+            "id":12,
+            "image":"https://www.jiomart.com/images/product/360x360/954859/blue-heaven-lip-bomb-bubblegum-8-gm-prod-954859-0-202111141538.jpg",
+            "name":"Blue Heaven Lip Bomb,Bubblegum 8 gm",
+            "price-new":118.00,
+            "price-old": 125.00
+        },
+        {
+            "id":13,
+            "image":"https://www.jiomart.com/images/product/360x360/940285/l-oreal-paris-dream-lengths-conditioner-71-5-ml-prod-940285-0-202112010627.jpg",
+            "name":"L'Oreal Paris Dream Lengths Conditioner 71.5 ml",
+            "price-new":103.00,
+            "price-old": 109.00
+        },
+        {
+            "id":14,
+            "image":"https://www.jiomart.com/images/product/360x360/949323/lakme-9-to-5-naturale-aloe-aqua-gel-50-gm-prod-949323-0-202112010252.jpg",
+            "name":"Lakme 9 To 5 Naturale Aloe Aqua Gel 50 Gm",
+            "price-new":190.00,
+            "price-old":200.00
+        },
+        {
+            "id":15,
+            "image":"https://www.jiomart.com/images/product/360x360/942035/revlon-kohl-kajal-black-1-14-gm-prod-942035-0-202111121619.jpg",
+            "name":"Revlon Kohl Kajal - Black 1.14 Gm",
+            "price-new":199.00,
+            "price-old": 235.00
+        },
+		{
+            "id":16,
+            "image":"https://www.jiomart.com/images/product/360x360/947236/revlon-charlie-crystal-chic-perfumed-body-spray-150-ml-prod-947236-0-202111112228.jpg",
+            "name":"Revlon Charlie Crystal Chic Perfumed Body Spray 150 Ml",
+            "price-new":170.00,
+            "price-old":200.00
+        }
+      ]
+  }
+  
