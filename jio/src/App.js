@@ -9,6 +9,7 @@ import Cart from './components/Cart/Cart';
 import Account from './components/Login/Account';
 import Landingpage from './components/Landingpage/Landingpage';
 import SideNavbar from './components/sideNavbar/SideNavbar';
+import {MainProduct} from './components/fruit/MainProduct';
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
         <Route path="/signup" element={<Signup />} />
         <Route path="/account" element={<Account />} />
         <Route path="/cart" element={<Cart />} />
+        <Route path="/groceries/:category" element={<MainProduct/>}/>
     </Routes>
       <Footer/>
     </>
