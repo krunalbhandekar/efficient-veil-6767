@@ -15,6 +15,7 @@
     {cat:"Pets",link:"/product/pets"},
   ]
   const fruits1=[
+<<<<<<< Updated upstream
     {cat:"Avocado, Peach, Plum",link:"/product/avocado-peach-plum"},
     {cat:"Cherries, Berries & Exotic",link:"/product/cherries-berries-exotic-fruits"},
     {cat:"Fruits",link:"/product/citrus-mango-grapes"},
@@ -28,6 +29,21 @@
     {cat:"Seasonal & Minor Fruits",link:"/product/avocado-peach-plum"},
     {cat:"Dates",link:"/product/dates"},
     {cat:"Gift Asssorted And XL Packs",link:"/product/citrus-mango-grapes"},
+=======
+    {cat:"Avocado, Peach, Plum",link:"/products/avocado-peach-plum"},
+    {cat:"Cherries, Berries & Exotic",link:"/products/cherries-berries-exotic-fruits"},
+    {cat:"Fruits",link:"#"},
+    {cat:"Dates",link:"/products/dates"},
+    {cat:"Banana, Melons & Coconut",link:"/products/banana-melons-coconu"},
+    {cat:"Citrus, Mango & Grapes",link:"/products/citrus-mango-grapes"},
+  ]
+   const fruits2=[
+    {cat:"Apples & Pears",link:"/products/apples-pears"},
+    {cat:"Banana, Melons & Coconut",link:"#"},
+    {cat:"Seasonal & Minor Fruits",link:"#"},
+    {cat:"Dates",link:"#"},
+    {cat:"Gift Asssorted And XL Packs",link:"#"},
+>>>>>>> Stashed changes
   ]
   const kitchen1=[
     {cat:"Kitchenware",link:"/product/kitchenware"},
