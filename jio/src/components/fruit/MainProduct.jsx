@@ -4,20 +4,7 @@ import { Product } from "./Product"
 import { createSearchParams, useParams, useSearchParams } from "react-router-dom"
 import { getProducts } from '../../Redux/fruit/action';
 
-
 export const MainProduct = () => {
-<<<<<<< Updated upstream
-  let dispatch=useDispatch();
-  let products=useSelector((state)=>state.data.products);
- 
-
-  const {category}=useParams()
-  // console.log(category)
-  
-  useEffect(()=>{
-    dispatch(getProducts(category));
-  },[category])
-=======
   let cart = JSON.parse(localStorage.getItem("CartData")) || []
 
   const [searchParams, setSearchParams] = useSearchParams()
@@ -35,7 +22,6 @@ export const MainProduct = () => {
   useEffect(() => {
     dispatch(getProducts(category))
   }, [category, dispatch])
->>>>>>> Stashed changes
 
   if (SortParams === "h2l") {
     data = data.sort((a, b) => b.price1 - a.price1)
