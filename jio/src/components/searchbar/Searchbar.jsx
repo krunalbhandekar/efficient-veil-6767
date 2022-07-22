@@ -33,7 +33,7 @@ const Searchbar = ({onChange,suggestions}) => {
               <div style={{width:"30px", height:"30px"}}>
                 <img src={item.image} style={{width:"100%"}}></img>
               </div>
-              <a href={item.category}>
+              <a href={`/product/${item.category}`}>
                 <p>{item.name}</p>
               </a>
              
@@ -45,4 +45,4 @@ const Searchbar = ({onChange,suggestions}) => {
   )
 }
 
-export default Searchbar
+export default Searchbar;
