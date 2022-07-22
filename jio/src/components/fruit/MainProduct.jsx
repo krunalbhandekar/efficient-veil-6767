@@ -15,7 +15,7 @@ export const MainProduct = () => {
   
   useEffect(()=>{
     dispatch(getProducts(category));
-  },[])
+  },[category])
 
   
 
