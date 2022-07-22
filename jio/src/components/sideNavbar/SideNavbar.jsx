@@ -1,9 +1,12 @@
 import React from 'react'
 import "./sideNavbar.css"
+import { Heading,Text,Box} from '@chakra-ui/react'
 import { useSelector } from 'react-redux'
 import { Link } from 'react-router-dom'
 import UserAvatar from './UserAvatar'
 import {AiOutlineClose} from "react-icons/ai"
+import apple from "../../images/footer/ios_store.png"
+import google from "../../images/footer/play_store.png"
 
 const SideNavbar = ({sidebarVisible,setsidebarVisible}) => {
     const isAuth =useSelector((state)=>state.log.isAuth)
@@ -18,10 +21,10 @@ const SideNavbar = ({sidebarVisible,setsidebarVisible}) => {
             <section className='sideBarsects'>
                 <div>
                     <UserAvatar/>
-                    <Link to="/login" onClick={closeBar}> { isAuth ? username : 'Hello, Sign In'}</Link>
+                    <Link to="/login" style={{fontSize:"20px",fontWeight:"500"}} onClick={closeBar}> Hello, { isAuth ?  username : ' Sign In'}</Link>
                     <AiOutlineClose onClick={closeBar} style={{ cursor: 'pointer'}}/>
                 </div>
-                <div>
+                <div style={{fontWeight:"800"}}>
                     <Link to="/account" onClick={closeBar}> Account </Link>
                     <Link to="/cart" onClick={closeBar}> Orders </Link>
                 </div>
@@ -69,59 +72,49 @@ const SideNavbar = ({sidebarVisible,setsidebarVisible}) => {
           </section>
           <section className='sideBarsects'>
             <div className='hmenu_contact'>
-              <h1 style={{ textAlign: 'left' }}>Contact Us</h1>
-              <span className='mail_txt'>
+
+              <Heading size="md" my="2" style={{ textAlign: 'left' }}>Contact Us</Heading>
+
+              <Box my="2">
+               <Text className='mail_txt' >
                 WhatsApp us :
                 <a
                   href='https://wa.me/917000370003?text=Hi'
                 >
-                  70003 70003
+                  <span style={{color:"#008ecc"}}>70003 70003</span>
                 </a>
-              </span>
-              <br />
-              <span className='mail_txt'>
-                <span className='mail_txt'>
-                  Call Us :
-                  <a href='tel:1800 890 1222' >
-                    1800 890 1222
-                  </a>
-                  <br />
-                </span>
-              </span>
-              <p>6:00 AM to 8:00 PM, 365 days</p>
-              <p className='textmsg1'>
-                Please note that you are accessing the BETA Version of
-                <a href='https://www.jiomart.com/' style={{ color: '#008ecc' }}>
+              </Text>
+              </Box>
+             
+             <Box my="2">
+
+              <Text> Call Us : <span className='mail_txt' style={{color:"#008ecc"}}><a href='tel:1800 890 1222'>
+                    1800 890 1222</a></span></Text>
+
+              <Text>6:00 AM to 8:00 PM, 365 days</Text>
+
+             </Box>
+
+             <Box my="2">
+              <Text> Please note that you are accessing the BETA Version of <span> <a href='https://www.jiomart.com/' style={{ color: '#008ecc' }}>
                   www.jiomart.com
-                </a>
-              </p>
-              <p className='textmsg2'>
-                Should you encounter any bugs, glitches, lack of functionality,
-                delayed deliveries, billing errors or other problems on the beta
-                website, please email us on
-                <a href='mailto:cs@jiomart.com' style={{ color: '#008ecc' }}>
+                </a></span></Text>
+             </Box>
+
+
+              <Box my="2">
+                <Text>Should you encounter any bugs, glitches, lack of functionality, delayed deliveries, billing errors or other problems on the beta website, please email us on <a href='mailto:cs@jiomart.com' style={{ color: '#008ecc' }}>
                   cs@jiomart.com
-                </a>
-              </p>
-              <h1 style={{textAlign:"left"}}>Download App</h1>
-              <a
-                href='https://play.google.com/store/apps/details?id=com.jpl.jiomart'
-                
-              >
-                <img
-                  src='https://www.jiomart.com/images/cms/wysiwyg/app-icons/play_store.png'
-                  alt='Download Jiomart App for Android from Play Store'
-                />
-              </a>
-              <a
-                href='https://apps.apple.com/in/app/jiomart/id1522085683'
-               
-              >
-                <img
-                  src='https://www.jiomart.com/images/cms/wysiwyg/app-icons/ios_store.png'
-                  alt='Download Jiomart App for iOs from App Store'
-                />
-              </a>
+                </a></Text>
+              </Box>
+
+              <Heading size="md" my="3" style={{ textAlign: 'left' }}>Download App</Heading>
+             
+             <Box display="flex" gap="17px"  >
+                <Box><img src={google} alt="google store" /></Box>
+                <Box><img src={apple} alt="ios store" /></Box>
+            </Box>
+            
             </div>
           </section>
         </div>

@@ -34,11 +34,19 @@ export const MainProduct = () => {
   }
 
   return (
+
+    <div style={{ width: "70%", justifyContent: "center", alignItems: "center" , marginTop: "15px"}}>
+      
+      <div style={{ display: "flex", justifyContent: "space-between", margin: "auto" }}>
+        <div style={{ fontSize: "20px" }}>Showing <b>{products.length}</b> items</div>
+        <div style={{ display: "flex", gap: "20px", justifyContent: "space-between", fontSize: "15px"}}>
+
     <div style={{ width: "70%", justifyContent: "center", alignItems: "center" }}>
       
       <div style={{ display: "flex", justifyContent: "space-between", margin: "auto" }}>
         <div style={{ fontSize: "20px" }}>Showing <b>{products.length}</b> items</div>
         <div style={{ display: "flex", gap: "20px", justifyContent: "space-between", fontSize: "15px" }}>
+
           <div>Sort By:</div>
           <div style={{ border: "0.3px solid black", padding: "0px 10px 0px 10px", borderRadius: "10%", cursor: "pointer" }} onClick={(e) => setSearchParams(createSearchParams({ sortby: "h2l" }))}>High to Low</div>
           <div style={{ border: "0.3px solid black", padding: "0px 10px 0px 10px", borderRadius: "10%", cursor: "pointer" }} onClick={(e) => setSearchParams(createSearchParams({ sortby: "l2h" }))}>Low to High</div>
@@ -59,4 +67,8 @@ export const MainProduct = () => {
 
   )
 
+
 }
+
+}
+

@@ -153,7 +153,6 @@ const Landingpage = () => {
         ))}
       </div>
 
-
     </Box>
   )
 }
