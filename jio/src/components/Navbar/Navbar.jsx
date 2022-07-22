@@ -34,7 +34,7 @@ const Navbar = ({setsidebarVisible}) => {
     if(query===""){
       setsuggestions([])
     }else{
-      let newListofsuggestions=data.filter((item)=>item.category.toLowerCase().indexOf(query) !== -1 ? true : false).map((item)=>item)
+      let newListofsuggestions=data.filter((item)=>item.name.toLowerCase().indexOf(query) !== -1 ? true : false).map((item)=>item)
       // setTimeout(()=>{
           setsuggestions(newListofsuggestions)
       // },100)
