@@ -1,6 +1,6 @@
 import React,{useState} from 'react';
 import './App.css';
-import { Routes, Route, Link } from "react-router-dom";
+import { Routes, Route} from "react-router-dom";
 import Footer from './components/Footer/Footer';
 import Navbar from './components/Navbar/Navbar';
 import Login from './components/Login/Login';
@@ -15,6 +15,7 @@ import { MainProduct } from './components/fruit/MainProduct';
 
 function App() {
   const [sidebarVisible, setsidebarVisible] = useState(false)
+
   return (
     <>
     <div style={{position:"-webkit-sticky" ,top:"0"}}>
@@ -27,7 +28,11 @@ function App() {
         <Route path="/signup" element={<Signup />} />
         <Route path="/cart" element={<RequiredAuth><Cart /></RequiredAuth>} />
         <Route path="/account" element={<RequiredAuth><Account /></RequiredAuth>} />
+
         <Route path="/product/:category" element={<MainProduct/>}/>
+        <Route path="/cart" element={<Cart />} />
+
+
     </Routes>
       <Footer/>
     </>
