@@ -69,12 +69,15 @@ export default function Footer() {
 
           <Stack align={'flex-start'} >
             <ListHeader>CONTACT US</ListHeader>
-            <Textcomp>WhatsApp us :<Spancomp>70003 70003</Spancomp></Textcomp>
-            <Textcomp>Call Us :<Spancomp>1800 890 1222</Spancomp></Textcomp>
+            <Textcomp>WhatsApp us :<a
+                  href='https://wa.me/917000370003?text=Hi'
+                > 
+               <Spancomp>70003 70003</Spancomp> </a></Textcomp>
+            <Textcomp>Call Us :<a href='tel:1800 890 1222'><Spancomp>1800 890 1222</Spancomp></a></Textcomp>
             <Textcomp>8:00 AM to 8:00 PM, 365 days</Textcomp>
             <Textcomp>Please note that you are accessing the BETA Version of </Textcomp>
-            <Spancomp><a href="www.jiomart.com" target="_blank">www.jiomart.com</a></Spancomp>
-            <Textcomp>Should you encounter any bugs, glitches, lack of functionality, delayed deliveries, billing errors or other problems on the beta website, please email us on <Spancomp>cs@jiomart.com</Spancomp></Textcomp>
+            <Spancomp><a href="https://www.jiomart.com" target="_blank">www.jiomart.com</a></Spancomp>
+            <Textcomp>Should you encounter any bugs, glitches, lack of functionality, delayed deliveries, billing errors or other problems on the beta website, please email us on  <a href='mailto:cs@jiomart.com'><Spancomp>cs@jiomart.com</Spancomp></a></Textcomp>
            
             <ListHeader>DOWNLOAD APP</ListHeader>
             
