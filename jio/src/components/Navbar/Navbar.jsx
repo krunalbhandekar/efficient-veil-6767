@@ -163,7 +163,7 @@ const Navbar = ({setsidebarVisible}) => {
 
            <div className="dropdown-content six">
               <div>
-                <a href="#">Fine Jewellery</a>
+                <Link to="/product/fine-jwellery">Fine Jewellery</Link>
               </div> 
              </div>
           </div>
