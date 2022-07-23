@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom';
+import { useNavigate, useParams } from 'react-router-dom';
 import styles from './Product.module.css';
 import { useSelector, useDispatch } from 'react-redux';
 import { getSingleProducts } from '../../Redux/fruit/action';
@@ -67,9 +67,11 @@ export const SingleProduct = ({ pinDetails, pincode, setPinDetials, setPincode }
         
     }   
 
+   
+
 
     return (
-        <div style={{ display: "flex", marginLeft: "150px", marginTop: "50px", gap: "40px" }}>
+        <div style={{ display: "flex", marginLeft: "150px", marginTop: "50px", gap: "40px" } }>
             <div>
                 <img style={{ height: "400px", width: "400px" }} src={data.image} />
             </div>

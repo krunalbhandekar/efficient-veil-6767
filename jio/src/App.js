@@ -32,8 +32,8 @@ function App() {
         <Route path="/signup" element={<Signup />} />
         <Route path="/account" element={<RequiredAuth><Account /></RequiredAuth>} />
 
-        <Route path="/product/:category" element={<div style={{display:"flex", gap:"20px"}}><Categories/> <MainProduct/></div>}/>
-        <Route path="/product/:name/:id" element={<SingleProduct pinDetails={pinDetails} setPinDetials={setPinDetials} pincode={pincode} setPincode={setPincode}/>}/>
+        <Route path="/product/:main/:category" element={<div style={{display:"flex", gap:"20px"}}><Categories/> <MainProduct/></div>}/>
+        <Route path="/product/:category/:name/:id" element={<SingleProduct pinDetails={pinDetails} setPinDetials={setPinDetials} pincode={pincode} setPincode={setPincode}/>}/>
         <Route path="/cart" element={<Cart />} />
 
 

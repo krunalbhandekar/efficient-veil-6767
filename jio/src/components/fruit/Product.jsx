@@ -52,7 +52,7 @@ export const Product = ({ elem, cart, qty }) => {
 
 
   const goToDetailPage=()=>{
-    navigate(`/product/${elem.name}/${elem.id}`)
+    navigate(`/product/${elem.category}/${elem.name}/${elem.id}`)
   }
 
 
