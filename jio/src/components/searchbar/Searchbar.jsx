@@ -4,6 +4,7 @@ import { Box ,Input,Text,Flex,Heading} from '@chakra-ui/react'
 import "./Searchbar.css"
 import { useThrottle } from "use-throttle";
 
+// Searchbar
 const Searchbar = ({onChange,suggestions}) => {
      const [inputtext, setinputtext] = useState('')
    
