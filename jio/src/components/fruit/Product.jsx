@@ -14,12 +14,16 @@ export const Product = ({ elem, cart, qty }) => {
     return cart.find((el) => el.id === elem.id && setQuantity(el.qty))
   })
 
+  
+
 
   const deleteItem = (index) => {
     cart.splice(index, 1)
     localStorage.setItem('CartData', JSON.stringify(cart));
     window.location.reload()
   }
+
+  
 
   useEffect(() => {
     if (quantity === 0) {

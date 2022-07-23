@@ -30,7 +30,6 @@ function App() {
        <Route path="/" element={<Landingpage />} />
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
-        <Route path="/cart" element={<RequiredAuth><Cart /></RequiredAuth>} />
         <Route path="/account" element={<RequiredAuth><Account /></RequiredAuth>} />
 
         <Route path="/product/:category" element={<div style={{display:"flex", gap:"20px"}}><Categories/> <MainProduct/></div>}/>
