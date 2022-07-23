@@ -11,10 +11,7 @@ import SideNavbar from './components/sideNavbar/SideNavbar';
 import RequiredAuth from "./components/utils/RequiredAuth"
 import Account from './components/Login/Account';
 import { MainProduct } from './components/fruit/MainProduct';
-<<<<<<< Updated upstream
-=======
 import { SingleProduct } from './components/fruit/SingleProduct';
->>>>>>> Stashed changes
 
 
 function App() {
@@ -36,10 +33,7 @@ function App() {
         <Route path="/account" element={<RequiredAuth><Account /></RequiredAuth>} />
 
         <Route path="/product/:category" element={<MainProduct/>}/>
-<<<<<<< Updated upstream
-=======
         <Route path="/product/:name/:id" element={<SingleProduct pinDetails={pinDetails} setPinDetials={setPinDetials} pincode={pincode} setPincode={setPincode}/>}/>
->>>>>>> Stashed changes
         <Route path="/cart" element={<Cart />} />
 
 
