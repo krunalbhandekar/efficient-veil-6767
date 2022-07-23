@@ -33,7 +33,7 @@ const Searchbar = ({onChange,suggestions}) => {
               <div style={{width:"30px", height:"30px"}}>
                 <img src={item.image} style={{width:"100%"}}></img>
               </div>
-              <a href={`/product/${item.category}`}>
+              <a href={`/product/${item.category}/${item.name}/${item.id}`}>
                 <p>{item.name}</p>
               </a>
              

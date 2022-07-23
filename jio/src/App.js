@@ -11,25 +11,29 @@ import SideNavbar from './components/sideNavbar/SideNavbar';
 import RequiredAuth from "./components/utils/RequiredAuth"
 import Account from './components/Login/Account';
 import { MainProduct } from './components/fruit/MainProduct';
+import { SingleProduct } from './components/fruit/SingleProduct';
+import { Categories } from './components/Categories/Categories';
 
 
 function App() {
   const [sidebarVisible, setsidebarVisible] = useState(false)
+  const [pincode, setPincode] = useState(400020)
+  const [pinDetails, setPinDetials] = useState("")
 
   return (
     <>
     <div style={{position:"-webkit-sticky" ,top:"0"}}>
-    <Navbar setsidebarVisible={setsidebarVisible} />
+    <Navbar setsidebarVisible={setsidebarVisible} pincode={pincode}/>
     <SideNavbar sidebarVisible={sidebarVisible} setsidebarVisible={setsidebarVisible}/>
     </div>
     <Routes>
        <Route path="/" element={<Landingpage />} />
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
-        <Route path="/cart" element={<RequiredAuth><Cart /></RequiredAuth>} />
         <Route path="/account" element={<RequiredAuth><Account /></RequiredAuth>} />
 
-        <Route path="/product/:category" element={<MainProduct/>}/>
+        <Route path="/product/:main/:category" element={<div style={{display:"flex", gap:"20px"}}><Categories/> <MainProduct/></div>}/>
+        <Route path="/product/:category/:name/:id" element={<SingleProduct pinDetails={pinDetails} setPinDetials={setPinDetials} pincode={pincode} setPincode={setPincode}/>}/>
         <Route path="/cart" element={<Cart />} />
 
 
