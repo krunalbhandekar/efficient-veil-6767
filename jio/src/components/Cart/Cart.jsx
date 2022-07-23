@@ -6,6 +6,8 @@ import {MdOutlinePayment} from "react-icons/md"
 import "./cart.css";
 
 const Cart = () => {
+  let cart = JSON.parse(localStorage.getItem("CartData"));
+  console.log(cart);
   return (
   
       <Flex direction="column" backgroundColor="rgb(236,236,237)">
@@ -30,10 +32,44 @@ const Cart = () => {
         <Flex direction="row" justifyContent="space-between" padding="30px"  px="30px">
 
           <Box width="55%">
-             <Box  backgroundColor="white" height="700px" >
+             <Box  backgroundColor="white" height="auto" >
+              <Heading fontSize="23px" padding="30px">Basket </Heading>
               {/* add to cart will show here */}
+              {cart.map((e)=>{
+                return (
+                  <div style={{"padding":"10px"}}>
+                  <div style={{"padding":"10px", "display":"flex"}}>
+                    <div style={{"display":"flex","width":"150px","height":"150px"}}>
+                      <img src={e.image}/>
+                    </div>
+                    <div>
+                    <Heading fontSize="18px" padding="10px">{e.name}</Heading>
+                    <div style={{"display":"flex"}}>
+                      <Heading fontSize="14px" padding="10px" >{e.price1}</Heading>
+                      <Heading fontSize="14px" padding="10px">{e.price2}</Heading>
+                    </div>
+                    <div style={{"display":"flex"}}>
+                      <Heading  fontSize="13px" fontWeight="90px" padding="10px">Category :</Heading>
+                      <Heading fontSize="13px" fontWeight="90px" padding="10px" color="rgb(0,142,204)">{e.category}</Heading>
+                    </div>
+                    <div style={{"display":"flex"}}>
+                      <Heading fontSize="13px" fontWeight="90px" padding="10px" >Sold By</Heading>
+                      <Heading fontSize="13px" fontWeight="90px" padding="10px" color="rgb(0,142,204)">Reliance Retail</Heading>
+                      {/* button below */}
+
+                      
+                      <Button colorScheme='blue' variant='solid' ></Button>
+                    </div>
+                    </div>
+                  </div>
+                  <div className="line" style={{"width":"100%"}}></div>
+                  </div>
+                )
+              })}
             </Box>
           </Box>
+
+
 
           <Box  width="40%">
              <Flex direction="column" gap="30px">
