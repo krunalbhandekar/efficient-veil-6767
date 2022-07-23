@@ -95,4 +95,8 @@ const kitchen1=[
 
 export {Groceries1,Groceries2,fashion1,fruits1,fruits2,beauty,electronics,kitchen1,kitchen2}
 
+<<<<<<< Updated upstream
 
+=======
+ 
+>>>>>>> Stashed changes

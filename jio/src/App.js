@@ -15,11 +15,13 @@ import { MainProduct } from './components/fruit/MainProduct';
 
 function App() {
   const [sidebarVisible, setsidebarVisible] = useState(false)
+  const [pincode, setPincode] = useState(400020)
+  const [pinDetails, setPinDetials] = useState("")
 
   return (
     <>
     <div style={{position:"-webkit-sticky" ,top:"0"}}>
-    <Navbar setsidebarVisible={setsidebarVisible} />
+    <Navbar setsidebarVisible={setsidebarVisible} pincode={pincode}/>
     <SideNavbar sidebarVisible={sidebarVisible} setsidebarVisible={setsidebarVisible}/>
     </div>
     <Routes>
@@ -30,6 +32,10 @@ function App() {
         <Route path="/account" element={<RequiredAuth><Account /></RequiredAuth>} />
 
         <Route path="/product/:category" element={<MainProduct/>}/>
+<<<<<<< Updated upstream
+=======
+        <Route path="/product/:name/:id" element={<SingleProduct pinDetails={pinDetails} setPinDetials={setPinDetials} pincode={pincode} setPincode={setPincode}/>}/>
+>>>>>>> Stashed changes
         <Route path="/cart" element={<Cart />} />
 
 

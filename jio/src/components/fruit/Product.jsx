@@ -1,8 +1,11 @@
 import { Center } from '@chakra-ui/react';
 import React, { useEffect, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import styles from './Product.module.css'
 
 export const Product = ({ elem, cart, qty }) => {
+
+  const navigate=useNavigate()
 
   const [quantity, setQuantity] = useState(0)
 
@@ -19,11 +22,11 @@ export const Product = ({ elem, cart, qty }) => {
   }
 
   useEffect(() => {
-    if (quantity <= 0) {
-      cart.find((item, index) => item.id === elem.id && deleteItem(index))
+    if (quantity === 0) {
+      return cart.find((item, index) => item.id === elem.id && deleteItem(index))
     }
 
-  }, [deleteItem])
+  }, [quantity])
 
 
   const increment = () => {
@@ -37,24 +40,27 @@ export const Product = ({ elem, cart, qty }) => {
   }
 
   const addtoCart = () => {
-    setQuantity(qty)
+   
     cart.push(elem);
     localStorage.setItem('CartData', JSON.stringify(cart));
     cart.find((el) => el.id === elem.id && setQuantity(el.qty))
   }
 
 
-
+  const goToDetailPage=()=>{
+    navigate(`/product/${elem.name}/${elem.id}`)
+  }
 
 
   return (
     <div className={styles.product}>
+      <div style={{cursor:"pointer"}} onClick={goToDetailPage}>
       <div style={{display: "flex", justifyContent: "space-between",zIndex:"1"}}>
         <div style={{height: "39px", width: "38px",color:"white",textAlign:"center",backgroundImage:`url("https://www.jiomart.com/assets/version1657814599/smartweb/images/icons/offer_bg.svg")`}}><div style={{fontWeight:"bold",fontSize:"10px",marginTop:"5px"}}>{elem.discount}% <br/> OFF</div></div>
         <div style={{ textAlign:"right" ,height: "25px", width: "25px" }}><img src="https://www.jiomart.com/assets/jiomsite/images/icons/new-veg.svg" /></div>
       </div>
       
-      <Center><div style={{marginTop:"-30px",zIndex:"-1"}}><img src={elem.image} alt={elem.name} /></div></Center>
+      <Center><div style={{marginTop:"-30px",zIndex:"-1"}}><img style={{height:"150px", width:"113px"}} src={elem.image} alt={elem.name} /></div></Center>
       <div style={{ textAlign:"left",marginTop:"20px",fontSize: "15px", fontWeight: "bold" ,lineHeight:"20px", overflow:"hidden",height:"40px"}}>{elem.name}</div>
       <div style={{ display: "flex", justifyContent: "space-around", top: "-10px" }}>
         <p style={{ fontSize: "15px", fontWeight: "bold" }}> ₹ {elem.price1}</p>
@@ -64,6 +70,9 @@ export const Product = ({ elem, cart, qty }) => {
         </div>
 
       </div>
+
+      </div>
+      
       <br />
       {quantity > 0 ? <div style={{ display: "flex", justifyContent: "right" }}><div style={{ justifyContent: "center", textAlign: "center", fontSize: "25px", cursor: "pointer", backgroundColor: "rgb(0,142,204)", height: "40px", width: "40px", color: "white", borderRadius: "50%" }} onClick={decrement}>-</div><div style={{ height: "30px", width: "35px", fontSize: "20px" }}>{quantity}</div>
         <div style={{ justifyContent: "center", textAlign: "center", fontSize: "25px", cursor: "pointer", backgroundColor: "rgb(0,142,204)", height: "40px", width: "40px", color: "white", borderRadius: "50%" }} onClick={increment}>+</div></div>

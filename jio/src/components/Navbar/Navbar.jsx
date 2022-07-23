@@ -12,7 +12,7 @@ import { kitchen1,kitchen2,fashion1,fruits1,fruits2,Groceries1,Groceries2,electr
 import "./Navbar.css"
 import { useSelector } from 'react-redux';
 
-const Navbar = ({setsidebarVisible}) => {
+const Navbar = ({setsidebarVisible, pincode}) => {
   const isAuth=useSelector((state)=>state.log.isAuth)
   let username=localStorage.getItem("user")
    
@@ -69,7 +69,7 @@ const Navbar = ({setsidebarVisible}) => {
             <HiLocationMarker color='#868784' fontSize="25px"/>
           <Box>
             <p style={{fontSize:"14px",color:"gray",fontWeight:"bold"}}>Deliver to</p>
-            <p style={{fontSize:"14px",fontWeight:"500"}}>400020</p>
+            <p style={{fontSize:"14px",fontWeight:"500"}}>{pincode}</p>
           </Box>
           </Flex>
 
