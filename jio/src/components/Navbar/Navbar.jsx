@@ -13,6 +13,11 @@ import "./Navbar.css"
 import { useSelector } from 'react-redux';
 
 const Navbar = ({setsidebarVisible, pincode}) => {
+
+
+
+
+
   const isAuth=useSelector((state)=>state.log.isAuth)
   let username=localStorage.getItem("user")
    
@@ -61,6 +66,7 @@ const Navbar = ({setsidebarVisible, pincode}) => {
               </Flex>
               <Flex alignItems="center" gap="2">
                 <BsFillCartFill/>
+               
                 <Text fontWeight="600"><Link to="/cart">Cart</Link></Text> 
               </Flex> 
         </Flex>

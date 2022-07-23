@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import styles from './Product.module.css'
 
-export const Product = ({ elem, cart, qty }) => {
+export const Product = ({ elem, cart, qty,forceUpdate }) => {
 
   const navigate=useNavigate()
 
@@ -36,11 +36,13 @@ export const Product = ({ elem, cart, qty }) => {
   const increment = () => {
     cart.find((item) => item.id === elem.id && item.qty++ && setQuantity(item.qty))
     localStorage.setItem('CartData', JSON.stringify(cart));
+    
   }
 
   const decrement = () => {
     cart.find((item) => item.id === elem.id && item.qty > 0 && item.qty-- && setQuantity(item.qty))
     localStorage.setItem('CartData', JSON.stringify(cart));
+   
   }
 
   const addtoCart = () => {

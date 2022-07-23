@@ -7,7 +7,7 @@ import "./cart.css";
 import { CartItem } from "./cartItem";
 
 const Cart = () => {
-  let cart = JSON.parse(localStorage.getItem("CartData"));
+  let cart = JSON.parse(localStorage.getItem("CartData")) || [];
 
   const [state, updateState]=useState();
   const forceUpdate = React.useCallback(() => updateState({}), []);
@@ -86,7 +86,7 @@ const Cart = () => {
                 <Heading color="black" fontSize="20px" fontWeight="bold" padding="10px">₹{totalPrice2}.00</Heading>
               </div>
             </div>
-            <Button colorScheme='blue' variant='solid' width="230px" marginLeft="auto">Place Order</Button>
+            <Button colorScheme='blue' variant='solid' width="230px" marginLeft="auto"><a href="/checkout">Place Order</a> </Button>
           </Flex>
         </Box>
 

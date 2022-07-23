@@ -4,7 +4,7 @@ import { Product } from "./Product"
 import { createSearchParams, useParams, useSearchParams } from "react-router-dom"
 import { getProducts } from '../../Redux/fruit/action';
 
-export const MainProduct = () => {
+export const MainProduct = ({forceUpdate}) => {
   let cart = JSON.parse(localStorage.getItem("CartData")) || []
 
   const [searchParams, setSearchParams] = useSearchParams()
@@ -74,7 +74,7 @@ export const MainProduct = () => {
       <br />
       <div style={{ display: "grid", gridTemplateColumns: "repeat(4,1fr)", gap: "20px" }}>
         {data.map((elem, index) => {
-          return <div key={elem.id}><Product elem={elem} cart={cart} qty={elem.qty} /></div>
+          return <div key={elem.id}><Product elem={elem} cart={cart} qty={elem.qty} forceUpdate={forceUpdate}/></div>
         })}
 
       </div>
