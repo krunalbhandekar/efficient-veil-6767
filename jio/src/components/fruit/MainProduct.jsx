@@ -15,8 +15,30 @@ export const MainProduct = () => {
   let products = useSelector((state) => state.data.products);
 
   let data = products
+  let banner;
 
-  const { category } = useParams()
+  const { category, main } = useParams()
+
+  if (main === "groceries") {
+    banner = "https://www.jiomart.com/images/category/2/groceries-20210201.jpeg"
+  }
+  else if (main === "premiumfruits") {
+    banner = "https://www.jiomart.com/images/category/3107/premium-fruits-20220519.jpeg"
+  }
+  else if (main === "kitchen") {
+    banner = "https://www.jiomart.com/images/category/1687/home-kitchen-20220519.jpeg"
+  }
+  else if (main === "fashion") {
+    banner = "https://www.jiomart.com/images/category/3/fashion-20200902.jpeg"
+  }
+  else if(main==="beauty")
+  {
+    banner="https://www.jiomart.com/images/category/3102/make-up-20211123.jpeg"
+  }
+  else if(main==="electronics")
+  {
+    banner="https://www.jiomart.com/assets/global/verticals/fashion_default_banner.svg"
+  }
 
 
   useEffect(() => {
@@ -34,13 +56,14 @@ export const MainProduct = () => {
   }
 
   return (
-
     <div style={{ width: "70%", justifyContent: "center", alignItems: "center" }}>
-      
+
+      <div style={{ marginBottom: "15px", marginTop: "15px" }}>
+        {main==="jwellery" ? <div style={{height:"162px", width:"813px", fontSize:"50px"}}>Jewellery</div>:<div><img src={banner} alt={main} /></div>}
+      </div>
       <div style={{ display: "flex", justifyContent: "space-between", margin: "auto" }}>
         <div style={{ fontSize: "20px" }}>Showing <b>{products.length}</b> items</div>
         <div style={{ display: "flex", gap: "20px", justifyContent: "space-between", fontSize: "15px" }}>
-
           <div>Sort By:</div>
           <div style={{ border: "0.3px solid black", padding: "0px 10px 0px 10px", borderRadius: "10%", cursor: "pointer" }} onClick={(e) => setSearchParams(createSearchParams({ sortby: "h2l" }))}>High to Low</div>
           <div style={{ border: "0.3px solid black", padding: "0px 10px 0px 10px", borderRadius: "10%", cursor: "pointer" }} onClick={(e) => setSearchParams(createSearchParams({ sortby: "l2h" }))}>Low to High</div>
@@ -61,7 +84,4 @@ export const MainProduct = () => {
 
   )
 
-
 }
-
-
