@@ -12,6 +12,7 @@ import RequiredAuth from "./components/utils/RequiredAuth"
 import Account from './components/Login/Account';
 import { MainProduct } from './components/fruit/MainProduct';
 import { SingleProduct } from './components/fruit/SingleProduct';
+import { Categories } from './components/Categories/Categories';
 
 
 function App() {
@@ -32,7 +33,7 @@ function App() {
         <Route path="/cart" element={<RequiredAuth><Cart /></RequiredAuth>} />
         <Route path="/account" element={<RequiredAuth><Account /></RequiredAuth>} />
 
-        <Route path="/product/:category" element={<MainProduct/>}/>
+        <Route path="/product/:category" element={<div style={{display:"flex", gap:"20px"}}><Categories/> <MainProduct/></div>}/>
         <Route path="/product/:name/:id" element={<SingleProduct pinDetails={pinDetails} setPinDetials={setPinDetials} pincode={pincode} setPincode={setPincode}/>}/>
         <Route path="/cart" element={<Cart />} />
 

@@ -1,0 +1,63 @@
+
+.sidenav {
+    height: 100%;
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    overflow-x: hidden;
+    padding-top: 20px;
+    margin-left: 20px;
+  }
+
+ .dropdownbtn {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #9c9797;
+    display: flex;
+    border: none;
+    background: none;
+    width:100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  /* On mouse-over */
+  .dropdownbtn:hover {
+    color:black;
+  }
+  
+  
+  
+  /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+  .dropdowncontainer {
+    display: none;
+    background-color: #ffffff;
+    padding-left: 8px;
+    color: #9c9797;
+    margin-left: 30px;
+  }
+
+  .dropdowncontainer2 {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    padding-left: 8px;
+    color: #9c9797;
+    margin-left: 30px;
+  }
+
+  .linkHover{
+    color: #9c9797;
+    cursor: pointer;
+  }
+
+  .linkHover:hover{
+    color: black;
+    cursor: pointer;
+  }
+
+  .active {
+    color: rgb(56, 55, 55);
+  }
+ 
