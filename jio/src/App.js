@@ -11,6 +11,10 @@ import SideNavbar from './components/sideNavbar/SideNavbar';
 import RequiredAuth from "./components/utils/RequiredAuth"
 import Account from './components/Login/Account';
 import { MainProduct } from './components/fruit/MainProduct';
+<<<<<<< Updated upstream
+=======
+import { SingleProduct } from './components/fruit/SingleProduct';
+>>>>>>> Stashed changes
 
 
 function App() {
