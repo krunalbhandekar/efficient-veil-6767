@@ -35,12 +35,6 @@ export const MainProduct = () => {
 
   return (
 
-    <div style={{ width: "70%", justifyContent: "center", alignItems: "center" , marginTop: "15px"}}>
-      
-      <div style={{ display: "flex", justifyContent: "space-between", margin: "auto" }}>
-        <div style={{ fontSize: "20px" }}>Showing <b>{products.length}</b> items</div>
-        <div style={{ display: "flex", gap: "20px", justifyContent: "space-between", fontSize: "15px"}}>
-
     <div style={{ width: "70%", justifyContent: "center", alignItems: "center" }}>
       
       <div style={{ display: "flex", justifyContent: "space-between", margin: "auto" }}>
@@ -70,5 +64,4 @@ export const MainProduct = () => {
 
 }
 
-}
 
