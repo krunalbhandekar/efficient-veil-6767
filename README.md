@@ -72,14 +72,14 @@ some snapshot of our website
 - `Sign-Up`: User details stored in server using API.
 [3](https://raw.githubusercontent.com/rahulsinha1996/images/main/images/Signup.PNG)
 - `Sign-In`: User authentication to check whether user phone number and password match with details existing in the database.
-[56]([https://raw.githubusercontent.com/rahulsinha1996/images/main/images/Login.PNG](https://raw.githubusercontent.com/rahulsinha1996/images/main/images/Login.PNG))
+![56]((https://raw.githubusercontent.com/rahulsinha1996/images/main/images/Login.PNG)
 
 - `Product Deall Page`: All products are created dynamically with filters by color,and category and showing the detail of the product.
-[product](https://raw.githubusercontent.com/rahulsinha1996/images/main/images/productDetail.PNG)
+![product](https://raw.githubusercontent.com/rahulsinha1996/images/main/images/produceDetail.PNG)
 - `Cart`: Users can see or remove products added to the cart.
-[cart](https://raw.githubusercontent.com/rahulsinha1996/images/main/images/cart.PNG)
+![cart](https://raw.githubusercontent.com/rahulsinha1996/images/main/images/cart.PNG)
 - `Checkout Page`: Users can add the delivery address.
-[chekout](https://raw.githubusercontent.com/rahulsinha1996/images/main/images/Checkout.PNG)
+![chekout](https://raw.githubusercontent.com/rahulsinha1996/images/main/images/Checkout.PNG)
 - `Payment Page`: Users can add their payment details.
 - `Order Successful`: Showing popup "Order has been placed.
 
@@ -117,27 +117,27 @@ Here you can find brief history of the products and website
 # Add to Cart
 In this Page, You can add the products to the Cart
 
-![8](https://raw.githubusercontent.com/rahulsinha1996/images/main/images/Product.PNG)
+![80](https://raw.githubusercontent.com/rahulsinha1996/images/main/images/Product.PNG)
 
 
 
 
 # Sign-Up Page
 if you want buy any product you need sign up first and login with details then only you can buy
-![9](https://raw.githubusercontent.com/rahulsinha1996/images/main/images/Singup.PNG)
+![90](https://raw.githubusercontent.com/rahulsinha1996/images/main/images/Signup.PNG)
 
 
 
 
 # Products Page
 In this page, you can find all details of the product like price of the product and some basic information about products.
-![67](https://raw.githubusercontent.com/rahulsinha1996/images/main/images/productDetail.PNG)
+![67](https://raw.githubusercontent.com/rahulsinha1996/images/main/images/produceDetail.PNG)
 
 
 
  # Checkout Page
 In this page, If you want to purchase the product, you need fill some details regarding shipping addressa and card details and here you also find how the discount you get, how much you need to pay and address
-![c](https://raw.githubusercontent.com/rahulsinha1996/images/main/images/Chekout.PNG)
+![c](https://raw.githubusercontent.com/rahulsinha1996/images/main/images/Checkout.PNG)
 
 
 
