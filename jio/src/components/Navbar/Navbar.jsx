@@ -13,8 +13,19 @@ import "./Navbar.css"
 import { useSelector } from 'react-redux';
 
 const Navbar = ({setsidebarVisible, pincode}) => {
+
+  let cart=JSON.parse(localStorage.getItem("CartData"))||[];
+  
+
+  const [state, updateState]=useState();
+  const forceUpdate = React.useCallback(() => updateState({}), []);
+
+
+
+
   const isAuth=useSelector((state)=>state.log.isAuth)
   let username=localStorage.getItem("user")
+  
    
 
   const [query, setquery] = useState('')
@@ -61,6 +72,7 @@ const Navbar = ({setsidebarVisible, pincode}) => {
               </Flex>
               <Flex alignItems="center" gap="2">
                 <BsFillCartFill/>
+               {cart.length>0 &&  <div>{cart.length}</div>}
                 <Text fontWeight="600"><Link to="/cart">Cart</Link></Text> 
               </Flex> 
         </Flex>

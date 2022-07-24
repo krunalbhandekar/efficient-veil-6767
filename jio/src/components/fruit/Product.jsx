@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import styles from './Product.module.css'
 
-export const Product = ({ elem, cart, qty }) => {
+export const Product = ({ elem, cart, qty, forceUpdate }) => {
 
   const navigate=useNavigate()
 
@@ -25,30 +25,31 @@ export const Product = ({ elem, cart, qty }) => {
 
   
 
-  useEffect(() => {
-    if (quantity === 0) {
-      return cart.find((item, index) => item.id === elem.id && deleteItem(index))
-    }
-
-  }, [quantity])
-
-
   const increment = () => {
     cart.find((item) => item.id === elem.id && item.qty++ && setQuantity(item.qty))
     localStorage.setItem('CartData', JSON.stringify(cart));
+    forceUpdate()
   }
 
   const decrement = () => {
     cart.find((item) => item.id === elem.id && item.qty > 0 && item.qty-- && setQuantity(item.qty))
     localStorage.setItem('CartData', JSON.stringify(cart));
+    
   }
 
   const addtoCart = () => {
-   
+    setQuantity(qty)
     cart.push(elem);
     localStorage.setItem('CartData', JSON.stringify(cart));
     cart.find((el) => el.id === elem.id && setQuantity(el.qty))
+    forceUpdate()
   }
+
+  useEffect(() => {
+    if (quantity <= 0) {
+        return cart.find((item, index) => item.id === elem.id && deleteItem(index))
+    }
+}, [quantity])
 
 
   const goToDetailPage=()=>{
