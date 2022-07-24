@@ -27,3 +27,11 @@ export const getProducts=(category)=>(dispatch)=>{
         url:"http://localhost:8080/prod"
     }).then((res)=>dispatch(getProductSuccess(res.data.filter((elem)=>elem.category===category)))).catch((err)=>dispatch(getProductFailure()))
 }
+
+export const getSingleProducts=(id)=>(dispatch)=>{
+    dispatch(getProductRequest())
+    axios({
+        method:"GET",
+        url:"http://localhost:8080/prod"
+    }).then((res)=>dispatch(getProductSuccess(res.data.find((elem)=>elem.id===id)))).catch((err)=>dispatch(getProductFailure()))
+}

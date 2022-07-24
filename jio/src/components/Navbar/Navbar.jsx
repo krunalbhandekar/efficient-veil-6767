@@ -1,19 +1,57 @@
-import React from 'react'
-import { Box ,Input,Text,Flex,Heading} from '@chakra-ui/react'
+import React,{useState,useEffect} from 'react'
+import { Box ,Text,Flex,} from '@chakra-ui/react'
+import axios from 'axios';
+import Searchbar from '../searchbar/Searchbar';
+import Logo from "../Navbar/Logo"
 import { HiOutlineViewList,HiLocationMarker } from "react-icons/hi";
 import {BsFillCartFill} from "react-icons/bs"
 import { FaUser } from 'react-icons/fa';
 import { IoIosArrowDown } from 'react-icons/io';
 import {Link} from "react-router-dom"
 import { kitchen1,kitchen2,fashion1,fruits1,fruits2,Groceries1,Groceries2,electronics,beauty } from '../helper/navbarhelper';
-import JioMart from "../../images/landing page/logo/jiomartBeta.jpg"
 import "./Navbar.css"
 import { useSelector } from 'react-redux';
 
-const Navbar = ({setsidebarVisible}) => {
+const Navbar = ({setsidebarVisible, pincode}) => {
+
+  let cart=JSON.parse(localStorage.getItem("CartData"))||[];
+  
+
+  const [state, updateState]=useState();
+  const forceUpdate = React.useCallback(() => updateState({}), []);
+
+
+
+
   const isAuth=useSelector((state)=>state.log.isAuth)
   let username=localStorage.getItem("user")
-    console.log('name:', username)
+  
+   
+
+  const [query, setquery] = useState('')
+  const [suggestions, setsuggestions] = useState([])
+  const [data, setdata] = useState([])
+  
+  const getdata=async()=>{
+    let  r  = await axios.get("http://localhost:8080/prod");
+    setdata(r.data)
+  }
+
+  useEffect(()=>{
+    getdata()
+  },[])
+
+  useEffect(()=>{
+    if(query===""){
+      setsuggestions([])
+    }else{
+      let newListofsuggestions=data.filter((item)=>item.category.toLowerCase().indexOf(query) !== -1 ? true : false).map((item)=>item)
+      // setTimeout(()=>{
+          setsuggestions(newListofsuggestions)
+      // },100)
+    }
+   
+  },[query])
     
   return (
     <>
@@ -23,19 +61,18 @@ const Navbar = ({setsidebarVisible}) => {
             <HiOutlineViewList size="30" />
           </Box>
           <Box w="140px" >
-            {/* <Image src={JioMart} alt='JioMart' size="100%"/> */}
-            <Heading fontWeight="500"><a href='/'>JioMart</a></Heading>
+            <Logo/>
           </Box>
-          <Flex backgroundColor="white" w="650px" borderRadius="5px">
-            <Input placeholder='Search essentials, groceries, and more ...' border="none" outline="none" color="black" fontWeight="600"/>
-          </Flex>
-            
+
+          <Searchbar suggestions={suggestions} onChange={(val)=>setquery(val)}/>
+
               <Flex alignItems="center" gap="2">
                 <FaUser/>
                 <Text fontWeight="600"><Link to={isAuth ? "/account" : "/login"}>{isAuth ? username : "Sign in / Sign up"}</Link></Text>
               </Flex>
               <Flex alignItems="center" gap="2">
                 <BsFillCartFill/>
+               {cart.length>0 &&  <div>{cart.length}</div>}
                 <Text fontWeight="600"><Link to="/cart">Cart</Link></Text> 
               </Flex> 
         </Flex>
@@ -44,7 +81,7 @@ const Navbar = ({setsidebarVisible}) => {
             <HiLocationMarker color='#868784' fontSize="25px"/>
           <Box>
             <p style={{fontSize:"14px",color:"gray",fontWeight:"bold"}}>Deliver to</p>
-            <p style={{fontSize:"14px",fontWeight:"500"}}>400020</p>
+            <p style={{fontSize:"14px",fontWeight:"500"}}>{pincode}</p>
           </Box>
           </Flex>
 
@@ -53,6 +90,7 @@ const Navbar = ({setsidebarVisible}) => {
 
               <div className="dropdown-content one">
                 <div style={{display:"flex"}}>
+                  
                   <div style={{width:"50%",borderRight:"1px solid #b5b4b4"}}>
                     {Groceries1.map((e)=>(
                       <a href={e.link} key={e.cat}>{e.cat}</a>
@@ -163,7 +201,7 @@ const Navbar = ({setsidebarVisible}) => {
 
            <div className="dropdown-content six">
               <div>
-                <Link to="/product/fine-jwellery">Fine Jewellery</Link>
+                <a href="/product/jwellery/fine-jwellery">Fine Jewellery</a>
               </div> 
              </div>
           </div>
