@@ -13,7 +13,7 @@
 This is a team project, built by us in the Construct Week at Masai School
 
 some snapshot of our website
-[homepage1](https://raw.githubusercontent.com/rahulsinha1996/images/main/images/Homepage1.PNG)
+[homepage2](https://raw.githubusercontent.com/rahulsinha1996/images/main/images/Homepage1.PNG)
 
 
 ----------------------------------
@@ -109,7 +109,7 @@ First you have to have to go to the `Home Page`. There you have to click on acco
 # Home Page
 Here you can find brief history of the products and website
  ![10](https://raw.githubusercontent.com/rahulsinha1996/images/main/images/Homepage1.PNG)
- [22](https://raw.githubusercontent.com/rahulsinha1996/images/main/images/Homepage2.PNG)
+ ![22](https://raw.githubusercontent.com/rahulsinha1996/images/main/images/Homepage2.PNG)
     
 
 
@@ -131,7 +131,7 @@ if you want buy any product you need sign up first and login with details then o
 
 # Products Page
 In this page, you can find all details of the product like price of the product and some basic information about products.
-![2](https://raw.githubusercontent.com/rahulsinha1996/images/main/images/productDetail.PNG)
+![67](https://raw.githubusercontent.com/rahulsinha1996/images/main/images/productDetail.PNG)
 
 
 
