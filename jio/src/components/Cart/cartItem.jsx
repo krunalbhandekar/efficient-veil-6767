@@ -1,5 +1,6 @@
 import React, { forwardRef, useEffect, useState } from 'react';
 import {Heading} from "@chakra-ui/react";
+import { BsWindowSidebar } from 'react-icons/bs';
 
  export const CartItem = ({elem,cart, onChange}) => {
 
@@ -10,12 +11,16 @@ import {Heading} from "@chakra-ui/react";
       })
    
     
-    const deleteItem = (index) => {
+      const deleteItem = (index) => {
         cart.splice(index, 1)
         localStorage.setItem('CartData', JSON.stringify(cart));
+        cart=JSON.parse(localStorage.getItem("CartData"))||[]
         window.location.reload()
-        
-    }
+      }
+
+      useEffect(()=>{
+        cart=JSON.parse(localStorage.getItem("CartData"))||[]
+      },[deleteItem])
 
     useEffect(() => {
         if (quantity <= 0) {

@@ -32,8 +32,8 @@ export const SingleProduct = ({ pinDetails, pincode, setPinDetials, setPincode }
     const deleteItem = (index) => {
         cart.splice(index, 1)
         localStorage.setItem('CartData', JSON.stringify(cart));
-        
-    }
+        cart=JSON.parse(localStorage.getItem("CartData"))||[]
+      }
 
     useEffect(() => {
         if (quantity <= 0) {
@@ -85,7 +85,7 @@ export const SingleProduct = ({ pinDetails, pincode, setPinDetials, setPincode }
                     </div>
                 </div>
                 <div style={{ display: "flex", gap: "20px" }}>
-                    <p style={{ fontSize: "20px" }}>You Save: <b style={{ color: "green" }}>₹ {Math.floor(Number(data.price2)) - data.price1} </b></p>
+                    <p style={{ fontSize: "20px" }}>You Save: <b style={{ color: "green" }}>₹ {Math.floor(Number(data.price2)) - Math.floor(data.price1)} </b></p>
                     <p style={{ fontSize: "20px" }}> Inclusive of all taxes</p>
                 </div>
                 <br />
