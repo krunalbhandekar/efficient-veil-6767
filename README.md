@@ -1,9 +1,11 @@
 # efficient-veil-6767
 
-# How to start ?
+## How to start: 
+
 > npm install
 > npm run server
-> npm start
+> npm run server
+---t
 
 
 --------------------------------------------------------------------------------------------------------------------------------------
