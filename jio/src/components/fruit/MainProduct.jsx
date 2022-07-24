@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import { useSelector, useDispatch } from 'react-redux';
 import { Product } from "./Product"
 import { createSearchParams, useParams, useSearchParams } from "react-router-dom"
@@ -8,6 +8,9 @@ export const MainProduct = () => {
   let cart = JSON.parse(localStorage.getItem("CartData")) || []
 
   const [searchParams, setSearchParams] = useSearchParams()
+
+  const [state, updateState]=useState();
+  const forceUpdate = React.useCallback(() => updateState({}), []);
 
   let SortParams = searchParams.getAll("sortby")[0]
 
@@ -74,7 +77,7 @@ export const MainProduct = () => {
       <br />
       <div style={{ display: "grid", gridTemplateColumns: "repeat(4,1fr)", gap: "20px" }}>
         {data.map((elem, index) => {
-          return <div key={elem.id}><Product elem={elem} cart={cart} qty={elem.qty} /></div>
+          return <div key={elem.id}><Product elem={elem} cart={cart} qty={elem.qty} forceUpdate={forceUpdate}/></div>
         })}
 
       </div>

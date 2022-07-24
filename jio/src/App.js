@@ -13,12 +13,16 @@ import Account from './components/Login/Account';
 import { MainProduct } from './components/fruit/MainProduct';
 import { SingleProduct } from './components/fruit/SingleProduct';
 import { Categories } from './components/Categories/Categories';
+import Checkout from './components/Checkout/Checkout';
 
 
 function App() {
   const [sidebarVisible, setsidebarVisible] = useState(false)
   const [pincode, setPincode] = useState(400020)
   const [pinDetails, setPinDetials] = useState("")
+
+  const [state, updateState]=useState();
+  const forceUpdate = React.useCallback(() => updateState({}), []);
 
   return (
     <>
@@ -31,10 +35,11 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
         <Route path="/account" element={<RequiredAuth><Account /></RequiredAuth>} />
-
-        <Route path="/product/:main/:category" element={<div style={{display:"flex", gap:"20px"}}><Categories/> <MainProduct/></div>}/>
+         {/* <Route path="/checkout" element={<RequiredAuth><Checkout /></RequiredAuth>} /> */}
+        <Route path="/product/:main/:category" element={<div style={{display:"flex", gap:"20px"}}><Categories/> <MainProduct forceUpdate={forceUpdate}/></div>}/>
         <Route path="/product/:category/:name/:id" element={<SingleProduct pinDetails={pinDetails} setPinDetials={setPinDetials} pincode={pincode} setPincode={setPincode}/>}/>
         <Route path="/cart" element={<Cart />} />
+        <Route path="/checkout" element={<Checkout />} />
 
 
     </Routes>

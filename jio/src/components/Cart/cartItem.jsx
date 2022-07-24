@@ -10,12 +10,15 @@ import {Heading} from "@chakra-ui/react";
       })
    
     
-    const deleteItem = (index) => {
+      const deleteItem = (index) => {
         cart.splice(index, 1)
         localStorage.setItem('CartData', JSON.stringify(cart));
-        window.location.reload()
-        
-    }
+        cart=JSON.parse(localStorage.getItem("CartData"))||[]
+      }
+
+      useEffect(()=>{
+        cart=JSON.parse(localStorage.getItem("CartData"))||[]
+      },[deleteItem])
 
     useEffect(() => {
         if (quantity <= 0) {

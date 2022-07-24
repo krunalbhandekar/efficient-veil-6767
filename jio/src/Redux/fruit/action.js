@@ -35,4 +35,3 @@ export const getSingleProducts=(id)=>(dispatch)=>{
         url:"http://localhost:8080/prod"
     }).then((res)=>dispatch(getProductSuccess(res.data.find((elem)=>elem.id===id)))).catch((err)=>dispatch(getProductFailure()))
 }
-

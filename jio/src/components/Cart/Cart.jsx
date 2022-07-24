@@ -7,7 +7,7 @@ import "./cart.css";
 import { CartItem } from "./CartItem";
 
 const Cart = () => {
-  let cart = JSON.parse(localStorage.getItem("CartData"));
+  let cart = JSON.parse(localStorage.getItem("CartData")) || [];
 
   const [state, updateState]=useState();
   const forceUpdate = React.useCallback(() => updateState({}), []);
@@ -51,7 +51,7 @@ const Cart = () => {
       {cart.length > 0 ? <Flex direction="row" justifyContent="space-between" padding="30px" px="30px">
 
 
-        <Box width="55%">
+        <Box width="55%" height="600px" overflow="scroll">
           <Box backgroundColor="white" height="auto" >
             <Heading fontSize="23px" padding="30px">Basket { } </Heading>
             {/* add to cart will show here */}
@@ -86,7 +86,7 @@ const Cart = () => {
                 <Heading color="black" fontSize="20px" fontWeight="bold" padding="10px">₹{totalPrice2}.00</Heading>
               </div>
             </div>
-            <Button colorScheme='blue' variant='solid' width="230px" marginLeft="auto">Place Order</Button>
+            <Button colorScheme='blue' variant='solid' width="230px" marginLeft="auto"><a href="/checkout">Place Order</a> </Button>
           </Flex>
         </Box>
 
