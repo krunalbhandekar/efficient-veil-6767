@@ -13,33 +13,33 @@
 This is a team project, built by us in the Construct Week at Masai School
 
 some snapshot of our website
-[homepage2](https://raw.githubusercontent.com/rahulsinha1996/images/main/images/Homepage1.PNG)
+![homepage2](https://raw.githubusercontent.com/rahulsinha1996/images/main/images/Homepage1.PNG)
 
 
 ----------------------------------
 ----------------------------------
 
-[2](https://raw.githubusercontent.com/rahulsinha1996/images/main/images/Homepage2.PNG)
+![2](https://raw.githubusercontent.com/rahulsinha1996/images/main/images/Homepage2.PNG)
 
 ----------------------------------
 ----------------------------------
 
-[3](https://raw.githubusercontent.com/rahulsinha1996/images/main/images/Login.PNG)
+![3](https://raw.githubusercontent.com/rahulsinha1996/images/main/images/Login.PNG)
 
 ----------------------------------
 ----------------------------------
 
-[4](https://raw.githubusercontent.com/rahulsinha1996/images/main/images/Product.PNG)
+![4](https://raw.githubusercontent.com/rahulsinha1996/images/main/images/Product.PNG)
 
 ----------------------------------
 ----------------------------------
 
-[5](https://raw.githubusercontent.com/rahulsinha1996/images/main/images/Sidebar.PNG)
+![5](https://raw.githubusercontent.com/rahulsinha1996/images/main/images/Sidebar.PNG)
 
 ----------------------------------
 ----------------------------------
 
-[5](https://raw.githubusercontent.com/rahulsinha1996/images/main/images/Searchbar.PNG)
+![5](https://raw.githubusercontent.com/rahulsinha1996/images/main/images/Searchbar.PNG)
 
 
 
