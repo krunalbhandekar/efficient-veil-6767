@@ -1,8 +1,10 @@
 import React, { forwardRef, useEffect, useState } from 'react';
 import {Heading} from "@chakra-ui/react";
 import { BsWindowSidebar } from 'react-icons/bs';
+import { useNavigate } from 'react-router-dom';
 
  export const CartItem = ({elem,cart, onChange}) => {
+  const navigate = useNavigate();
 
   const [quantity, setQuantity] = useState(0)
 
@@ -39,6 +41,9 @@ import { BsWindowSidebar } from 'react-icons/bs';
         cart.find((item) => item.id === elem.id && item.qty > 0 && item.qty-- && setQuantity(item.qty))
         localStorage.setItem('CartData', JSON.stringify(cart));
     }
+    const goToDetailPage=()=>{
+      navigate(`/product/${elem.category}/${elem.name}/${elem.id}`)
+    }
 
   return (
     <div style={{ "padding": "10px" }}>
@@ -47,8 +52,8 @@ import { BsWindowSidebar } from 'react-icons/bs';
                       <img src={elem.image} />
                     </div>
                     <div>
-                      <Heading fontSize="18px" padding="10px">{elem.name}</Heading>
-                      <div style={{ "display": "flex" }}>
+                      <Heading fontSize="18px" padding="10px" onClick={goToDetailPage}>{elem.name}</Heading>
+                      <div style={{ "display": "flex" }} onClick={goToDetailPage}>
                         <Heading fontSize="14px" padding="15px" >₹ {elem.price1*elem.qty}.00</Heading>
                         <Heading fontSize="14px" padding="15px" textDecoration="line-through" >₹ {Math.floor(Number(elem.price2))*elem.qty}.00</Heading>
                         <Heading color="rgb(0,161,82)" fontSize="14px" padding="15px">You Save ₹{Math.floor(Number(elem.price2))*elem.qty-elem.price1*elem.qty}.00</Heading>
