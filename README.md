@@ -70,9 +70,9 @@ some snapshot of our website
 [homepage1](https://raw.githubusercontent.com/rahulsinha1996/images/main/images/Homepage1.PNG)
 [2](https://raw.githubusercontent.com/rahulsinha1996/images/main/images/Homepage2.PNG)
 - `Sign-Up`: User details stored in server using API.
-[3](https://raw.githubusercontent.com/rahulsinha1996/images/main/images/Singup.PNG)
+[3](https://raw.githubusercontent.com/rahulsinha1996/images/main/images/Signup.PNG)
 - `Sign-In`: User authentication to check whether user phone number and password match with details existing in the database.
-[3](https://raw.githubusercontent.com/rahulsinha1996/images/main/images/Login.PNG)
+[56]([https://raw.githubusercontent.com/rahulsinha1996/images/main/images/Login.PNG](https://raw.githubusercontent.com/rahulsinha1996/images/main/images/Login.PNG))
 
 - `Product Deall Page`: All products are created dynamically with filters by color,and category and showing the detail of the product.
 [product](https://raw.githubusercontent.com/rahulsinha1996/images/main/images/productDetail.PNG)
